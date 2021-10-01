@@ -1,7 +1,6 @@
-
 import { useRouter } from 'next/router';
 import Head from 'next/head';
-
+import Container from '../components/container/Container';
 
 const Index = () => {
     let router = useRouter();
