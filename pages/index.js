@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router';
 import Nav from '../components/Nav/Nav';
+import AppLayout from '../components/AppLayout/AppLayout';
 
 const Index = () => {
     let router = useRouter();
@@ -11,10 +12,19 @@ const Index = () => {
     ? "Hola" : "";
     
     return (
-        <>
+        
+        <AppLayout>
             <Nav/>
             <h1>{indexText}</h1>
-        </>
+
+            <style jsx>{`
+                h1{
+                    color: green;
+                }
+            
+            `}
+            </style>
+        </AppLayout>
      
     );
 }

@@ -7,8 +7,7 @@ export default function Locale() {
   const otherLocales = locales.filter((locale) => locale !== activeLocale)
 
   return (
-    <div>
-      <p>Locale switcher:</p>
+    <>
       <ul>
         {otherLocales.map((locale) => {
           const { pathname, query, asPath } = router
@@ -21,6 +20,6 @@ export default function Locale() {
           )
         })}
       </ul>
-    </div>
+    </>
   )
 }
