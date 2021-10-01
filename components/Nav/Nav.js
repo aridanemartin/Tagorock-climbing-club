@@ -8,6 +8,12 @@ const Nav = () => {
     const router = useRouter();
     const { locale, locales, defaultLocale } = router
 
+    let menuText =
+    router.locale === 'en'
+    ?   ["Our Team", "Climbing Club", "Professional Services", "Contact"]
+    : router.locale === 'es'
+    ? ["Quiénes somos", "Club de Escalada", "Servicios Profesionales", "Contacto"] : "";
+
     return ( 
         <React.Fragment>    
             <Locale/>
@@ -16,22 +22,22 @@ const Nav = () => {
 
                 <li>
                     <Link href="/quienes-somos">
-                        <a>Quiénes somos</a>
+                        <a>{menuText[0]}</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/centro-de-escalada">
-                        <a>Centro de Escalada</a>
+                        <a>{menuText[1]}</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/servicios-profesionales">
-                        <a>Servicios Profesionales</a>
+                        <a>{menuText[2]}</a>
                     </Link>  
                 </li>
                     <li>
                     <Link href="/contacto">
-                        <a>Contacto</a>
+                        <a>{menuText[3]}</a>
                     </Link>
                 </li>
             </ul>
