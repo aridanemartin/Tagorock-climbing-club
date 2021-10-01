@@ -1,5 +1,4 @@
 import { useRouter } from 'next/router';
-import Head from 'next/head';
 import Container from '../components/container/Container';
 
 const Index = () => {
@@ -12,14 +11,12 @@ const Index = () => {
     ? "Hola" : "";
     
     return (
-        <div>
-                <Container name="Index" />
+                <Container name="Index">
                 
 
                 <h1>{indexText}</h1>
-                
-
-        </div>
+                </Container>
+     
     );
 }
 
