@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import Container from '../components/container/Container';
+
 
 const Index = () => {
     let router = useRouter();
@@ -11,11 +11,10 @@ const Index = () => {
     ? "Hola" : "";
     
     return (
-                <Container name="Index">
-                
-
-                <h1>{indexText}</h1>
-                </Container>
+        <>
+            <Nav/>
+            <h1>{indexText}</h1>
+        </>
      
     );
 }
