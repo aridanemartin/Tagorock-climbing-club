@@ -1,4 +1,4 @@
-import Container from '../components/container/Container';
+
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
@@ -14,7 +14,7 @@ const Contacto = () => {
     
     return (
 
-        <Container>
+        <div>
             <Head>
                 <title>Contacto - Tagorock - club de escalada en Gran Canaria</title>
             </Head>
@@ -24,7 +24,7 @@ const Contacto = () => {
             Sint vel incidunt voluptate error! Maiores modi pariatur exercitationem rem esse consequatur laborum quibusdam velit neque aut fugiat, explicabo deserunt vel porro delectus quas tempore ipsam libero, asperiores dolor placeat.
             </p>
             
-        </Container>
+        </div>
         
     );
 }

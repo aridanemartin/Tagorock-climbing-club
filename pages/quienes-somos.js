@@ -1,14 +1,12 @@
-import Container from '../components/Container/Container';
-
 
 const Quienessomos = () => {
     return ( 
-        <Container>
+        <div>
         
-            <div>
+            <p>
                 Norbe y compania
-            </div>
-        </Container>
+            </p>
+        </div>
      );
 }
  

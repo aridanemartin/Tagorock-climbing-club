@@ -1,6 +1,5 @@
 import { useRouter } from 'next/router';
 import Head from 'next/head';
-import Container from '../components/container/Container';
 
 const Index = () => {
     let router = useRouter();
@@ -12,7 +11,7 @@ const Index = () => {
     ? "Hola" : "";
     
     return (
-        <Container>
+        <div>
                 <Head>
                     <title>Hola!</title>
                     <link rel="icon" href="/favicon.ico" />
@@ -21,7 +20,7 @@ const Index = () => {
                 <h1>{indexText}</h1>
                 
 
-        </Container>
+        </div>
     );
 }
 

@@ -1,10 +1,9 @@
-import Container from "../components/container/Container";
 
 const Centrodeescalada = () => {
     return ( 
-        <Container> 
+        <div> 
             <p>Este es el centro de escalada</p>
-        </Container>
+        </div>
      );
 }
  
