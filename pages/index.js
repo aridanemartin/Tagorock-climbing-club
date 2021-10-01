@@ -1,23 +1,35 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Container from '../components/container/Container';
+import { useRouter } from 'next/router';
+import Head from 'next/head';
 
-export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
+const Index = () => {
+    let router = useRouter();
 
-      <Footer />
-    </div>
-  )
+    let indexText =
+    router.locale === 'en'
+    ? "Hello"
+    : router.locale === 'es'
+    ? "Hola" : "";
+    
+    return (
+        <>
+            <Container>
+
+                <Head>
+                    <title>Hola!</title>
+                    <link rel="icon" href="/favicon.ico" />
+                </Head>
+
+                <h1>{indexText}</h1>
+                
+            </Container>
+
+
+
+        </>
+    );
 }
+
+export default Index;
+
