@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-
+import Nav from '../components/Nav/Nav';
 
 const Index = () => {
     let router = useRouter();
