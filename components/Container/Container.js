@@ -5,7 +5,7 @@ const Container = (props) => {
     return ( 
         <div>
             <Head>
-                <title>Tagorock - Club de Escalada en Gran Canaria</title>
+                <title>Tagorock</title>
             </Head>
             <Nav/>
             <div>
