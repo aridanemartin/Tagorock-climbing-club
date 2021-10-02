@@ -45,10 +45,11 @@ const Nav = () => {
         </nav>
             <style jsx>{`
                 nav{
-                    background: blue;
+                    background: transparent;
                 }
 
                 .nav__content{
+                    padding: 3rem;
                     display: flex;
                     justify-content: space-between;
                     margin: 0 3rem;
@@ -57,8 +58,13 @@ const Nav = () => {
                 ul{
                     display: flex;
                 }
+                
                 ul li{
                     padding: 0 3rem;
+                }
+
+                ul li a{
+                    text-transform: uppercase;
                 }
                 
             `}</style>

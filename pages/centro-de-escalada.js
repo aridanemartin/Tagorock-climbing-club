@@ -1,5 +1,6 @@
 import useTranslation from 'next-translate/useTranslation'
-import AppLayout from '../components/AppLayout/AppLayout';
+import AppLayout from '../components/AppLayout/AppLayout';     
+
 const Centrodeescalada = () => {
     let { t } = useTranslation();
 

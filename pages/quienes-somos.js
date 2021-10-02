@@ -1,12 +1,13 @@
+import AppLayout from '../components/AppLayout/AppLayout';     
 
 const Quienessomos = () => {
     return ( 
-        <div>
+        <AppLayout>
         
             <p>
                 Norbe y compania
             </p>
-        </div>
+        </AppLayout>
      );
 }
  

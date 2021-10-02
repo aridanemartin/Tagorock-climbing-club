@@ -1,5 +1,5 @@
-import AppLayout from '../components/AppLayout/AppLayout';
 import useTranslation from 'next-translate/useTranslation';
+import AppLayout from '../components/AppLayout/AppLayout';     
 
 const Index = () => {
     
