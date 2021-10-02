@@ -1,24 +1,4 @@
-import Nav from '../Nav/Nav';
-
-const AppLayout = ({children}) => {
-    return ( 
-        <>
-            <Nav/>
-            <main className="mainContainer">   
-                {children}
-            </main>
-
-            <style jsx>{`
-                .mainContainer{
-                    max-width: 1140px;
-                    margin: 0 auto;
-                }
-
-            `}</style>
-
-            <style jsx global>{`
-
-            @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
             :root {
             --green: #3FE79E;
@@ -90,9 +70,3 @@ const AppLayout = ({children}) => {
             text-decoration: none;
             }
             
-            `}</style>
-        </>
-    );
-}
-
-export default AppLayout;
