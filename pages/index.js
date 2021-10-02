@@ -1,4 +1,3 @@
-import Nav from '../components/Nav/Nav';
 import AppLayout from '../components/AppLayout/AppLayout';
 import useTranslation from 'next-translate/useTranslation';
 
@@ -9,7 +8,6 @@ const Index = () => {
     return (
         
         <AppLayout>
-            <Nav/>
             <h1>{t('index:heroBanner1')}</h1>
 
             <style jsx>{`

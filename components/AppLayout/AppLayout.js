@@ -1,9 +1,10 @@
-
+import Nav from '../Nav/Nav';
 
 const AppLayout = ({children}) => {
     return ( 
         <>
-            <main>
+            <Nav/>
+            <main>   
                 {children}
             </main>
             <style jsx global>{`
@@ -15,5 +16,5 @@ const AppLayout = ({children}) => {
         </>
     );
 }
- 
+
 export default AppLayout;
