@@ -7,8 +7,9 @@ const AppLayout = ({children}) => {
                 {children}
             </main>
             <style jsx global>{`
-                h1{
-                    font-size: 3rem;
+                html{
+                    margin: 0;
+                    padding: 0;
                 }
             `}</style>
         </>

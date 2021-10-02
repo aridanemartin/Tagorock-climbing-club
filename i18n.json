@@ -1,0 +1,10 @@
+{
+    "locales": ["es", "en"],
+    "defaultLocale": "es",
+    "pages": {
+        "/":["index"],
+        "/centro-de-escalada":["centro-de-escalada"],
+        "/contacto":["contacto"],
+        "*": ["common"]
+    }
+}

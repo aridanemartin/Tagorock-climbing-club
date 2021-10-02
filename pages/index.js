@@ -1,21 +1,16 @@
-import { useRouter } from 'next/router';
 import Nav from '../components/Nav/Nav';
 import AppLayout from '../components/AppLayout/AppLayout';
+import useTranslation from 'next-translate/useTranslation';
 
 const Index = () => {
-    let router = useRouter();
-
-    let indexText =
-    router.locale === 'en'
-    ? "Hello"
-    : router.locale === 'es'
-    ? "Hola" : "";
     
+    let { t } = useTranslation();
+
     return (
         
         <AppLayout>
             <Nav/>
-            <h1>{indexText}</h1>
+            <h1>{t('index:heroBanner1')}</h1>
 
             <style jsx>{`
                 h1{

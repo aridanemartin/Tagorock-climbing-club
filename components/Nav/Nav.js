@@ -15,33 +15,54 @@ const Nav = () => {
     ? ["Quiénes somos", "Club de Escalada", "Servicios Profesionales", "Contacto"] : "";
 
     return ( 
-        <React.Fragment>    
-            <Locale/>
-            <ul>
-                
-
-                <li>
-                    <Link href="/quienes-somos">
-                        <a>{menuText[0]}</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/centro-de-escalada">
-                        <a>{menuText[1]}</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/servicios-profesionales">
-                        <a>{menuText[2]}</a>
-                    </Link>  
-                </li>
+        <>    
+        <nav>
+            <div className="nav__content">
+                <Locale/>
+                <ul>
                     <li>
-                    <Link href="/contacto">
-                        <a>{menuText[3]}</a>
-                    </Link>
-                </li>
-            </ul>
-        </React.Fragment>
+                        <Link href="/quienes-somos">
+                            <a>{menuText[0]}</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/centro-de-escalada">
+                            <a>{menuText[1]}</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/servicios-profesionales">
+                            <a>{menuText[2]}</a>
+                        </Link>  
+                    </li>
+                        <li>
+                        <Link href="/contacto">
+                            <a>{menuText[3]}</a>
+                        </Link>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+            <style jsx>{`
+                nav{
+                    background: blue;
+                }
+
+                .nav__content{
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 0 3rem;
+                }
+
+                ul{
+                    display: flex;
+                }
+                ul li{
+                    padding: 0 3rem;
+                }
+                
+            `}</style>
+        </>
     );
 }
 
