@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import styles from './Locale.module.css';
 
 export default function Locale() {
   const router = useRouter()
@@ -12,9 +13,9 @@ export default function Locale() {
         {otherLocales.map((locale) => {
           const { pathname, query, asPath } = router
           return (
-            <li key={locale}>
+            <li key={locale} className={styles.locale}>
               <Link href={{ pathname, query }} as={asPath} locale={locale}>
-                <a>{locale}</a>
+                <a className={styles.localeText}>{locale}</a>
               </Link>
             </li>
           )

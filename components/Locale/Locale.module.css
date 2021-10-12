@@ -1,0 +1,9 @@
+.locale{
+    padding: 3rem;
+}
+
+.localeText{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+}

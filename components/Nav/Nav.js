@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Locale from '../../components/Locale/Locale';
+import styles from './Nav.module.css';
 
 const Nav = () => {
 
@@ -15,60 +16,35 @@ const Nav = () => {
     ? ["Quiénes somos", "Club de Escalada", "Servicios Profesionales", "Contacto"] : "";
 
     return ( 
-        <>    
-        <nav>
-            <div className="nav__content">
+    <>    
+        <nav className={styles.nav}>
+            <div className={styles.nav}>
                 <Locale/>
-                <ul>
+                <ul className={styles.nav__content}>
                     <li>
                         <Link href="/quienes-somos">
-                            <a>{menuText[0]}</a>
+                            <a className={styles.navLink}>{menuText[0]}</a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/centro-de-escalada">
-                            <a>{menuText[1]}</a>
+                            <a className={styles.navLink}>{menuText[1]}</a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/servicios-profesionales">
-                            <a>{menuText[2]}</a>
+                            <a className={styles.navLink}>{menuText[2]}</a>
                         </Link>  
                     </li>
                         <li>
                         <Link href="/contacto">
-                            <a>{menuText[3]}</a>
+                            <a className={styles.navLink}>{menuText[3]}</a>
                         </Link>
                     </li>
                 </ul>
             </div>
         </nav>
-            <style jsx>{`
-                nav{
-                    background: transparent;
-                }
-
-                .nav__content{
-                    padding: 3rem;
-                    display: flex;
-                    justify-content: space-between;
-                    margin: 0 3rem;
-                }
-
-                ul{
-                    display: flex;
-                }
-                
-                ul li{
-                    padding: 0 3rem;
-                }
-
-                ul li a{
-                    text-transform: uppercase;
-                }
-                
-            `}</style>
-        </>
+    </>
     );
 }
 

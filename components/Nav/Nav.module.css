@@ -1,0 +1,34 @@
+
+.nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 99;
+}
+
+@media (max-width: 768px) {
+    .nav{
+    display: none;
+    }
+}
+
+.nav__content{
+    padding: 3rem;
+    display: flex;
+    color: white;
+    margin: 0 3rem;
+}
+
+.navLink{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 0rem 2rem;
+}
+
+
