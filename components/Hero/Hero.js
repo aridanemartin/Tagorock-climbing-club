@@ -22,6 +22,7 @@ const Hero = () => {
                             
                             src={ParallaxInferior} 
                             alt="Tagorock - Mundo Vertical - Hero Banner" 
+                            layout="responsive"
                         />  
                     </div>
                 
@@ -30,6 +31,7 @@ const Hero = () => {
                             
                             src={ParallaxSuperior} 
                             alt="Tagorock - Mundo Vertical - Hero Banner" 
+                            layout="responsive"
                         />  
                     </div> 
                 

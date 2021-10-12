@@ -1,5 +1,5 @@
 .serviciosWrap{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(../../public/images/serviciosProfesionales.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(../../public/images/serviciosProfesionales.webp);
 
     height: 30rem; 
     background-position: top;
@@ -32,6 +32,8 @@
 .serviciosParrafo{
     font-family: Lato, Arial, Hel;
     padding: 0.5rem;
+    min-width: 20ch;
+    max-width: 40ch;
 }
 
 .serviciosButton{
@@ -41,4 +43,35 @@
     background: transparent;
     border: 1px solid white;
     border-radius: 1rem;
+}
+
+
+@media (min-width: 768px) {
+    .serviciosWrap{
+        justify-content: flex-start;
+    }
+
+    .serviciosContent{
+        align-items: flex-start;
+        padding-left: 10rem;
+    }
+
+    .serviciosTitle{
+        font-size: 3rem;
+    }
+
+    .serviciosLinks{
+        font-size: 1.5rem;
+    }
+
+    .serviciosParrafo{
+        font-size: 1.5rem;
+        text-align: left;
+        justify-content: flex-start;
+    }
+
+    .serviciosButton{
+        margin-top: 3rem;
+        font-size: 1rem;
+    }
 }

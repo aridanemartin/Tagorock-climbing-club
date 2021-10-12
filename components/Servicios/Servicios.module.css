@@ -1,5 +1,5 @@
 .serviciosWrap{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(../../public/images/serviciosDeportivos.jpg); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(../../public/images/serviciosDeportivos.webp); 
     height: 30rem; 
     background-position: top;
     background-size: cover;
@@ -23,10 +23,39 @@
     font-size: 2rem;
 }
 
-.serviciosLinks{    
+.serviciosLinks{
     font-size: 1rem;
     font-family: Lato;
 }
+
+.serviciosLink{    
+    position: relative;
+    font-size: 1rem;
+    font-family: Lato;
+}
+
+/* UNDERLINE EFFECT */
+
+.serviciosLink:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #FFF;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.serviciosLink:hover:after{ 
+    width: 100%; 
+    left: 0; 
+}
+
+
+
+
 
 .serviciosParrafo{
     font-family: Lato, Arial, Hel;
@@ -52,14 +81,17 @@
 
     .serviciosContent{
         align-items: flex-end;
-        padding-right: 5rem;
+        padding-right: 10rem;
     }
 
     .serviciosTitle{
         font-size: 3rem;
     }
-
     .serviciosLinks{
+        font-size: 1.5rem;
+    }
+
+    .serviciosLink{
         font-size: 1.5rem;
     }
 

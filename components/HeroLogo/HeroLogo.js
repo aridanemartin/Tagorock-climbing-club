@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from './HeroLogo.module.css';
-import TagorockLogo from '../../public/images/Tagorock-logo-blanco.png';  
+import TagorockLogo from '../../public/images/Tagorock-logo-blanco.webp';  
 import useTranslation from 'next-translate/useTranslation';
 
 const HeroLogo = () => {
@@ -15,7 +15,6 @@ const HeroLogo = () => {
                     <Image 
                     src={TagorockLogo} 
                     alt="Tagorock - Mundo Vertical - Hero Banner" 
-                    priority={true}
                     />
                 </div>
                 <h1 className={styles.heroTitle}>{t('index:heroBanner1')}</h1>

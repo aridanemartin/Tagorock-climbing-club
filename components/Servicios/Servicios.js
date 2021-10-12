@@ -15,15 +15,15 @@ const Servicios = (props) => {
                 <h2 className={styles.serviciosTitle}>{props.title}</h2>
                 <p className={styles.serviciosLinks}>
                 <Link href="/">
-                    <a className={styles.serviciosLinks}>TRAINING </a>
+                    <a className={styles.serviciosLink}>TRAINING </a>
                 </Link>
                 |
                 <Link href="/">
-                    <a className={styles.serviciosLinks}> KIDS </a>
+                    <a className={styles.serviciosLink}> KIDS </a>
                 </Link>
                 |
                 <Link href="/">
-                    <a className={styles.serviciosLinks}> OUTDOOR </a>
+                    <a className={styles.serviciosLink}> OUTDOOR </a>
                 </Link>
                 </p>
                 
