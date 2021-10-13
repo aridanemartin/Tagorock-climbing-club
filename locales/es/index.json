@@ -1,7 +1,5 @@
 {
-    "heroBanner1":"Experiencias y guiajes en la isla de Gran Canaria",
-    "heroBanner2":"Escuela infantil y adulta de escalada",
-    "heroBanner3":"dsfsdf",
+    "heroBanner":["Experiencias y guiajes en la isla de Gran Canaria","otro texto"],
     "introTitle1": "UNA EMPRESA DEDICADA A LA ",
     "introTitle2": "ESCALADA ",
     "introTitle3": "Y LA ",

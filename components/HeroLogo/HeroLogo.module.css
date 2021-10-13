@@ -1,15 +1,16 @@
 
 .logoWrap{
     position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+
     display: grid;
     grid-template-areas: "logo text";
     grid-template-columns: 30% 70%;
     flex-direction: row;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
-    width: 60vw;
     max-height: 350px;
     z-index: 1;
 
@@ -18,7 +19,7 @@
 .logoImageWrap{
     grid-area: logo;
     max-width: 350px;
-    min-width: 80px;
+    min-width: 60px;
 }
 
 .heroTitle{
@@ -27,13 +28,11 @@
     align-items: center;
 
     color: white;
-    font-size: 1rem;
+    font-size: 0.5rem;
     text-align: center;
     max-width: 25ch;
     letter-spacing: 3px;
     text-transform: uppercase;
-
-    padding-left: 1rem;
     
 }
 

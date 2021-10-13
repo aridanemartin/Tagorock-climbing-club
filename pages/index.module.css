@@ -7,10 +7,16 @@
     text-align: center;
 }
 
+.introText{
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
 .blueText{
     color: #26627F;
 }
 
 .negrita{
+    font-family: Lato, Arial, Helvetica, sans-serif;
     font-weight: bold;
 }

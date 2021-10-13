@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 import HeroLogo from '../HeroLogo/HeroLogo';
 
-import ParallaxSuperior from '../../public/images/ParallaxSuperior.png';
-import ParallaxInferior from '../../public/images/ParallaxInferior.jpg';
+import ParallaxSuperior from '../../public/images/ParallaxSuperior.webp';
+import ParallaxInferior from '../../public/images/ParallaxInferior.webp';
 
 
 
@@ -23,6 +23,9 @@ const Hero = () => {
                             src={ParallaxInferior} 
                             alt="Tagorock - Mundo Vertical - Hero Banner" 
                             layout="responsive"
+                            width={600}
+                            height={400}
+                            quality={50}
                         />  
                     </div>
                 
@@ -32,6 +35,9 @@ const Hero = () => {
                             src={ParallaxSuperior} 
                             alt="Tagorock - Mundo Vertical - Hero Banner" 
                             layout="responsive"
+                            width={600}
+                            height={400}
+                            quality={50}
                         />  
                     </div> 
                 

@@ -15,9 +15,10 @@ const HeroLogo = () => {
                     <Image 
                     src={TagorockLogo} 
                     alt="Tagorock - Mundo Vertical - Hero Banner" 
+                    quality={25}
                     />
                 </div>
-                <h1 className={styles.heroTitle}>{t('index:heroBanner1')}</h1>
+                <h1 className={styles.heroTitle}>{t('index:heroBanner.0')}</h1>
             </div>
             
             

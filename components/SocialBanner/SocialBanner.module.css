@@ -1,0 +1,19 @@
+.socialBannerWrap{
+    width: 100%;
+}
+
+.socialBanner{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background: #0A2533;
+    height: 4rem;
+
+}
+
+.socialBannerLink{
+    padding: 1rem;
+}
