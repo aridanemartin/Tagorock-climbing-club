@@ -1,5 +1,7 @@
 .parallaxWrap{
     overflow:hidden;
+    height: 35rem;
+    background-color:black;
 }
 
 .heroParallax{

@@ -1,11 +1,6 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 
 import HeroLogo from '../HeroLogo/HeroLogo';
-
-import ParallaxSuperior from '../../public/images/ParallaxSuperior.webp';
-import ParallaxInferior from '../../public/images/ParallaxInferior.webp';
-
-
 
 
 import styles from './Hero.module.css';
@@ -17,7 +12,7 @@ const Hero = () => {
         <> 
             <HeroLogo/>  
             <div className={`${styles.parallaxWrap} ${styles.jsscroll}`}> 
-                    <div id="hola" className={styles.heroBackground}>
+                    {/* <div id="hola" className={styles.heroBackground}>
                         <Image 
                             
                             src={ParallaxInferior} 
@@ -40,7 +35,7 @@ const Hero = () => {
                             quality={50}
                         />  
                     </div> 
-                
+                 */}
             </div>     
         </>
     );
