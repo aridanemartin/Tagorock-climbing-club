@@ -1,24 +1,6 @@
-.parallaxWrap{
-    overflow:hidden;
-    height: 35rem;
-    background-color:black;
-}
-
-.heroParallax{
+.heroWrap{
     
-    position: relative;
-    margin-top: -70%;
-    
-    z-index: 1;
-
-}
-
-.heroBackground{
-    position: relative;    
-    
-    filter:contrast(110%) brightness(60%);
-    z-index: 0;
-
+    height: 100%;
 }
 
 
