@@ -5,7 +5,16 @@
 }
 
 .faqTitle{
-    padding: 1rem 0rem;
+    margin: 0 auto;
+    width: 60%;
+    padding: 3rem 0rem;
     font-size: 3rem;
     color: white;
+}
+
+@media (max-width: 768px){
+    .faqTitle{
+        width: 100%;
+        padding: 1rem 0rem;
+    }
 }

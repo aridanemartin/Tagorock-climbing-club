@@ -17,6 +17,18 @@ const Faq = () => {
                     text={t('index:faq1.text')}  
             />
             <Accordion
+                    title={t('index:faq2.title')}
+                    text={t('index:faq2.text')}  
+            />
+            <Accordion
+                    title={t('index:faq3.title')}
+                    text={t('index:faq3.text')}  
+            />
+            <Accordion
+                    title={t('index:faq1.title')}
+                    text={t('index:faq1.text')}  
+            />
+            <Accordion
                     title={t('index:faq1.title')}
                     text={t('index:faq1.text')}  
             />

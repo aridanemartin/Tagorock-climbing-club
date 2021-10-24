@@ -1,0 +1,99 @@
+.footerWrap{
+    display: grid;
+    grid-template-areas: "menu social contact";
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #0A2533;
+    padding: 2rem;
+}
+
+.footerMenu{
+    grid-area: menu;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: white;
+}
+
+.footerSocialWrap{
+    margin: 0 auto;
+    grid-area: social;
+    
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.footerLogoWrap{
+    padding: 1rem;
+}
+
+.socialBanner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerContactWrap{
+    grid-area: contact;
+
+}
+
+/* Contacto */
+
+.contactTitle{
+    grid-area: titulo;
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.contactEmailWrap{
+    display: flex;
+}
+.contactEmailLogo{
+    width: 2rem;
+}
+
+.contactEmail{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    font-family: Lato, Arial, Hel;
+    color: white;
+}
+
+.contactWhatsappWrap{
+    display: flex;
+}
+.contactWhatsappLogo{
+    width: 2rem;
+}
+
+.contactWhatsapp{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    font-family: Lato, Arial, Hel;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .footerMenu{
+        display: none;
+    }
+
+}

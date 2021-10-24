@@ -24,6 +24,7 @@ const Accordion = (props) => {
             </svg>
         </div>
         <p className={styles.accordionHiddenText} aria-expanded={!isOpen}>{props.text}</p>
+        
     </div>
 
     

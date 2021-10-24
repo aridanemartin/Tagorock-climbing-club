@@ -3,6 +3,7 @@
 }
 
 .cardTitle{
+    color: #0A2533;
     margin-top: 1.5rem;
 }
 
@@ -11,7 +12,14 @@
 }
 
 .cardSocial{
+    font-family: "Anton";
     margin-top: 1.5rem;
+    color: #26627F;
+    transition: all 0.3s ease-in-out;
+}
+
+.cardSocial:hover{
+    color: #0A2533;
 }
 
 
