@@ -17,20 +17,46 @@ const Footer = () => {
     return ( 
         <div className={styles.footerWrap}>
             <div className={styles.footerMenu}>
-                <Link className={styles.primaryLink} href='/'>
-                    <a>QUIÉNES SOMOS</a>
+                <h3 className={styles.footerMenuTitle}>MENU</h3>
+
+                <Link href='/'>
+                    <a className={styles.primaryLink}>QUIÉNES SOMOS</a>
                 </Link>
-                <Link className={styles.primaryLink} href='/'>
-                    <a>CENTRO DE ESCALADA</a>
+                <Link href='/'>
+                    <a className={styles.primaryLink}>CENTRO DE ESCALADA</a>
                 </Link>
-                <Link className={styles.secondaryLink} href='/'>
-                    <a>Escuela Infantil y de Adultos</a>
+                <Link href='/'>
+                    <a className={styles.secondaryLink}>Escuela Infantil y de Adultos</a>
                 </Link>
-                <Link className={styles.secondaryLink} href='/'>
-                    <a>Formación Técnica y Deportiva</a>
+                <Link href='/'>
+                    <a className={styles.secondaryLink}>Formación Técnica y Deportiva</a>
                 </Link>
-                <Link className={styles.secondaryLink} href='/'>
-                    <a>Guía de Montaña y Escalada</a>
+                <Link href='/'>
+                    <a className={styles.secondaryLink}>Guía de Montaña y Escalada</a>
+                </Link>
+                <Link href='/'>
+                    <a className={styles.primaryLink}>SERVICIOS PROFESIONALES ESPECIALIZADOS</a>
+                </Link>
+                <Link href='/'>
+                    <a className={styles.secondaryLink}>Trabajos Técnicos de montaña</a>
+                </Link>
+                <Link href='/'>
+                    <a className={styles.secondaryLink}>Trabajos Locales en Entorno Urbano</a>
+                </Link>
+                <Link href='/'>
+                    <a className={styles.secondaryLink}>Arqueología Vertical</a>
+                </Link>
+                <Link href='/'>
+                    <a className={styles.secondaryLink}>Equipamiento Deportivo de Montaña</a>
+                </Link>
+                <Link href='/'>
+                    <a className={styles.secondaryLink}>Gestión de Rocódromos</a>
+                </Link>
+                <Link href='/'>
+                    <a className={styles.primaryLink}>TARIFAS</a>
+                </Link>
+                <Link href='/'>
+                    <a className={styles.primaryLink}>CONTACTO</a>
                 </Link>
 
 
@@ -94,7 +120,7 @@ const Footer = () => {
 
             </div>
             <div className={styles.footerContactWrap}>
-                    <h3 className={styles.contactTitle}>Contacto</h3>
+                    <h3 className={styles.contactTitle}>CONTACTO</h3>
                     <Link 
                     href="mailto:roshninutricion@gmail.com?subject=Solicitud%20de%20cita:">
                         <a className={styles.contactEmailWrap}>

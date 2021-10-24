@@ -15,12 +15,40 @@
     color: white;
 }
 
+.footerMenuTitle{
+    font-family: Lato, Arial, Hel;
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.primaryLink{
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0.2rem 0rem;
+    font-family: Lato, Arial, Hel;
+    font-weight: bold;
+
+}
+.secondaryLink{
+    cursor: pointer;
+
+    padding: 0.2rem 0rem;
+    padding-left: 1rem;
+    font-family: Lato, Arial, Hel;
+
+
+}
+
+/* Social */
+
+
 .footerSocialWrap{
     margin: 0 auto;
     grid-area: social;
     
-    min-width: 200px;
-    max-width: 300px;
+    min-width: 250px;
+    max-width: 500px;
 }
 
 .footerLogoWrap{
@@ -33,15 +61,20 @@
     align-items: center;
 }
 
-.footerContactWrap{
-    grid-area: contact;
 
-}
 
 /* Contacto */
 
+.footerContactWrap{
+    grid-area: contact;
+}
+
 .contactTitle{
     grid-area: titulo;
+    display: flex;
+    justify-content: center;
+
+    font-family: Lato, Arial, Hel;
     font-size: 2rem;
     color: white;
     padding-bottom: 2rem;
@@ -49,6 +82,7 @@
 
 .contactEmailWrap{
     display: flex;
+    justify-content: center;
 }
 .contactEmailLogo{
     width: 2rem;
@@ -64,6 +98,7 @@
 
 .contactWhatsappWrap{
     display: flex;
+    justify-content: center;
 }
 .contactWhatsappLogo{
     width: 2rem;
@@ -80,20 +115,37 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 768px){
     .footerMenu{
         display: none;
     }
+
+    .footerWrap{
+        grid-template-areas: 
+        "social social social"
+        "contact contact contact";
+        grid-template-columns: 100%;
+    }
+
+    .contactTitle{
+        display: none;
+    }
+
+    .contactEmailWrap{
+        padding-top: 1rem;
+        justify-content:center;
+        align-items:center;
+    }
+    .contactWhatsappWrap{
+        justify-content:center;
+        align-items:center;
+    }
+
+    .footerSocialWrap{
+        min-width: 180px;
+        max-width: 500px;
+    }
+    
+    
 
 }
