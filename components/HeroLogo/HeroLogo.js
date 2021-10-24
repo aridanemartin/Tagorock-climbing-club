@@ -9,20 +9,22 @@ const HeroLogo = () => {
     
     return (    
 
-        <>
+        <div className={styles.heroLogoWrap}>
             <div className={styles.logoWrap}>
-                <div className={styles.logoImageWrap}>
+                <div>
                     <Image 
+                    className={styles.logoImageWrap}
                     src={TagorockLogo} 
                     alt="Tagorock - Mundo Vertical - Hero Banner" 
-                    quality={25}
+                    layout="fill"
+                    quality={50}
                     />
                 </div>
-                <h1 className={styles.heroTitle}>{t('index:heroBanner.0')}</h1>
+                
             </div>
+            <h1 className={styles.heroTitle}>{t('index:heroBanner.0')}</h1>
             
-            
-        </>
+        </div>
     );
 }
 

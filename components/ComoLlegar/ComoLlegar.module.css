@@ -1,4 +1,6 @@
-
+.comoLlegarWrap{
+    background: white;
+}
 .comoLlegarTitle{
     text-align: center;
     font-size: 2.5rem;
@@ -7,6 +9,6 @@
 
 .comoLlegarText{
     text-align: center;
-    padding: 1rem 0rem;
+    padding: 1rem;
     font-family: Lato, Arial, Hel;
 }

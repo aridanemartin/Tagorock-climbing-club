@@ -11,16 +11,22 @@ const Hero = () => {
     
     return ( 
         <> 
-            <HeroLogo/>  
-            <div className={styles.heroWrap}>                
-                    
-                        <Image    
-                            src={Completa} 
-                            alt="Tagorock - Mundo Vertical - Hero Banner" 
-                            layout="responsive"
-                            quality={50}
-                        />                 
-            </div>     
+             
+            <div>
+            <div className={styles.bgWrap}>
+                <Image
+                    alt="Tagorock Mundo Vertical - Escuela de Escalada en Las Palmas de Gran Canaria / Climbing School in Las Palmas de Gran Canaria"
+                    src={Completa}
+                    layout="fill"
+                    objectFit="cover"
+                    quality={100}
+                />
+            </div>
+            <p className={styles.bgText}>
+            <HeroLogo/> 
+            </p>
+            </div>
+            
         </>
     );
 }

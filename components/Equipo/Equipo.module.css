@@ -1,6 +1,8 @@
 .equipoContent{
     display: flex;
     flex-direction: column;
+    background-color: white;
+    padding-bottom: 2rem;
 }
 
 
