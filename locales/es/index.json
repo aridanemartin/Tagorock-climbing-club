@@ -13,5 +13,40 @@
     "serviciosDeportivosTitle": "SERVICIOS DEPORTIVOS",
     "serviciosDeportivosText": "¿Quieres entrenar o simplemente desarrollar tu técnica como escalador en un entorno seguro y de confianza?  Echa un vistazo a nuestros servicios",
     "serviciosProfesionalesTitle": "SERVICIOS PROFESIONALES",
-    "serviciosProfesionalesText": "Como amantes de la escalada, en Tagorock Mundo Vertical estamos certificados como especialistas en instalación de anclajes. Equipamos todo tipo de vías deportivas de escalada en montaña, vías ferratas y líneas de vida entre otras."
+    "serviciosProfesionalesText": "Como amantes de la escalada, en Tagorock Mundo Vertical estamos certificados como especialistas en instalación de anclajes. Equipamos todo tipo de vías deportivas de escalada en montaña, vías ferratas y líneas de vida entre otras.",
+    "separador1": "NUESTRO EQUIPO",
+    "norbePerfil": {
+            "name": "Norberto Cabrera",
+            "descripcion": "Como amantes de la escalada, en Tagorock Mundo Vertical estamos certificados como especialistas en instalación de anclajes. Equipamos todo tipo de vías deportivas de escalada en montaña, vías ferratas y líneas de vida entre otra",
+            "social": "@norberock",
+            "socialLink": "www.instagram.com/norbeRock"
+    },
+    "janocPerfil": {
+        "name": "Janoc Cabrera",
+        "descripcion": "Como amantes de la escalada, en Tagorock Mundo Vertical estamos certificados como especialistas en instalación de anclajes. Equipamos todo tipo de vías deportivas de escalada en montaña, vías ferratas y líneas de vida entre otra",
+        "social": "@norberock",
+        "socialLink": "www.instagram.com/norbeRock"
+    },
+    "davidPerfil": {
+        "name": "David Llanos",
+        "descripcion": "Como amantes de la escalada, en Tagorock Mundo Vertical estamos certificados como especialistas en instalación de anclajes. Equipamos todo tipo de vías deportivas de escalada en montaña, vías ferratas y líneas de vida entre otra",
+        "social": "@norberock",
+        "socialLink": "www.instagram.com/norbeRock"
+    },
+    "faq1":{
+        "title": "¿Hace falta algún tipo de autorización por parte de un adulto?",
+        "text": "Los visitantes menores de 16 años necesitarán la autorización de un adulto responsable."
+    },
+    "faq2":{
+        "title": "¿Qué tienen que traer los niños?",
+        "text": "Los niños necesitarán pies de gato y ropa deportiva cómoda. Si no tienen pies de gato, podrás alquilar o comprar un par en nuestra tienda. El resto del material será proporcionado por Monobloc."
+    }
+    
+        
+    
+
+        
+        
+    
+    
 }

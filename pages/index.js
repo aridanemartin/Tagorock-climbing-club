@@ -4,6 +4,10 @@ import Hero from '../components/Hero/Hero';
 import Servicios from '../components/Servicios/Servicios';
 import ServiciosP from '../components/ServiciosP/ServiciosP';
 import SocialBanner from '../components/SocialBanner/SocialBanner';
+import Separador from '../components/Separador/Separador';
+import Equipo from '../components/Equipo/Equipo';
+import Accordion from '../components/Accordion/Accordion';
+import Faq from '../components/Faq/Faq';
 
 import styles from './index.module.css';
 
@@ -43,13 +47,19 @@ const Index = () => {
             <ServiciosP
             title={t('index:serviciosProfesionalesTitle')}
             text={t('index:serviciosProfesionalesText')}
-
-
             />
-            
+
+            <Separador
+            title={t('index:separador1')} 
+            />     
+
+            <Equipo/>
+            <Faq/>
+
         </>
     );
 }
 
 export default Index;
+
 

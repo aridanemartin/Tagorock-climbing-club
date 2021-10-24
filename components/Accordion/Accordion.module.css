@@ -1,0 +1,50 @@
+.accordionWrap {
+    margin: 0;
+    border-width: 0px 1px 1px 1px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #0A2533;
+}
+
+.accordion:nth-of-type(1) {
+    border-top-width: 1px
+}
+
+.accordionTitle {
+    font-size: 18px;
+    color: white;
+    font-family: Lato, Arial, Hel;
+    font-weight: 500;
+    display: flex;
+}
+
+.accordionTitle:hover {
+    cursor: pointer;
+}
+
+.accordionToggle {
+    width: 4rem;
+    height: 4rem;
+    align-self: center;
+    margin-left: auto;
+    transition: all 0.35s ease;
+}
+
+.accordionToggle[aria-expanded="true"] {
+    transform: rotateZ(90deg);
+}
+
+.accordionHiddenText{
+    margin: 1rem 0;
+    overflow: hidden;
+    max-height: 1000px;
+    transition: max-height 1s ease-in-out;
+    font-family: Lato, Arial, Hel;
+    color: white;
+}
+
+.accordionHiddenText[aria-expanded="true"] {
+    max-height: 0px;
+    transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+}
