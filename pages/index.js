@@ -23,6 +23,8 @@ const Index = () => {
             <Hero/>
             <SocialBanner />
             <AppLayout>
+            
+            </AppLayout>
             <div className={styles.introWrap}>
                 <h1 className={styles.introTitle}>
                     {t('index:introTitle1')}
@@ -39,7 +41,6 @@ const Index = () => {
                     {t('index:introText5')}
                 </p>
             </div>
-            </AppLayout>
             
             <Servicios 
             title={t('index:serviciosDeportivosTitle')}
