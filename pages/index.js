@@ -1,6 +1,5 @@
 import useTranslation from 'next-translate/useTranslation';
 
-import AppLayout from '../components/AppLayout/AppLayout';     
 import Hero from '../components/Hero/Hero';
 import Servicios from '../components/Servicios/Servicios';
 import ServiciosP from '../components/ServiciosP/ServiciosP';
@@ -9,6 +8,7 @@ import Separador from '../components/Separador/Separador';
 import Equipo from '../components/Equipo/Equipo';
 import Faq from '../components/Faq/Faq';
 import Footer from '../components/Footer/Footer';
+import Nav from '../components/Nav/Nav';
 
 import styles from './index.module.css';
 import ComoLlegar from '@components/ComoLlegar/ComoLlegar';
@@ -20,11 +20,9 @@ const Index = () => {
 
     return (
         <>
+            <Nav/>
             <Hero/>
             <SocialBanner />
-            <AppLayout>
-            
-            </AppLayout>
             <div className={styles.introWrap}>
                 <h1 className={styles.introTitle}>
                     {t('index:introTitle1')}

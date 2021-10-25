@@ -30,10 +30,11 @@
 
 
 .heroTitle{
+   
     position: fixed;
     z-index: -1;
 
-    top: 33rem;
+    top: 25rem;
 
     display: flex;
     justify-content: center;
@@ -46,6 +47,8 @@
     width: 25ch;
 
     filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.7));
+
+    display: none;
 }
 
 @media (max-width: 768px) {

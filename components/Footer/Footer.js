@@ -26,31 +26,31 @@ const Footer = () => {
                     <a className={styles.primaryLink}>CENTRO DE ESCALADA</a>
                 </Link>
                 <Link href='/'>
-                    <a className={styles.secondaryLink}>Escuela Infantil y de Adultos</a>
+                    <a className={styles.secondaryLink}>- Escuela Infantil y de Adultos</a>
                 </Link>
                 <Link href='/'>
-                    <a className={styles.secondaryLink}>Formación Técnica y Deportiva</a>
+                    <a className={styles.secondaryLink}>- Formación Técnica y Deportiva</a>
                 </Link>
                 <Link href='/'>
-                    <a className={styles.secondaryLink}>Guía de Montaña y Escalada</a>
+                    <a className={styles.secondaryLink}>- Guía de Montaña y Escalada</a>
                 </Link>
                 <Link href='/'>
-                    <a className={styles.primaryLink}>SERVICIOS PROFESIONALES ESPECIALIZADOS</a>
+                    <a className={styles.primaryLink}>SERVICIOS PROFESIONALES</a>
                 </Link>
                 <Link href='/'>
-                    <a className={styles.secondaryLink}>Trabajos Técnicos de montaña</a>
+                    <a className={styles.secondaryLink}>- Trabajos Técnicos de montaña</a>
                 </Link>
                 <Link href='/'>
-                    <a className={styles.secondaryLink}>Trabajos Locales en Entorno Urbano</a>
+                    <a className={styles.secondaryLink}>- Trabajos Locales en Entorno Urbano</a>
                 </Link>
                 <Link href='/'>
-                    <a className={styles.secondaryLink}>Arqueología Vertical</a>
+                    <a className={styles.secondaryLink}>- Arqueología Vertical</a>
                 </Link>
                 <Link href='/'>
-                    <a className={styles.secondaryLink}>Equipamiento Deportivo de Montaña</a>
+                    <a className={styles.secondaryLink}>- Equipamiento Deportivo de Montaña</a>
                 </Link>
                 <Link href='/'>
-                    <a className={styles.secondaryLink}>Gestión de Rocódromos</a>
+                    <a className={styles.secondaryLink}>- Gestión de Rocódromos</a>
                 </Link>
                 <Link href='/'>
                     <a className={styles.primaryLink}>TARIFAS</a>
