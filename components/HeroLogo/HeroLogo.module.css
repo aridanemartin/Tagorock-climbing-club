@@ -33,7 +33,7 @@
     
     grid-template-columns: 100%;
     grid-template-areas: "logo";
-    top: 60vh;
+    top: 65vh;
     left: 0;
 
     animation-name: nubeder;
@@ -60,7 +60,7 @@
     
     grid-template-columns: 100%;
     grid-template-areas: "logo";
-    top: 60vh;
+    top: 65vh;
     left: 0;
     
 
@@ -75,6 +75,18 @@
     from { transform: translateX(-50%); }
     to { transform: translateX(10%); }
   }
+
+/* @media - */
+
+@media (max-width: 768px) {
+    .cloudWrap{
+        top: 60vh;
+    }
+
+    .cloudWrap2{
+        top: 60vh;
+    }
+}
 
 .logoImageWrap{
     filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.7));
