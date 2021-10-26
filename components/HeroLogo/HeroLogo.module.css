@@ -22,6 +22,60 @@
     top: 10rem;
 }
 
+.cloudWrap{
+    position: fixed;
+    z-index: -1;
+
+    opacity: 0.4;
+    width: 100vh;
+    height: 20rem;
+    transform: scaleX(-1);
+    
+    grid-template-columns: 100%;
+    grid-template-areas: "logo";
+    top: 65vh;
+    left: 0;
+
+    animation-name: nubeder;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes nubeder {
+    from { transform: translateX(50%); }
+    to { transform: translateX(110%); }
+  }
+
+  .cloudWrap2{
+
+    position: fixed;
+    z-index: -1;
+
+    opacity: 0.4;
+    width: 100vh;
+    height: 20rem;
+    
+    
+    grid-template-columns: 100%;
+    grid-template-areas: "logo";
+    top: 65vh;
+    left: 0;
+    
+
+    animation-name: nubeizq;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes nubeizq {
+    from { transform: translateX(-50%); }
+    to { transform: translateX(10%); }
+  }
+
 .logoImageWrap{
     filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.7));
 }
