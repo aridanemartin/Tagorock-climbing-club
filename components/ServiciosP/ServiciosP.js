@@ -15,7 +15,7 @@ const Servicios = (props) => {
                 <h2 className={styles.serviciosTitle}>{props.title}</h2>
                 <p className={styles.serviciosParrafo}>{props.text}</p>
                 <Link href="/">
-                    <a className={styles.serviciosButton}>SABER MÁS</a>
+                    <a className={styles.serviciosButton}>{t('common:sabermas')}</a>
                 </Link>
             </div>
         </div>
