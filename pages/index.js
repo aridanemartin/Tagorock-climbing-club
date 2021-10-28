@@ -9,6 +9,7 @@ import Equipo from '../components/Equipo/Equipo';
 import Faq from '../components/Faq/Faq';
 import Footer from '../components/Footer/Footer';
 import Nav from '../components/Nav/Nav';
+import BlueButton from '@components/BlueButton/BlueButton';
 
 import styles from './index.module.css';
 import ComoLlegar from '@components/ComoLlegar/ComoLlegar';
@@ -38,6 +39,12 @@ const Index = () => {
                     <span className={styles.negrita}>{t('index:introText4')}</span>
                     {t('index:introText5')}
                 </p>
+                <div className={styles.buttonDiv}>
+                    <BlueButton 
+                    title="Conoce a nuestro equipo"
+                    url="/"
+                    />
+                </div>
             </div>
             
             <Servicios 

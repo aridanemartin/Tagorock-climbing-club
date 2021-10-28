@@ -1,6 +1,7 @@
 import styles from './Servicios.module.css';
 import useTranslation from 'next-translate/useTranslation';
 import Link from 'next/link';
+import Button from '../Button/Button';
 
 const Servicios = (props) => {
 
@@ -28,9 +29,10 @@ const Servicios = (props) => {
                 </p>
                 
                 <p className={styles.serviciosParrafo}>{props.text}</p>
-                <Link href="/">
-                    <a className={styles.serviciosButton}>SABER MÁS</a>
-                </Link>
+                <Button 
+                title="Saber Más"
+                url="/"
+                />
             </div>
         </div>
 

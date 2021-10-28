@@ -12,7 +12,7 @@ const ProfileCard = (props) => {
             style={{ position: 'relative', maxWidth: '100%', maxHeight: '100%' }}
             >
                 <Image 
-                alt="Mountains"
+                alt="Traer el alt a partir de props"
                 src={props.image}
                 layout="responsive" 
                 objectFit="cover"

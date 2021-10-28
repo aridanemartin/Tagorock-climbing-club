@@ -25,6 +25,10 @@
     font-weight: bold;
 }
 
+.buttonDiv{
+    padding: 3rem 0rem;
+}
+
 @media (max-width: 768px) {
 
     .introTitle {

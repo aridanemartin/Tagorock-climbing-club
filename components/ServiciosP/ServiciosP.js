@@ -1,6 +1,6 @@
 import styles from './ServiciosP.module.css';
 import useTranslation from 'next-translate/useTranslation';
-import Link from 'next/link';
+import Button from '../Button/Button';
 
 const Servicios = (props) => {
 
@@ -14,9 +14,10 @@ const Servicios = (props) => {
             <div className={styles.serviciosContent}>
                 <h2 className={styles.serviciosTitle}>{props.title}</h2>
                 <p className={styles.serviciosParrafo}>{props.text}</p>
-                <Link href="/">
-                    <a className={styles.serviciosButton}>{t('common:sabermas')}</a>
-                </Link>
+                <Button 
+                title="Saber más"
+                url="/"
+                />
             </div>
         </div>
 
