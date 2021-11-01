@@ -1,4 +1,5 @@
 .introTitle {
+    margin: 0 auto;
     max-width: 1440px;
     font-size: 3rem;
     padding-bottom: 2rem;
@@ -11,6 +12,7 @@
 }
 
 .introText{
+    margin: 0 auto;
     max-width: 1440px;
     font-family: Lato, Arial, Helvetica, sans-serif;
     font-size: 1.2rem;

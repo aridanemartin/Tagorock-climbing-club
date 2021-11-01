@@ -15,5 +15,18 @@
 }
 
 .socialBannerLink{
-    padding: 1rem;
+    padding: 1rem;  
+}
+
+.socialBannerLinkWrap{
+    transition: all 300ms ease-in-out;
+}
+
+@media screen {
+
+    .socialBannerLinkWrap:hover{
+        transform: scale(1.1);
+        filter: drop-shadow(3px 3px 2px #000000);
+    }
+
 }

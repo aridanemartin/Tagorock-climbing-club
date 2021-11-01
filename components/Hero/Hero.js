@@ -19,7 +19,7 @@ const Hero = () => {
                     src={Completa}
                     layout="fill"
                     objectFit="cover"
-                    quality={100}
+                    quality={70}
                 />
             </div>
             <p className={styles.bgText}>
