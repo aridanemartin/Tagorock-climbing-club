@@ -10,8 +10,7 @@ const Hero = () => {
     
     
     return ( 
-        <> 
-             
+        <>      
             <div>
             <div className={styles.bgWrap}>
                 <Image
@@ -19,7 +18,7 @@ const Hero = () => {
                     src={Completa}
                     layout="fill"
                     objectFit="cover"
-                    quality={70}
+                    quality={90}
                 />
             </div>
             <p className={styles.bgText}>

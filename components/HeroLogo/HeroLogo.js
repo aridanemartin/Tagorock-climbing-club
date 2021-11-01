@@ -12,17 +12,20 @@ const HeroLogo = () => {
     return (    
 
         <div className={styles.heroLogoWrap}>
-            <div className={styles.logoWrap}>
-                <div>
-                    <Image 
-                    className={styles.logoImageWrap}
-                    src={TagorockLogo} 
-                    alt="Tagorock - Mundo Vertical - Hero Banner" 
-                    layout="fill"
-                    quality={50}
-                    />
-                </div> 
-            </div>
+
+           
+                <div className={styles.logoWrap}>
+                    <div>
+                        <Image 
+                        className={styles.logoImageWrap}
+                        src={TagorockLogo} 
+                        alt="Tagorock - Mundo Vertical - Hero Banner" 
+                        layout="fill"
+                        quality={50}
+                        />
+                    </div> 
+                </div>
+
             <div className={styles.cloudWrap}>
                 <div>
                         <Image 
@@ -45,8 +48,7 @@ const HeroLogo = () => {
                         />
                     </div>
             </div>
-            <h1 className={styles.heroTitle}>{t('index:heroBanner.0')}</h1>
-            
+            <h1 className={styles.heroTitle}>{t('index:heroBanner.0')}</h1>    
         </div>
     );
 }

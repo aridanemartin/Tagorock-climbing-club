@@ -12,8 +12,13 @@
     z-index: 99;
 }
 
-.navLink:hover {
-    color: #4e97bb;
+.navLinkWrap{
+    transition: all 0.3s ease-in-out;
+}
+
+.navLinkWrap:hover{
+    transform: scale(1.2);
+    text-shadow: 1px 1px 1px #000000;
 }
 
 @media (max-width: 768px) {

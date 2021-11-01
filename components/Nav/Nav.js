@@ -21,22 +21,22 @@ const Nav = () => {
             <div className={styles.nav}>
                 <Locale/>
                 <ul className={styles.nav__content}>
-                    <li>
-                        <Link href="/quienes-somos">
+                    <li className={styles.navLinkWrap}>
+                        <Link href="/">
                             <a className={styles.navLink}>{menuText[0]}</a>
                         </Link>
                     </li>
-                    <li>
-                        <Link href="/centro-de-escalada">
+                    <li className={styles.navLinkWrap}>
+                        <Link href="/club-de-escalada">
                             <a className={styles.navLink}>{menuText[1]}</a>
                         </Link>
                     </li>
-                    <li>
+                    <li className={styles.navLinkWrap}>
                         <Link href="/servicios-profesionales">
                             <a className={styles.navLink}>{menuText[2]}</a>
                         </Link>  
                     </li>
-                        <li>
+                    <li className={styles.navLinkWrap}>
                         <Link href="/contacto">
                             <a className={styles.navLink}>{menuText[3]}</a>
                         </Link>

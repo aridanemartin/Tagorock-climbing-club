@@ -19,33 +19,37 @@ const Index = () => {
     
     let { t } = useTranslation();
 
+
+
     return (
         <>
             <Nav/>
             <Hero/>
             <SocialBanner />
-            <div className={styles.introWrap}>
-                <h1 className={styles.introTitle}>
-                    {t('index:introTitle1')}
-                    <span className={styles.blueText}>{t('index:introTitle2')}</span><br/>
-                    {t('index:introTitle3')}
-                    <span className={styles.blueText}>{t('index:introTitle4')}</span>
-                </h1>
-                <p className={styles.introText}>
-                    <span className={styles.negrita}>{t('index:introText1')}</span>
-                    {t('index:introText2')}
-                    <br/><br/>
-                    {t('index:introText3')}
-                    <span className={styles.negrita}>{t('index:introText4')}</span>
-                    {t('index:introText5')}
-                </p>
-                <div className={styles.buttonDiv}>
-                    <BlueButton 
-                    title="Conoce a nuestro equipo"
-                    url="/"
-                    />
+            
+                <div className={styles.introWrap}> 
+                    <h1 className={styles.introTitle}>
+                        {t('index:introTitle1')}
+                        <span className={styles.blueText}>{t('index:introTitle2')}</span><br/>
+                        {t('index:introTitle3')}
+                        <span className={styles.blueText}>{t('index:introTitle4')}</span>
+                    </h1>
+                    <p className={styles.introText}>
+                        <span className={styles.negrita}>{t('index:introText1')}</span>
+                        {t('index:introText2')}
+                        <br/><br/>
+                        {t('index:introText3')}
+                        <span className={styles.negrita}>{t('index:introText4')}</span>
+                        {t('index:introText5')}
+                    </p>
+                    <div className={styles.buttonDiv}>
+                        <BlueButton 
+                        title="Conoce a nuestro equipo"
+                        url="/"
+                        />
+                    </div>
                 </div>
-            </div>
+            
             
             <Servicios 
             title={t('index:serviciosDeportivosTitle')}

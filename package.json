@@ -8,6 +8,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "framer-motion": "^5.0.1",
     "next": "^11.1.2",
     "next-translate": "^1.1.0",
     "react": "^17.0.2",

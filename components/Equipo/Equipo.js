@@ -1,17 +1,25 @@
 import styles from './Equipo.module.css';
 import useTranslation from 'next-translate/useTranslation';
 import ProfileCard from '../ProfileCard/ProfileCard';
+import { useRef, forwardRef } from 'react';
 
 import Norbe from '../../public/images/norbePerfil.jpg';
 import Janoc from '../../public/images/janocPerfil.jpg';
+import David from '../../public/images/davidPerfil.jpg';
 
 const Equipo = () => {
 
     let { t } = useTranslation();
 
+    const equipoRef = useRef();
+
+    function handleClick() {
+        equipoRef.current.scrollIntoView({ behavior: 'smooth' })
+    }
+
     return ( 
         <div className={styles.equipoWrap}>
-            <div className={styles.equipoContent}>
+            <div ref={equipoRef} className={styles.equipoContent}>
                 
                 <ProfileCard 
                     title={t('index:norbePerfil.name')}
@@ -32,12 +40,12 @@ const Equipo = () => {
                     text={t('index:davidPerfil.descripcion')}
                     social={t('index:davidPerfil.social')}
                     socialLink={t('index:davidPerfil.socialLink')}
-                    image={Norbe}
+                    image={David}
                 />
             </div>
         </div>
 
-     );
+    );
 }
- 
+
 export default Equipo;

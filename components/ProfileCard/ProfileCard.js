@@ -9,23 +9,27 @@ const ProfileCard = (props) => {
         <div className={styles.profileCardWrap}>  
             <div
             className={styles.imageWrap}
-            style={{ position: 'relative', maxWidth: '100%', maxHeight: '100%' }}
+            style={{ 
+                position: 'relative', 
+                maxWidth: '100%', 
+                maxHeight: '100%' }}
             >
                 <Image 
                 alt="Traer el alt a partir de props"
                 src={props.image}
-                layout="responsive" 
+                layout="fill" 
                 objectFit="cover"
                 
                 />
             </div>
-            
-            <h2 className={styles.cardTitle}>{props.title}</h2>
-            <p className={styles.cardText}>{props.text}</p>
-            <div className={styles.cardSocial}>
-                <Link href={props.socialLink} target="_blank">
-                    <a>{props.social}</a>
-                </Link>
+            <div className={styles.textWrap}>
+                <h2 className={styles.cardTitle}>{props.title}</h2>
+                <p className={styles.cardText}>{props.text}</p>
+                <div className={styles.cardSocial}>
+                    <Link href={props.socialLink} target="_blank">
+                        <a>{props.social}</a>
+                    </Link>
+                </div>
                 </div>
 
 

@@ -3,7 +3,7 @@
     "defaultLocale": "es",
     "pages": {
         "/":["index"],
-        "/centro-de-escalada":["centro-de-escalada"],
+        "/club-de-escalada":["club-de-escalada"],
         "/contacto":["contacto"],
         "*": ["common"]
     }
