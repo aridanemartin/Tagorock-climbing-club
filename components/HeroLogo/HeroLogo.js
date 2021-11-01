@@ -12,8 +12,6 @@ const HeroLogo = () => {
     return (    
 
         <div className={styles.heroLogoWrap}>
-
-           
                 <div className={styles.logoWrap}>
                     <div>
                         <Image 

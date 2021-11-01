@@ -12,7 +12,7 @@ const SocialBanner = () => {
             <div className={styles.socialBanner}>
                 <div className={styles.socialBannerLinkWrap}>
                     <Link 
-                    href="https://www.instagram.com/tagorockmundovertical/?hl=es"
+                    href="https://www.instagram.com/tagorockmundovertical/"
                     >
                         <a className={styles.socialBannerLink} target="_blank">
                             <Image 

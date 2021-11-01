@@ -19,8 +19,15 @@ const Accordion = (props) => {
             onClick={toggle}
             className={styles.accordionToggle}
             aria-expanded={isOpen}
-            xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            xmlns="http://www.w3.org/2000/svg" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke="currentColor">
+                <path 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                strokeWidth="2" 
+                d="M19 9l-7 7-7-7" />
             </svg>
         </div>
         <p className={styles.accordionHiddenText} aria-expanded={!isOpen}>{props.text}</p>

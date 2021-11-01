@@ -21,9 +21,9 @@ const Hero = () => {
                     quality={90}
                 />
             </div>
-            <p className={styles.bgText}>
+            <div className={styles.bgText}>
             <HeroLogo/> 
-            </p>
+            </div>
             </div>
             
         </>

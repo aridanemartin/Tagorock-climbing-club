@@ -30,7 +30,7 @@ const ProfileCard = (props) => {
                         <a>{props.social}</a>
                     </Link>
                 </div>
-                </div>
+            </div>
 
 
 

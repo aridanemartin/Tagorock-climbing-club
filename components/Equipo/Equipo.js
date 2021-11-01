@@ -1,7 +1,6 @@
 import styles from './Equipo.module.css';
 import useTranslation from 'next-translate/useTranslation';
 import ProfileCard from '../ProfileCard/ProfileCard';
-import { useRef, forwardRef } from 'react';
 
 import Norbe from '../../public/images/norbePerfil.jpg';
 import Janoc from '../../public/images/janocPerfil.jpg';
@@ -11,15 +10,9 @@ const Equipo = () => {
 
     let { t } = useTranslation();
 
-    const equipoRef = useRef();
-
-    function handleClick() {
-        equipoRef.current.scrollIntoView({ behavior: 'smooth' })
-    }
-
     return ( 
         <div className={styles.equipoWrap}>
-            <div ref={equipoRef} className={styles.equipoContent}>
+            <div className={styles.equipoContent}>
                 
                 <ProfileCard 
                     title={t('index:norbePerfil.name')}
