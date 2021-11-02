@@ -10,7 +10,7 @@ import SectionTemplateInverted from '../components/SectionTemplateInverted/Secti
 // import formacionTecnica from '../public/images/formacionTecnica.jpg';
 // import Club from '../../public/images/escuela.jpg';
 
-import Escuela from '../public/images/escuela.jpg';
+import Escuela from '/public/images/escuela.jpg';
 
 
 
