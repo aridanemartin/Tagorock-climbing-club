@@ -19,8 +19,6 @@ const Index = () => {
     
     let { t } = useTranslation();
 
-
-
     return (
         <>
             <Nav/>

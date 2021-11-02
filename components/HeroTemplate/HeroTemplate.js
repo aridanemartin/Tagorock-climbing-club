@@ -18,8 +18,8 @@ const HeroTemplate = (props) => {
                 </div>
             </div>
             <h1 className={styles.heroTitle}>
-                Ponte en forma<br/>
-                <strong>divirtiéndote</strong>
+                {props.title1}<br/>
+                <strong>{props.title2}</strong>
                 </h1>
             
         </>

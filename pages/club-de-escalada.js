@@ -5,9 +5,9 @@ import SectionTemplate from '@components/SectionTemplate/SectionTemplate';
 import SocialBanner from '../components/SocialBanner/SocialBanner';
 import SectionTemplateInverted from '../components/SectionTemplateInverted/SectionTemplateInverted';
 
-import escuela from '../public/images/escuela.jpg';
+// import escuela from '../public/images/escuela.jpg';
 import escaladoras from '../public/images/2escaladoras.jpg';
-import formacionTecnica from '../public/images/formacionTecnica3.jpg'
+import formacionTecnica from '../public/images/formacionTecnica3.jpg';
 
 
 const ClubDeEscalada = () => {
@@ -17,11 +17,14 @@ const ClubDeEscalada = () => {
         <>
         <Nav/>  
         <HeroTemplate
-            image={escuela}
+            image={escaladoras}
+            alt="Tagorock - Escuela Infantil de Escalada"
+            title1={t('club-de-escalada:heroTitle1-a')}
+            title2={t('club-de-escalada:heroTitle1-b')}
         />
         <SocialBanner/>
         <SectionTemplate
-            image={escuela}
+            image={escaladoras}
             title1={t('club-de-escalada:escuelaDeEscaladaTitle1')}
             title2={t('club-de-escalada:escuelaDeEscaladaTitle1')}
             text1={t('club-de-escalada:escuelaDeEscalada1')}

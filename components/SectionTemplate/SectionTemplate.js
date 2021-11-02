@@ -11,6 +11,7 @@ const SectionTemplate = (props) => {
             <div className={styles.imageWrap}>
                     <Image
                         src={props.image}
+                        alt={props.alt}
                         layout="fill"
                         objectFit="cover"
                     />
