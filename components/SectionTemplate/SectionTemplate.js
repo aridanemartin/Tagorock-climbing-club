@@ -9,12 +9,12 @@ const SectionTemplate = (props) => {
         className={styles.sectionTemplateWrap}
         >
             <div className={styles.imageWrap}>
-                    {/* <Image
+                    <Image
                         src={props.image}
                         alt={props.alt}
                         layout="fill"
                         objectFit="cover"
-                    /> */}
+                    />
             </div>
 
             <div className={styles.textWrap}>
@@ -24,7 +24,6 @@ const SectionTemplate = (props) => {
                 <br/><br/> 
                 {props.text2}
                 <br/><br/> 
-                {props.text3}
                 </p>
                 <div className={styles.buttonWrap}>
                     <BlueButton

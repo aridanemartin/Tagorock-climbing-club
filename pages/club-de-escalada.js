@@ -4,17 +4,14 @@ import SocialBanner from '../components/SocialBanner/SocialBanner';
 import HeroTemplate from '../components/HeroTemplate/HeroTemplate';
 import SectionTemplate from '@components/SectionTemplate/SectionTemplate';
 import SectionTemplateInverted from '../components/SectionTemplateInverted/SectionTemplateInverted';
-import { loadGetInitialProps } from 'next/dist/shared/lib/utils';
 
-
-// import escaladoras from '../public/images/2escaladoras.jpg';
-// import formacionTecnica from '../public/images/formacionTecnica.jpg';
-// import Club from '../../public/images/escuela.jpg';
 
 const ClubDeEscalada = () => {
     let { t } = useTranslation();
 
     const escaladoras = require('../public/images/2escaladoras.jpg');
+    const formacionTecnica = require('../public/images/formacionTecnica.jpg');
+    const formacionDeportiva = require('../public/images/escuela.jpg');
 
     return ( 
         <>
@@ -27,6 +24,7 @@ const ClubDeEscalada = () => {
         />
         <SocialBanner/>
         <SectionTemplate
+            image={formacionDeportiva}
             title1={t('club-de-escalada:escuelaDeEscaladaTitle1')}
             title2={t('club-de-escalada:escuelaDeEscaladaTitle1')}
             text1={t('club-de-escalada:escuelaDeEscalada1')}
@@ -36,6 +34,7 @@ const ClubDeEscalada = () => {
 
         />
         <SectionTemplateInverted
+            image={formacionTecnica}
             title1={t('club-de-escalada:formacionTecnicaTitle1')}
             title2={t('club-de-escalada:formacionTecnicaTitle2')}
             text1={t('club-de-escalada:formacionTecnica1')}

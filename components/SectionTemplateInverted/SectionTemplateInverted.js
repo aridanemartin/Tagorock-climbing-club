@@ -1,5 +1,5 @@
 import styles from './SectionTemplateInverted.module.css';
-// import Image from 'next/image';
+import Image from 'next/image';
 import BlueButton from '@components/BlueButton/BlueButton';
 
 
@@ -11,11 +11,11 @@ const SectionTemplateInverted = (props) => {
         className={styles.sectionTemplateWrap}
         >
             <div className={styles.imageWrap}>
-                {/* <Image
+                <Image
                     src={props.image}
                     layout="fill"
                     objectFit="cover"
-                /> */}
+                />
             </div>
 
             <div className={styles.textWrap}>
