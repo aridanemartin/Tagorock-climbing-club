@@ -1,9 +1,9 @@
 import useTranslation from 'next-translate/useTranslation';    
 import Nav from '../components/Nav/Nav';
-import HeroTemplate from '../components/HeroTemplate/HeroTemplate';
-import SectionTemplate from '@components/SectionTemplate/SectionTemplate';
-import SocialBanner from '../components/SocialBanner/SocialBanner';
-import SectionTemplateInverted from '../components/SectionTemplateInverted/SectionTemplateInverted';
+// import HeroTemplate from '../components/HeroTemplate/HeroTemplate';
+// import SectionTemplate from '@components/SectionTemplate/SectionTemplate';
+// import SocialBanner from '../components/SocialBanner/SocialBanner';
+// import SectionTemplateInverted from '../components/SectionTemplateInverted/SectionTemplateInverted';
 
 
 // import escaladoras from '../public/images/2escaladoras.jpg';
