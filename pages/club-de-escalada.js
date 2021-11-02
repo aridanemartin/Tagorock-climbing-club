@@ -16,14 +16,14 @@ const ClubDeEscalada = () => {
     return ( 
         <>
         <Nav/>  
-        <HeroTemplate
+        {/* <HeroTemplate
             image={escuela}
             alt="Tagorock - Escuela Infantil de Escalada"
             title1={t('club-de-escalada:heroTitle1-a')}
             title2={t('club-de-escalada:heroTitle1-b')}
-        />
+        /> */}
         <SocialBanner/>
-        {/* <SectionTemplate
+        <SectionTemplate
             image={escuela}
             title1={t('club-de-escalada:escuelaDeEscaladaTitle1')}
             title2={t('club-de-escalada:escuelaDeEscaladaTitle1')}
@@ -41,7 +41,7 @@ const ClubDeEscalada = () => {
             text2={t('club-de-escalada:formacionTecnica2')}
             url="http://www.google.es"
             buttonText="Tarifas"
-        /> */}
+        />
 
         </>
      );
