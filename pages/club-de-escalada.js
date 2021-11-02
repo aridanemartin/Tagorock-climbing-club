@@ -10,6 +10,8 @@ import SectionTemplateInverted from '../components/SectionTemplateInverted/Secti
 // import formacionTecnica from '../public/images/formacionTecnica.jpg';
 // import Club from '../../public/images/escuela.jpg';
 
+import Escuela from '../public/images/escuela.jpg';
+
 
 
 const ClubDeEscalada = () => {
@@ -19,6 +21,7 @@ const ClubDeEscalada = () => {
         <>
         <Nav/>  
         <HeroTemplate
+            img={Escuela}
             alt="Tagorock - Escuela Infantil de Escalada"
             title1={t('club-de-escalada:heroTitle1-a')}
             title2={t('club-de-escalada:heroTitle1-b')}
