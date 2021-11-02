@@ -8,7 +8,7 @@ import SectionTemplateInverted from '../components/SectionTemplateInverted/Secti
 
 // import escaladoras from '../public/images/2escaladoras.jpg';
 // import formacionTecnica from '../public/images/formacionTecnica.jpg';
-import escuela from '@images/escuela.jpg';
+import Club from '../public/images/escuela.jpg';
 
 
 const ClubDeEscalada = () => {
@@ -34,11 +34,11 @@ const ClubDeEscalada = () => {
 
         />*/}
         <SectionTemplateInverted
-            image={escuela}
             title1={t('club-de-escalada:formacionTecnicaTitle1')}
             title2={t('club-de-escalada:formacionTecnicaTitle2')}
             text1={t('club-de-escalada:formacionTecnica1')}
             text2={t('club-de-escalada:formacionTecnica2')}
+            image={Club}
             url="http://www.google.es"
             buttonText="Tarifas"
         />  
