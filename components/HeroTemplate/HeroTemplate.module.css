@@ -1,8 +1,7 @@
 
 .heroTemplateWrap{
-    padding: 1rem;
     height: 100vh;
-    filter: brightness(90%);
+    filter: brightness(90%); 
 }
 
 .heroTitle{
@@ -17,13 +16,15 @@
 
 }
 
-/* .imageWrap{
+/* Borrar? */
+
+.imageWrap{
     position: relative;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-} */
+}
 
 .heroTitle > strong {
     color: white;
