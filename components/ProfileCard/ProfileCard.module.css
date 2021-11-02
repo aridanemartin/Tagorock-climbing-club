@@ -12,9 +12,7 @@
 }
 
 @media (min-width: 768px) {
-    .imageWrap{
-        height: 50rem;
-    }
+    
 
     .profileCardWrap{
         grid-template-rows: 70% 30%;

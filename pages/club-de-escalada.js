@@ -17,7 +17,7 @@ const ClubDeEscalada = () => {
         <>
         <Nav/>  
         <HeroTemplate
-            image={escaladoras}
+            image={escuela}
         />
         <SocialBanner/>
         <SectionTemplate
