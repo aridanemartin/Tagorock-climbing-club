@@ -3,11 +3,12 @@ import Nav from '../components/Nav/Nav';
 import SocialBanner from '../components/SocialBanner/SocialBanner';
 // import HeroTemplate from '../components/HeroTemplate/HeroTemplate';
 // import SectionTemplate from '@components/SectionTemplate/SectionTemplate';
-// import SectionTemplateInverted from '../components/SectionTemplateInverted/SectionTemplateInverted';
+import SectionTemplateInverted from '../components/SectionTemplateInverted/SectionTemplateInverted';
 
 
 // import escaladoras from '../public/images/2escaladoras.jpg';
 // import formacionTecnica from '../public/images/formacionTecnica.jpg';
+import escuela from '@images/escuela.jpg';
 
 
 const ClubDeEscalada = () => {
@@ -31,7 +32,7 @@ const ClubDeEscalada = () => {
             url="http://www.google.es"
             buttonText="Tarifas"
 
-        />
+        />*/}
         <SectionTemplateInverted
             image={escuela}
             title1={t('club-de-escalada:formacionTecnicaTitle1')}
@@ -40,8 +41,8 @@ const ClubDeEscalada = () => {
             text2={t('club-de-escalada:formacionTecnica2')}
             url="http://www.google.es"
             buttonText="Tarifas"
-        /> */}
-
+        />  
+        
         </>
      );
 
