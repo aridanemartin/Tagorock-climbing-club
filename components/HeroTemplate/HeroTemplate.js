@@ -22,7 +22,7 @@ const HeroTemplate = (props) => {
             <h1 className={styles.heroTitle}>
                 {props.title1}<br/>
                 <strong>{props.title2}</strong>
-                </h1>
+            </h1>
             
         </>
     );

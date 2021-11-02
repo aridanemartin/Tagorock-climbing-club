@@ -16,11 +16,11 @@ const ClubDeEscalada = () => {
     return ( 
         <>
         <Nav/>  
-        <HeroTemplate
+        {/* <HeroTemplate
             alt="Tagorock - Escuela Infantil de Escalada"
             title1={t('club-de-escalada:heroTitle1-a')}
             title2={t('club-de-escalada:heroTitle1-b')}
-        />
+        /> */}
         <SocialBanner/>
         {/* <SectionTemplate
             image={escuela}
