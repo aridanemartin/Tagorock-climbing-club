@@ -1,7 +1,7 @@
 import useTranslation from 'next-translate/useTranslation';    
 import Nav from '../components/Nav/Nav';
 import SocialBanner from '../components/SocialBanner/SocialBanner';
-// import HeroTemplate from '../components/HeroTemplate/HeroTemplate';
+import HeroTemplate from '../components/HeroTemplate/HeroTemplate';
 import SectionTemplate from '@components/SectionTemplate/SectionTemplate';
 import SectionTemplateInverted from '../components/SectionTemplateInverted/SectionTemplateInverted';
 
@@ -18,11 +18,11 @@ const ClubDeEscalada = () => {
     return ( 
         <>
         <Nav/>  
-        {/* <HeroTemplate
+        <HeroTemplate
             alt="Tagorock - Escuela Infantil de Escalada"
             title1={t('club-de-escalada:heroTitle1-a')}
             title2={t('club-de-escalada:heroTitle1-b')}
-        /> */}
+        />
         <SocialBanner/>
         <SectionTemplate
             title1={t('club-de-escalada:escuelaDeEscaladaTitle1')}
