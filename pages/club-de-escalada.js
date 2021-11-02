@@ -2,12 +2,13 @@ import useTranslation from 'next-translate/useTranslation';
 import Nav from '../components/Nav/Nav';
 import SocialBanner from '../components/SocialBanner/SocialBanner';
 // import HeroTemplate from '../components/HeroTemplate/HeroTemplate';
-// import SectionTemplate from '@components/SectionTemplate/SectionTemplate';
+import SectionTemplate from '@components/SectionTemplate/SectionTemplate';
 import SectionTemplateInverted from '../components/SectionTemplateInverted/SectionTemplateInverted';
 
 
 // import escaladoras from '../public/images/2escaladoras.jpg';
 // import formacionTecnica from '../public/images/formacionTecnica.jpg';
+// import Club from '../../public/images/escuela.jpg';
 
 
 
@@ -23,8 +24,7 @@ const ClubDeEscalada = () => {
             title2={t('club-de-escalada:heroTitle1-b')}
         /> */}
         <SocialBanner/>
-        {/* <SectionTemplate
-            image={escuela}
+        <SectionTemplate
             title1={t('club-de-escalada:escuelaDeEscaladaTitle1')}
             title2={t('club-de-escalada:escuelaDeEscaladaTitle1')}
             text1={t('club-de-escalada:escuelaDeEscalada1')}
@@ -32,7 +32,7 @@ const ClubDeEscalada = () => {
             url="http://www.google.es"
             buttonText="Tarifas"
 
-        />*/}
+        />
         <SectionTemplateInverted
             title1={t('club-de-escalada:formacionTecnicaTitle1')}
             title2={t('club-de-escalada:formacionTecnicaTitle2')}

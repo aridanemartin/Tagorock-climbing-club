@@ -9,12 +9,12 @@ const SectionTemplate = (props) => {
         className={styles.sectionTemplateWrap}
         >
             <div className={styles.imageWrap}>
-                    <Image
+                    {/* <Image
                         src={props.image}
                         alt={props.alt}
                         layout="fill"
                         objectFit="cover"
-                    />
+                    /> */}
             </div>
 
             <div className={styles.textWrap}>
