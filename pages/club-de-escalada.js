@@ -7,7 +7,7 @@ import SectionTemplateInverted from '../components/SectionTemplateInverted/Secti
 
 import escuela from '../public/images/escuela.jpg';
 import escaladoras from '../public/images/2escaladoras.jpg';
-import formacionTecnica from '../public/images/formacionTecnica3.jpg';
+import formacionTecnica from '../public/images/formacionTecnica.jpg';
 
 
 const ClubDeEscalada = () => {
