@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from './HeroTemplate.module.css';
 
+import Escuela from '@images/escuela.jpg';
 
 const HeroTemplate = (props) => {
 
@@ -11,7 +12,7 @@ const HeroTemplate = (props) => {
                 <div className={styles.imageWrap}>
                     <Image
                             alt="Tagorock Mundo Vertical - Escuela de Escalada en Las Palmas de Gran Canaria / Climbing School in Las Palmas de Gran Canaria"
-                            src={props.image}
+                            src={Escuela}
                             layout="fill"
                             objectFit="cover"
                             quality={100}
