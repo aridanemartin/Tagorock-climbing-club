@@ -5,7 +5,7 @@ import SectionTemplate from '@components/SectionTemplate/SectionTemplate';
 import SocialBanner from '../components/SocialBanner/SocialBanner';
 import SectionTemplateInverted from '../components/SectionTemplateInverted/SectionTemplateInverted';
 
-// import escuela from '../public/images/escuela.jpg';
+import escuela from '../public/images/escuela.jpg';
 import escaladoras from '../public/images/2escaladoras.jpg';
 import formacionTecnica from '../public/images/formacionTecnica3.jpg';
 
@@ -24,7 +24,7 @@ const ClubDeEscalada = () => {
         />
         <SocialBanner/>
         <SectionTemplate
-            image={escaladoras}
+            image={escuela}
             title1={t('club-de-escalada:escuelaDeEscaladaTitle1')}
             title2={t('club-de-escalada:escuelaDeEscaladaTitle1')}
             text1={t('club-de-escalada:escuelaDeEscalada1')}
