@@ -5,7 +5,7 @@ import SectionTemplate from '@components/SectionTemplate/SectionTemplate';
 import SocialBanner from '../components/SocialBanner/SocialBanner';
 import SectionTemplateInverted from '../components/SectionTemplateInverted/SectionTemplateInverted';
 
-import Escuela from '../public/images/escuela.jpg';
+import Escuela from '@images/escuela.jpg';
 // import escaladoras from '../public/images/2escaladoras.jpg';
 // import formacionTecnica from '../public/images/formacionTecnica.jpg';
 

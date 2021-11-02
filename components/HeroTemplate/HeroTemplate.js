@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from './HeroTemplate.module.css';
 
+
 const HeroTemplate = (props) => {
 
     
