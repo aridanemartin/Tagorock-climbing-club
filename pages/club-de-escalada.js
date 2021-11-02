@@ -1,8 +1,8 @@
 import useTranslation from 'next-translate/useTranslation';    
 import Nav from '../components/Nav/Nav';
+import SocialBanner from '../components/SocialBanner/SocialBanner';
 // import HeroTemplate from '../components/HeroTemplate/HeroTemplate';
 // import SectionTemplate from '@components/SectionTemplate/SectionTemplate';
-// import SocialBanner from '../components/SocialBanner/SocialBanner';
 // import SectionTemplateInverted from '../components/SectionTemplateInverted/SectionTemplateInverted';
 
 
