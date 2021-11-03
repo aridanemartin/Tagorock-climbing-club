@@ -4,6 +4,7 @@ import SocialBanner from '../components/SocialBanner/SocialBanner';
 import HeroTemplate from '../components/HeroTemplate/HeroTemplate';
 import SectionTemplate from '@components/SectionTemplate/SectionTemplate';
 import SectionTemplateInverted from '../components/SectionTemplateInverted/SectionTemplateInverted';
+import Footer from '@components/Footer/Footer';
 
 
 const ClubDeEscalada = () => {
@@ -11,7 +12,8 @@ const ClubDeEscalada = () => {
 
     const escaladoras = require('../public/images/2escaladoras.jpg');
     const formacionTecnica = require('../public/images/formacionTecnica.jpg');
-    const escuela = require('../public/images/formacionTecnica2.JPG');
+    const escuela = require('../public/images/escuela.webp');
+    const guiaDeMontana = require('../public/images/guiaDeMontana.webp');
 
     return ( 
         <>
@@ -40,7 +42,17 @@ const ClubDeEscalada = () => {
                 text2={t('club-de-escalada:formacionTecnica2')}
                 url="http://www.google.es"
                 buttonText="Tarifas"
-            />     
+            />    
+            <SectionTemplate
+                image={guiaDeMontana}
+                title1={t('club-de-escalada:escuelaDeEscaladaTitle1')}
+                title2={t('club-de-escalada:escuelaDeEscaladaTitle1')}
+                text1={t('club-de-escalada:escuelaDeEscalada1')}
+                text2={t('club-de-escalada:escuelaDeEscalada2')}
+                url="http://www.google.es"
+                buttonText="Tarifas"
+            />
+            <Footer/>
         </>
      );
 
