@@ -16,7 +16,7 @@ const Servicios = (props) => {
                 <p className={styles.serviciosParrafo}>{props.text}</p>
                 <Button 
                 title="Saber más"
-                url="/"
+                url="/servicios-profesionales"
                 />
             </div>
         </div>

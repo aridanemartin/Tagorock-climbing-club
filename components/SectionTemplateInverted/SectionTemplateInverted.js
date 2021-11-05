@@ -24,6 +24,7 @@ const SectionTemplateInverted = (props) => {
                 {props.text1}
                 <br/><br/> 
                 {props.text2}
+                <br/><br/> 
                 </p>
                 <div className={styles.buttonWrap}>
                         <BlueButton

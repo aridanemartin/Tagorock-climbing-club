@@ -13,7 +13,7 @@ const Nav = () => {
     router.locale === 'en'
     ?   ["Our Team", "Climbing Club", "Professional Services", "Contact"]
     : router.locale === 'es'
-    ? ["Quiénes somos", "Club de Escalada", "Servicios Profesionales", "Contacto"] : "";
+    ? ["Inicio", "Club de Escalada", "Servicios Profesionales", "Contacto"] : "";
 
     return ( 
     <>    

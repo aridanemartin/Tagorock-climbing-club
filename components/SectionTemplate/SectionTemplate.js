@@ -7,6 +7,7 @@ const SectionTemplate = (props) => {
     return ( 
         <div 
         className={styles.sectionTemplateWrap}
+        id={props.id}
         >
             <div className={styles.imageWrap}>
                     <Image
@@ -23,7 +24,7 @@ const SectionTemplate = (props) => {
                 {props.text1}
                 <br/><br/> 
                 {props.text2}
-                <br/><br/> 
+                <br/><br/>
                 </p>
                 <div className={styles.buttonWrap}>
                     <BlueButton

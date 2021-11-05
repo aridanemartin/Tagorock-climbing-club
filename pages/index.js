@@ -43,7 +43,7 @@ const Index = () => {
                     <div className={styles.buttonDiv}>
                         <BlueButton 
                         title="Conoce a nuestro equipo"
-                        url="/"
+                        url="#equipo"
                         />
                     </div>
                 </div>
@@ -60,6 +60,7 @@ const Index = () => {
             />
 
             <Separador
+            id="equipo"
             title={t('index:separador1')} 
             />     
 

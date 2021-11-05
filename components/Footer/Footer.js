@@ -20,10 +20,10 @@ const Footer = () => {
                 <h3 className={styles.footerMenuTitle}>MENU</h3>
 
                 <Link href='/'>
-                    <a className={styles.primaryLink}>QUIÉNES SOMOS</a>
+                    <a className={styles.primaryLink}>INICIO</a>
                 </Link>
-                <Link href='/'>
-                    <a className={styles.primaryLink}>CENTRO DE ESCALADA</a>
+                <Link href='/club-de-escalada'>
+                    <a className={styles.primaryLink}>CLUB DE ESCALADA</a>
                 </Link>
                 <Link href='/'>
                     <a className={styles.secondaryLink}>- Escuela Infantil y de Adultos</a>
@@ -34,7 +34,7 @@ const Footer = () => {
                 <Link href='/'>
                     <a className={styles.secondaryLink}>- Guía de Montaña y Escalada</a>
                 </Link>
-                <Link href='/'>
+                <Link href='/servicios-profesionales'>
                     <a className={styles.primaryLink}>SERVICIOS PROFESIONALES</a>
                 </Link>
                 <Link href='/'>
@@ -128,7 +128,7 @@ const Footer = () => {
             <div className={styles.footerContactWrap}>
                     <h3 className={styles.contactTitle}>CONTACTO</h3>
                     <Link 
-                    href="mailto:roshninutricion@gmail.com?subject=Solicitud%20de%20cita:">
+                    href="mailto:tagorockmundovertical@gmail.com?subject=Solicitud%20de%20cita:">
                         <a className={styles.contactEmailWrap}>
                             <div className={styles.contactEmailLogo}>
                                 <Image 
@@ -136,12 +136,12 @@ const Footer = () => {
                                 alt="gmail"
                                 />
                             </div>
-                            <p className={styles.contactEmail}>tagorock@gmail.com</p>
+                            <p className={styles.contactEmail}>tagorockmundovertical@gmail.com</p>
                         </a>
                     </Link>
                     <Link 
                     href='/'>
-                        <a className={styles.contactWhatsappWrap} target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=34644011842">
+                        <a className={styles.contactWhatsappWrap} target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=34628020152">
                             <div className={styles.contactWhatsappLogo}>
                                 <Image 
                                 src={Whatsapp} 

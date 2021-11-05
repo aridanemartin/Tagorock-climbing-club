@@ -31,7 +31,7 @@ const Servicios = (props) => {
                 <p className={styles.serviciosParrafo}>{props.text}</p>
                 <Button 
                 title="Saber Más"
-                url="/"
+                url="/club-de-escalada#escuela"
                 />
             </div>
         </div>

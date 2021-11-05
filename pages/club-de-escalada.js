@@ -14,18 +14,20 @@ const ClubDeEscalada = () => {
     const formacionTecnica = require('../public/images/formacionTecnica.jpg');
     const escuela = require('../public/images/escuela.webp');
     const guiaDeMontana = require('../public/images/guiaDeMontana.webp');
+    const portada = require('../public/images/exito3.jpg');
 
     return ( 
         <>
             <Nav/>  
             <HeroTemplate
-                image={escaladoras}
+                image={portada}
                 alt="Tagorock - Escuela Infantil de Escalada"
                 title1={t('club-de-escalada:heroTitle1-a')}
                 title2={t('club-de-escalada:heroTitle1-b')}
             />
             <SocialBanner/>
             <SectionTemplate
+                id="escuela"
                 image={escuela}
                 title1={t('club-de-escalada:escuelaDeEscaladaTitle1')}
                 title2={t('club-de-escalada:escuelaDeEscaladaTitle1')}

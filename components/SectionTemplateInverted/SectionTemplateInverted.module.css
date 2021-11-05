@@ -6,6 +6,7 @@
     grid-template-areas: "texto foto";
 
     padding: 1rem;
+    text-align:justify;
 }
 
 
@@ -50,7 +51,13 @@
 
     .title{
         font-size: 2rem;
+        text-align: center;
     }
+
+    .text{
+        padding-bottom: 0rem;
+    }
+
 
     .textWrap{
         padding: 0rem;
