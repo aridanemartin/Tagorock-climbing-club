@@ -10,7 +10,7 @@ import Footer from '@components/Footer/Footer';
 const serviciosProfesionales = () => {
     let { t } = useTranslation();
 
-    const portada = require('../public/images/serviciosProfesionales2.jpg');
+    const serviciosProfesionales = require('../public/images/serviciosProfesionales2.jpg');
     const trabajosTecnicosEnMontana = require('../public/images/TrabajosTecnicosEnMontana.jpg');
     const trabajosTecnicosEnMontana2 = require('../public/images/TrabajosTecnicosEnMontana2.jpg');
     const arqueologiaVertical = require('../public/images/arqueologiaVertical.jpg');
@@ -36,7 +36,7 @@ const serviciosProfesionales = () => {
                 buttonText="Tarifas"
             />
             <SectionTemplateInverted
-                image={portada}
+                image={serviciosProfesionales}
                 title1={t('club-de-escalada:formacionTecnicaTitle1')}
                 title2={t('club-de-escalada:formacionTecnicaTitle2')}
                 text1={t('club-de-escalada:formacionTecnica1')}
