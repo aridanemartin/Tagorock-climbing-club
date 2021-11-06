@@ -10,7 +10,7 @@ import Footer from '@components/Footer/Footer';
 const serviciosProfesionales = () => {
     let { t } = useTranslation();
 
-    const serviciosProfesionales = require('../public/images/serviciosProfesionales2.jpg');
+    const serviciosProfesionales = require('../public/images/serviciosProfesionales.jpg');
     const trabajosTecnicosEnMontana = require('../public/images/TrabajosTecnicosEnMontana.jpg');
     const trabajosTecnicosEnMontana2 = require('../public/images/TrabajosTecnicosEnMontana2.jpg');
     const arqueologiaVertical = require('../public/images/arqueologiaVertical.jpg');
