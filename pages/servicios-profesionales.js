@@ -6,10 +6,10 @@ import SectionTemplate from '@components/SectionTemplate/SectionTemplate';
 import SectionTemplateInverted from '../components/SectionTemplateInverted/SectionTemplateInverted';
 import Footer from '@components/Footer/Footer';
 
-import serviciosP from '../public/images/serviciosProfesionales.jpg';
-import trabajos1 from '../public/images/TrabajosTecnicosEnMontana.jpg';
-import trabajos2 from '../public/images/TrabajosTecnicosEnMontana2.jpg';
-import arq from '../public/images/arqueologiaVertical.jpg';
+// import serviciosP from '../public/images/serviciosProfesionales.jpg';
+// import trabajos1 from '../public/images/TrabajosTecnicosEnMontana.jpg';
+// import trabajos2 from '../public/images/TrabajosTecnicosEnMontana2.jpg';
+// import arq from '../public/images/arqueologiaVertical.jpg';
 
 
 const serviciosProfesionales = () => {
