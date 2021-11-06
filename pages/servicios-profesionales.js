@@ -11,9 +11,10 @@ const serviciosProfesionales = () => {
     let { t } = useTranslation();
 
     const portada = require('../public/images/escaleraCentered.jpg');
-    const formacionTecnica = require('../public/images/formacionTecnica.jpg');
+    const trabajosTecnicos = require('../public/images/cuerda.jpg');
+    const trabajosLocales = require('../public/images/trabajosLocales.jpg');
     const escuela = require('../public/images/escuela.webp');
-    const guiaDeMontana = require('../public/images/guiaDeMontana.webp');
+    const arq = require('../public/images/arqueologia.jpg');
     const taladro = require('../public/images/serviciosProfesionales.webp');
     const rocodromos = require('../public/images/gestionDeRocodromos.jpg');
     
@@ -30,7 +31,7 @@ const serviciosProfesionales = () => {
             <SocialBanner/>
             <SectionTemplate
                 id="escuela"
-                image={escuela}
+                image={trabajosTecnicos}
                 title1={t('servicios-profesionales:trabajosTecnicosTitle1')}
                 title2={t('servicios-profesionales:trabajosTecnicosTitle2')}
                 text1={t('servicios-profesionales:trabajosTecnicos1')}
@@ -39,7 +40,7 @@ const serviciosProfesionales = () => {
                 buttonText="Tarifas"
             />
             <SectionTemplateInverted
-                image={formacionTecnica}
+                image={trabajosLocales}
                 title1={t('servicios-profesionales:trabajosLocalesTitle1')}
                 title2={t('servicios-profesionales:trabajosLocalesTitle2')}
                 text1={t('servicios-profesionales:trabajosLocales1')}
@@ -48,7 +49,7 @@ const serviciosProfesionales = () => {
                 buttonText="Tarifas"
             />    
             <SectionTemplate
-                image={guiaDeMontana}
+                image={arq}
                 title1={t('servicios-profesionales:arqueologiaVerticalTitle1')}
                 title2={t('servicios-profesionales:arqueologiaVerticalTitle2')}
                 text1={t('servicios-profesionales:arqueologiaVertical1')}
