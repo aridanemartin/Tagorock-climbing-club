@@ -13,7 +13,7 @@ const serviciosProfesionales = () => {
     const formacionTecnica = require('../public/images/formacionTecnica.jpg');
     const escuela = require('../public/images/escuela.webp');
     const guiaDeMontana = require('../public/images/guiaDeMontana.webp');
-    const portada = require('../public/images/2escaladoras.jpg');
+    const portada = require('../public/images/escaleraCentered.jpg');
 
     return ( 
         <>
