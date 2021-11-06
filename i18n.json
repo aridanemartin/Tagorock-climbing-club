@@ -4,6 +4,7 @@
     "pages": {
         "/":["index"],
         "/club-de-escalada":["club-de-escalada"],
+        "/servicios-profesionales":["servicios-profesionales"],
         "/contacto":["contacto"],
         "*": ["common"]
     }
