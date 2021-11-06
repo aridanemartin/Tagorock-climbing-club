@@ -1,6 +1,6 @@
 
 .heroTemplateWrap{
-    height: 100vh;
+    height: 40rem;
     filter: brightness(80%); 
 }
 
@@ -48,7 +48,7 @@
     }
     
     .heroTemplateWrap{
-        height: 80vh;
+        height: 70vh;
         filter: brightness(70%);
     }
 }

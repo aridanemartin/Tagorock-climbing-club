@@ -10,11 +10,10 @@ import Footer from '@components/Footer/Footer';
 const ClubDeEscalada = () => {
     let { t } = useTranslation();
 
-    const escaladoras = require('../public/images/2escaladoras.jpg');
     const formacionTecnica = require('../public/images/formacionTecnica.jpg');
     const escuela = require('../public/images/escuela.webp');
     const guiaDeMontana = require('../public/images/guiaDeMontana.webp');
-    const portada = require('../public/images/exito3.jpg');
+    const portada = require('../public/images/2escaladoras.jpg');
 
     return ( 
         <>
