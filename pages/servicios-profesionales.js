@@ -18,7 +18,7 @@ const serviciosProfesionales = () => {
     return ( 
         <>
             <Nav/>  
-            <HeroTemplate
+            {/* <HeroTemplate
                 image={trabajos2}
                 alt="Tagorock - Escuela Infantil de Escalada"
                 title1={t('servicios-profesionales:heroTitle1-a')}
@@ -52,7 +52,7 @@ const serviciosProfesionales = () => {
                 text2={t('club-de-escalada:guiaDeMontana2')}
                 url="http://www.google.es"
                 buttonText="Tarifas"
-            />
+            /> */}
             <Footer/>
         </>
      );
