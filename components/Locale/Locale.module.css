@@ -3,7 +3,24 @@
 }
 
 .localeText{
-    font-size: 1.2rem;
+    font-size: 2rem;
     text-transform: uppercase;
     color: white;
 }
+
+@media (max-width: 768px){
+    .locale{
+        display: flex;
+        justify-content: flex-end;
+        padding: 1rem;
+        padding-right: 2rem;
+    }
+
+    .localeText{
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+}
+

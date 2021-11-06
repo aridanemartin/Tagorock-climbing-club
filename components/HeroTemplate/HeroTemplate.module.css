@@ -4,12 +4,12 @@
     filter: brightness(80%); 
 
     height: 100vh;
-    filter: brightness(80%); 
+    filter: brightness(70%); 
 }
 
 .heroTitle{
-    color: white;
-    /* color: #0A2533; */
+    
+    color: #0A2533;
     /* color:#26627F; */
     position: absolute;
     top: 40vh;
@@ -19,7 +19,7 @@
     text-transform: uppercase;
     font-family: 'Anton', sans-serif;
 
-    /* text-shadow: 2px 2px 2px #0d3346; */
+    text-shadow: 2px 2px 2px #000000;  
 
 }
 
