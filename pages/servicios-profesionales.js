@@ -6,14 +6,14 @@ import SectionTemplate from '@components/SectionTemplate/SectionTemplate';
 import SectionTemplateInverted from '../components/SectionTemplateInverted/SectionTemplateInverted';
 import Footer from '@components/Footer/Footer';
 
+import serviciosP from '../public/images/serviciosProfesionales.jpg';
+import trabajosTecnicosEnMontana from '../public/images/TrabajosTecnicosEnMontana.jpg';
+import trabajosTecnicosEnMontana2 from '../public/images/TrabajosTecnicosEnMontana2.jpg';
+import arqueologiaVertical from '../public/images/arqueologiaVertical.jpg';
+
 
 const serviciosProfesionales = () => {
     let { t } = useTranslation();
-
-    const serviciosProfesionales = require('../public/images/serviciosProfesionales.jpg');
-    const trabajosTecnicosEnMontana = require('../public/images/TrabajosTecnicosEnMontana.jpg');
-    const trabajosTecnicosEnMontana2 = require('../public/images/TrabajosTecnicosEnMontana2.jpg');
-    const arqueologiaVertical = require('../public/images/arqueologiaVertical.jpg');
 
     return ( 
         <>
@@ -36,7 +36,7 @@ const serviciosProfesionales = () => {
                 buttonText="Tarifas"
             />
             <SectionTemplateInverted
-                image={serviciosProfesionales}
+                image={serviciosP}
                 title1={t('club-de-escalada:formacionTecnicaTitle1')}
                 title2={t('club-de-escalada:formacionTecnicaTitle2')}
                 text1={t('club-de-escalada:formacionTecnica1')}
