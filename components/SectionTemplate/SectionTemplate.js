@@ -19,7 +19,7 @@ const SectionTemplate = (props) => {
             </div>
 
             <div className={styles.textWrap}>
-                <h2 className={styles.title}>{props.title1}<br/>{props.title2}</h2>
+                <h2 className={styles.title}>Escuela de Escalada<br/> Infantil y de Adultos</h2>
                 <p className={styles.text}> 
                 {props.text1}
                 <br/><br/> 

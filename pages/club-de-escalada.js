@@ -29,7 +29,7 @@ const ClubDeEscalada = () => {
                 id="escuela"
                 image={escuela}
                 title1={t('club-de-escalada:escuelaDeEscaladaTitle1')}
-                title2={t('club-de-escalada:escuelaDeEscaladaTitle2')}
+                title2={t('club-de-escalada:escuelaDeEscaladaTitle1')}
                 text1={t('club-de-escalada:escuelaDeEscalada1')}
                 text2={t('club-de-escalada:escuelaDeEscalada2')}
                 url="http://www.google.es"
@@ -46,10 +46,10 @@ const ClubDeEscalada = () => {
             />    
             <SectionTemplate
                 image={guiaDeMontana}
-                title1={t('club-de-escalada:guiaDeMontanaTitle1')}
-                title2={t('club-de-escalada:guiaDeMontanaTitle2')}
-                text1={t('club-de-escalada:guiaDeMontana1')}
-                text2={t('club-de-escalada:guiaDeMontana2')}
+                title1={t('club-de-escalada:escuelaDeEscaladaTitle1')}
+                title2={t('club-de-escalada:escuelaDeEscaladaTitle1')}
+                text1={t('club-de-escalada:escuelaDeEscalada1')}
+                text2={t('club-de-escalada:escuelaDeEscalada2')}
                 url="http://www.google.es"
                 buttonText="Tarifas"
             />
