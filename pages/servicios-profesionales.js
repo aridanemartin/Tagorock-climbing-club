@@ -7,9 +7,9 @@ import SectionTemplateInverted from '../components/SectionTemplateInverted/Secti
 import Footer from '@components/Footer/Footer';
 
 import serviciosP from '../public/images/serviciosProfesionales.jpg';
-import trabajosTecnicosEnMontana from '../public/images/TrabajosTecnicosEnMontana.jpg';
-import trabajosTecnicosEnMontana2 from '../public/images/TrabajosTecnicosEnMontana2.jpg';
-import arqueologiaVertical from '../public/images/arqueologiaVertical.jpg';
+import trabajos1 from '../public/images/TrabajosTecnicosEnMontana.jpg';
+import trabajos2 from '../public/images/TrabajosTecnicosEnMontana2.jpg';
+import arq from '../public/images/arqueologiaVertical.jpg';
 
 
 const serviciosProfesionales = () => {
@@ -19,7 +19,7 @@ const serviciosProfesionales = () => {
         <>
             <Nav/>  
             <HeroTemplate
-                image={trabajosTecnicosEnMontana2}
+                image={trabajos2}
                 alt="Tagorock - Escuela Infantil de Escalada"
                 title1={t('servicios-profesionales:heroTitle1-a')}
                 title2={t('servicios-profesionales:heroTitle1-b')}
@@ -27,7 +27,7 @@ const serviciosProfesionales = () => {
             <SocialBanner/>
             <SectionTemplate
                 id="escuela"
-                image={trabajosTecnicosEnMontana}
+                image={trabajos1}
                 title1={t('servicios-profesionales:trabajosTecnicosEnMontanaTitle1')}
                 title2={t('servicios-profesionales:trabajosTecnicosEnMontanaTitle2')}
                 text1={t('servicios-profesionales:trabajosTecnicosEnMontana1')}
@@ -45,7 +45,7 @@ const serviciosProfesionales = () => {
                 buttonText="Tarifas"
             />    
             <SectionTemplate
-                image={arqueologiaVertical}
+                image={arq}
                 title1={t('club-de-escalada:guiaDeMontanaTitle1')}
                 title2={t('club-de-escalada:guiaDeMontanaTitle2')}
                 text1={t('club-de-escalada:guiaDeMontana1')}
