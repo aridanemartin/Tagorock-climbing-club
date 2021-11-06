@@ -1,4 +1,4 @@
-import Nav from '@components/nav/Nav';
+import Nav from '../components/nav/Nav';
 import SocialBanner from '../components/SocialBanner/SocialBanner';
 import Footer from '../components/Footer/Footer';
 
