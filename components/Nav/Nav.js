@@ -4,6 +4,13 @@ import { useRouter } from 'next/router';
 import Locale from '../../components/Locale/Locale';
 import styles from './Nav.module.css';
 import { useState } from 'react';
+import Image from 'next/image';
+
+
+import Logo from '../../public/images/logoHorizontalBlanco.png';
+import Instagram from '../../public/images/instagram.webp';
+import Facebook from '../../public/images/facebook.webp';
+import Youtube from '../../public/images/youtube.webp';
 
 const Nav = () => {
 
@@ -18,31 +25,14 @@ const Nav = () => {
     : router.locale === 'es'
     ? ["Inicio", "Club de Escalada", "Servicios Profesionales", "Contacto"] : "";
 
-    function handleShow() {
-        const toggleButton = document.querySelector('.burger');
-        const menu = document.querySelector('.nav__menu');
-        
-        if(toggleButton
-            .classList.contains('open')){
-        toggleButton.classList.remove('open');
-        menu.classList.add('hide');
-        window.removeEventListener('scroll', noScroll);
-        }else{
-        toggleButton.classList.add('open');
-        menu.classList.add('show');
-        menu.classList.remove('hide');
-        window.addEventListener('scroll', noScroll);
-        }
-    }
-
-    const hamburgerTransform = () => setIsOpen(!isOpen);
+    const toggle = () => setIsOpen(!isOpen);
 
     return ( 
     <>    
         <nav className={styles.navWrap}>
             <button 
-            onClick={hamburgerTransform} 
-            className={isOpen === false ? styles.burger : styles.burger + ' ' + styles.open}
+            onClick={toggle} 
+            className={isOpen === false ? styles.burger : styles.burger + ' ' + styles.open + ' ' + styles.burgerOpen}
             id="burger"
             >
                 <span></span>
@@ -54,28 +44,95 @@ const Nav = () => {
             <div className={isOpen === false ? styles.nav : styles.nav + ' ' + styles.navOpen}>
                 
                 <Locale/>
+                <div className={isOpen === false ? styles.navLogoWrap : styles.navLogoWrap + ' ' + styles.navLogoWrapEffect}>
+                    <Image
+                        src={Logo}
+                        placeholder="blur"
+                        layout="responsive"
+                        width={3264}
+                        height={695}
+                    ></Image>
+                </div>
                 <ul className={styles.navContent}>
-                    <li className={styles.navLinkWrap}>
-                        <Link href="/">
+                    <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap1}>
+                        <Link 
+                        href="/"
+                        >
                             <a className={styles.navLink}>{menuText[0]}</a>
                         </Link>
                     </li>
-                    <li className={styles.navLinkWrap}>
-                        <Link href="/club-de-escalada">
+                    <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap2}>
+                        <Link 
+                        href="/club-de-escalada"
+                        >
                             <a className={styles.navLink}>{menuText[1]}</a>
                         </Link>
                     </li>
-                    <li className={styles.navLinkWrap}>
-                        <Link href="/servicios-profesionales">
+                    <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap3}>
+                        <Link 
+                        href="/servicios-profesionales"
+                        >
                             <a className={styles.navLink}>{menuText[2]}</a>
                         </Link>  
                     </li>
-                    <li className={styles.navLinkWrap}>
-                        <Link href="/contacto">
+                    <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap4}>
+                        <Link 
+                        href="/contacto"
+                        >
                             <a className={styles.navLink}>{menuText[3]}</a>
                         </Link>
                     </li>
                 </ul>
+
+                <div className={styles.navSocialWrap}>
+                
+                <div className={isOpen === false ? styles.socialBanner : styles.socialBanner + ' ' + styles.socialBannerEffect}>
+                    <div className={styles.socialBannerLinkWrap}>
+                        <Link 
+                        href="https://www.instagram.com/tagorockmundovertical/?hl=es"
+                        >
+                            <a className={styles.socialBannerLink} target="_blank">
+                                <Image 
+                                src={Instagram}
+                                layout="fixed"
+                                width={35}
+                                height={35}
+                                className={styles.socialBannerLink}
+                                />
+                            </a>       
+                        </Link>
+                    </div>
+                    <div className={styles.socialBannerLinkWrap}>
+                        <Link 
+                        href="https://www.facebook.com/sala.tagorock"
+                        >
+                            <a className={styles.socialBannerLink} target="_blank">
+                                <Image 
+                                src={Facebook}
+                                layout="fixed"
+                                width={40}
+                                height={40}
+                                />
+                            </a>       
+                        </Link>
+                    </div>
+                    <div className={styles.socialBannerLinkWrap}>
+                        <Link 
+                        href="https://www.youtube.com/channel/UCp71gyByJMd82XcQZmWi2HQ/videos"
+                        >
+                            <a className={styles.socialBannerLink} target="_blank">
+                                <Image 
+                                src={Youtube}
+                                layout="fixed"
+                                width={40}
+                                height={40}
+                                className={styles.socialBannerLink}
+                                />
+                            </a>       
+                        </Link>
+                    </div>
+                </div>
+            </div>
             </div>
         </nav>
     </>
