@@ -10,6 +10,7 @@ import Faq from '../components/Faq/Faq';
 import Footer from '../components/Footer/Footer';
 import Nav from '../components/Nav/Nav';
 import BlueButton from '@components/BlueButton/BlueButton';
+import { motion } from 'framer-motion';
 
 import styles from './index.module.css';
 import ComoLlegar from '@components/ComoLlegar/ComoLlegar';
@@ -25,28 +26,37 @@ const Index = () => {
             <Hero/>
             <SocialBanner />
             
-                <div className={styles.introWrap}> 
-                    <h1 className={styles.introTitle}>
-                        {t('index:introTitle1')}
-                        <span className={styles.blueText}>{t('index:introTitle2')}</span><br/>
-                        {t('index:introTitle3')}
-                        <span className={styles.blueText}>{t('index:introTitle4')}</span>
-                    </h1>
-                    <p className={styles.introText}>
-                        <span className={styles.negrita}>{t('index:introText1')}</span>
-                        {t('index:introText2')}
-                        <br/><br/>
-                        {t('index:introText3')}
-                        <span className={styles.negrita}>{t('index:introText4')}</span>
-                        {t('index:introText5')}
-                    </p>
-                    <div className={styles.buttonDiv}>
-                        <BlueButton 
-                        title="Conoce a nuestro equipo"
-                        url="#equipo"
-                        />
-                    </div>
-                </div>
+            <div
+                className={styles.introWrap}
+            > 
+                    <motion.div
+                    // animate={{ opacity: 1, y: 0 }}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.7 }}
+                    >
+                        <h1 className={styles.introTitle}>
+                            {t('index:introTitle1')}
+                            <span className={styles.blueText}>{t('index:introTitle2')}</span><br/>
+                            {t('index:introTitle3')}
+                            <span className={styles.blueText}>{t('index:introTitle4')}</span>
+                        </h1>
+                        <p className={styles.introText}>
+                            <span className={styles.negrita}>{t('index:introText1')}</span>
+                            {t('index:introText2')}
+                            <br/><br/>
+                            {t('index:introText3')}
+                            <span className={styles.negrita}>{t('index:introText4')}</span>
+                            {t('index:introText5')}
+                        </p>
+                        <div className={styles.buttonDiv}>
+                            <BlueButton 
+                            title="Conoce a nuestro equipo"
+                            url="#equipo"
+                            />
+                        </div>
+                    </motion.div>
+            </div>
             
             
             <Servicios 

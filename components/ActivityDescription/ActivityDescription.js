@@ -1,9 +1,10 @@
-import styles from './SectionTemplate.module.css';
+import styles from './ActivityDescription.module.css';
+
 import Image from 'next/image';
 import BlueButton from '@components/BlueButton/BlueButton';
 import { motion } from 'framer-motion';
 
-const SectionTemplate = (props) => {
+const ActivityDescription = (props) => {
     
     return ( 
         <motion.div
@@ -13,7 +14,7 @@ const SectionTemplate = (props) => {
                 transition={{ duration: 0.7 }}
             >
         <div 
-        className={styles.sectionTemplateWrap}
+        className={styles.activityDescriptionWrap}
         id={props.id}
         >
             
@@ -34,16 +35,7 @@ const SectionTemplate = (props) => {
                         <br/><br/> 
                         {props.text2}
                         <br/><br/>
-                        </p>
-                    
-
-                    <div className={styles.buttonWrap}>
-                        <BlueButton
-                            title={props.buttonText}
-                            url={props.url}
-                        />
-                    </div>
-                    
+                        </p>                    
                 </div>
             
         </div>
@@ -51,4 +43,4 @@ const SectionTemplate = (props) => {
     );
 }
 
-export default SectionTemplate;
+export default ActivityDescription;

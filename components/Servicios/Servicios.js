@@ -2,6 +2,7 @@ import styles from './Servicios.module.css';
 import useTranslation from 'next-translate/useTranslation';
 import Link from 'next/link';
 import Button from '../Button/Button';
+import { motion } from 'framer-motion';
 
 const Servicios = (props) => {
 
@@ -12,7 +13,14 @@ const Servicios = (props) => {
         className={styles.serviciosWrap}
         >
         
-            <div className={styles.serviciosContent}>
+             
+            <motion.div
+                // animate={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.7 }}
+                className={styles.serviciosContent}
+            >
                 <h2 className={styles.serviciosTitle}>{props.title}</h2>
                 <p className={styles.serviciosLinks}>
                 <Link href="/">
@@ -33,7 +41,7 @@ const Servicios = (props) => {
                 title="Saber Más"
                 url="/club-de-escalada#escuela"
                 />
-            </div>
+            </motion.div>
         </div>
 
 

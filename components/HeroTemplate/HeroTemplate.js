@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styles from './HeroTemplate.module.css';
+import { motion, AnimatePresence } from "framer-motion"
 
 const HeroTemplate = (props) => {
 
@@ -16,10 +17,17 @@ const HeroTemplate = (props) => {
                     />
                 </div>
             </div>
-            <h1 className={styles.heroTitle}>
-                {props.title1}<br/>
-                <strong>{props.title2}</strong>
-            </h1>
+            <AnimatePresence exitBeforeEnter>
+                    <motion.h1 
+                    animate={{ opacity: 1, y: 0 }}
+                    initial={{ opacity: 0, y: 20 }}
+                    exit={{ opacity: 0, y: -20 }}
+                    transition={{ duration: 0.7 }}
+                    className={styles.heroTitle}>
+                        {props.title1}<br/>
+                        <strong>{props.title2}</strong>
+                    </motion.h1>
+            </AnimatePresence>
             
         </>
     );

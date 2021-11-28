@@ -32,8 +32,8 @@ const ClubDeEscalada = () => {
                 title2={t('club-de-escalada:escuelaDeEscaladaTitle2')}
                 text1={t('club-de-escalada:escuelaDeEscalada1')}
                 text2={t('club-de-escalada:escuelaDeEscalada2')}
-                url="http://www.google.es"
-                buttonText="Tarifas"
+                url="club-de-escalada/escuela-de-escalada"
+                buttonText="saber más"
             />
             <SectionTemplateInverted
                 image={formacionTecnica}
