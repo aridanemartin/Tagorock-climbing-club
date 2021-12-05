@@ -21,8 +21,8 @@ export default function EscuelaDeEscalada (){
             <HeroTemplate
                 image={escuela}
                 alt="Tagorock - Escuela Infantil de Escalada"
-                title1={t('club-de-escalada:heroTitle1-a')}
-                title2={t('club-de-escalada:heroTitle1-b')}
+                title1={t('escuela-de-escalada:heroTitle1-a')}
+                title2={t('escuela-de-escalada:heroTitle1-b')}
             />
             <SocialBanner/>
 
@@ -30,22 +30,19 @@ export default function EscuelaDeEscalada (){
             <ActivityDescription
                 id="escuela"
                 image={escuela2}
-                // title1={t('club-de-escalada:escuelaDeEscaladaTitle1')}
-                // title2={t('club-de-escalada:escuelaDeEscaladaTitle2')}
-                // text1={t('club-de-escalada:escuelaDeEscalada1')}
-                // text2={t('club-de-escalada:escuelaDeEscalada2')}
-                text1="lorem asl;dfkasdjfkl;jasd fkl;asdjf;l kasdjfl;kasdjf;lkasdjf;klasdjf;lasdkjfl;asdkf j;lasdjkfl;asdkjfl;asdjf;asdlkj asdklfj;asdlkfjasdl;fkja;sdlkfjasl;dfkjasdf;"
-                url="club-de-escalada/escuela-de-escalada"
-                buttonText="saber más"
+                title1={t('escuela-de-escalada:escuelaDeEscaladaTitle1')}
+                title2={t('escuela-de-escalada:escuelaDeEscaladaTitle2')}
+                text1={t('escuela-de-escalada:escuelaDeEscalada1')}
+                text2={t('escuela-de-escalada:escuelaDeEscalada2')}
+                side="right"
             />
             <ActivityDescription
                 image={escuela3}
-                title1={t('club-de-escalada:formacionTecnicaTitle1')}
-                title2={t('club-de-escalada:formacionTecnicaTitle2')}
-                text1={t('club-de-escalada:formacionTecnica1')}
-                text2={t('club-de-escalada:formacionTecnica2')}
-                url="http://www.google.es"
-                buttonText="Tarifas"
+                title1={t('escuela-de-escalada:escuelaDeEscaladaTitle3')}
+                title2={t('escuela-de-escalada:escuelaDeEscaladaTitle4')}
+                text1={t('escuela-de-escalada:escuelaDeEscalada3')}
+                text2={t('escuela-de-escalada:escuelaDeEscalada4')}
+                side="left"
             />    
             <Precios/>            
             <Footer/>

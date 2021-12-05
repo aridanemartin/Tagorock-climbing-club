@@ -1,20 +1,21 @@
 import styles from './ActivityDescription.module.css';
-
+import { useState } from 'react';
 import Image from 'next/image';
-import BlueButton from '@components/BlueButton/BlueButton';
 import { motion } from 'framer-motion';
 
 const ActivityDescription = (props) => {
-    
+
     return ( 
+        
         <motion.div
-                // animate={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7 }}
             >
         <div 
-        className={styles.activityDescriptionWrap}
+        className={
+            `styles.activityDescriptionWrap ${props.side === 'right' ? styles.right : styles.left}`
+        }
         id={props.id}
         >
             

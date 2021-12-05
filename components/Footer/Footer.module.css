@@ -4,10 +4,12 @@
     grid-template-areas: "menu social contact";
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #0A2533;
-    padding: 2rem;
+    padding: 4rem 2rem;
 }
 
 .footerMenu{
+
+    margin-left: 5rem;
     grid-area: menu;
     display: flex;
     flex-direction: column;
@@ -129,7 +131,7 @@
 
 
 
-@media (max-width: 768px){
+@media (max-width: 1000px){
     .footerMenu{
         display: none;
     }

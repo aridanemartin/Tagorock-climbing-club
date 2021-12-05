@@ -13,13 +13,13 @@ const ClubDeEscalada = () => {
     const formacionTecnica = require('../public/images/formacionTecnica.jpg');
     const escuela = require('../public/images/escuela.webp');
     const guiaDeMontana = require('../public/images/guiaDeMontana.webp');
-    const portada = require('../public/images/2escaladoras.jpg');
+    const portada = require('../public/images/portadaClub.jpg');
 
     return ( 
         <>
             <Nav/>  
             <HeroTemplate
-                image={formacionTecnica}
+                image={portada}
                 alt="Tagorock - Escuela Infantil de Escalada"
                 title1={t('club-de-escalada:heroTitle1-a')}
                 title2={t('club-de-escalada:heroTitle1-b')}
@@ -41,8 +41,8 @@ const ClubDeEscalada = () => {
                 title2={t('club-de-escalada:formacionTecnicaTitle2')}
                 text1={t('club-de-escalada:formacionTecnica1')}
                 text2={t('club-de-escalada:formacionTecnica2')}
-                url="http://www.google.es"
-                buttonText="Tarifas"
+                url="club-de-escalada/formacion-tecnica"
+                buttonText="Saber Más"
             />    
             <SectionTemplate
                 image={guiaDeMontana}
@@ -50,13 +50,13 @@ const ClubDeEscalada = () => {
                 title2={t('club-de-escalada:guiaDeMontanaTitle2')}
                 text1={t('club-de-escalada:guiaDeMontana1')}
                 text2={t('club-de-escalada:guiaDeMontana2')}
-                url="http://www.google.es"
-                buttonText="Tarifas"
+                url="club-de-escalada/guia-de-montana"
+                buttonText="Saber Más"
             />
             <Footer/>
         </>
-     );
+    );
 
 }
- 
+
 export default ClubDeEscalada;

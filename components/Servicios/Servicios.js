@@ -23,16 +23,16 @@ const Servicios = (props) => {
             >
                 <h2 className={styles.serviciosTitle}>{props.title}</h2>
                 <p className={styles.serviciosLinks}>
-                <Link href="/">
-                    <a className={styles.serviciosLink}>TRAINING </a>
+                <Link href="/club-de-escalada/escuela-de-escalada">
+                    <a className={styles.serviciosLink}>ESCUELA  </a>
                 </Link>
                 |
-                <Link href="/">
-                    <a className={styles.serviciosLink}> KIDS </a>
+                <Link href="/club-de-escalada/formacion-tecnica">
+                    <a className={styles.serviciosLink}>  FORMACIÓN TÉCNICA  </a>
                 </Link>
                 |
-                <Link href="/">
-                    <a className={styles.serviciosLink}> OUTDOOR </a>
+                <Link href="/club-de-escalada/guia-de-montana">
+                    <a className={styles.serviciosLink}>  GUÍA DE MONTAÑA  </a>
                 </Link>
                 </p>
                 

@@ -3,12 +3,28 @@
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "foto texto";
 
     padding: 1rem;
     text-align:justify;
 }
 
+.left{
+    height: 40rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    text-align:justify;
+    grid-template-areas: "foto texto";
+}
+
+.right{
+    height: 40rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    text-align:justify;
+    grid-template-areas: "texto foto";
+}
 
 .imageWrap{
     grid-area: foto;
@@ -40,7 +56,15 @@
 }
 
 @media (max-width: 768px){
-    .sectionTemplateWrap{
+    .right{
+        grid-template-areas:
+        "foto"
+        "texto";
+        grid-template-columns: 1fr;
+        height: 100%;
+    } 
+
+    .left{
         grid-template-areas:
         "foto"
         "texto";

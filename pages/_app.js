@@ -1,5 +1,5 @@
 import '../styles/global/globals.css';
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 function MyApp({ Component, pageProps, router }) {
     return (
@@ -22,4 +22,4 @@ function MyApp({ Component, pageProps, router }) {
 
 }
 
-export default MyApp
+export default MyApp;

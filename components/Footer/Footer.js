@@ -67,6 +67,7 @@ const Footer = () => {
 
 
             </div>
+            
             <div className={styles.footerSocialWrap}>
                 <div className={styles.footerLogoWrap}>
                     <Image
@@ -123,8 +124,8 @@ const Footer = () => {
                         </Link>
                     </div>
                 </div>
-
             </div>
+
             <div className={styles.footerContactWrap}>
                     <h3 className={styles.contactTitle}>CONTACTO</h3>
                     <Link 
