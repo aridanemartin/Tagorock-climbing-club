@@ -4,6 +4,7 @@ import SocialBanner from '@components/SocialBanner/SocialBanner';
 import HeroTemplate from '@components/HeroTemplate/HeroTemplate';
 import ActivityDescription from '@components/ActivityDescription/ActivityDescription';
 import Footer from '@components/Footer/Footer';
+import Precios from '@components/Precios/Precios';
 
 export default function EscuelaDeEscalada (){
     let { t } = useTranslation();
@@ -46,7 +47,7 @@ export default function EscuelaDeEscalada (){
                 url="http://www.google.es"
                 buttonText="Tarifas"
             />    
-            
+            <Precios/>            
             <Footer/>
         </>
     )
