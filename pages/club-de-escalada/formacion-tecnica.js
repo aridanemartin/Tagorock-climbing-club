@@ -10,7 +10,7 @@ export default function EscuelaDeEscalada (){
     let { t } = useTranslation();
 
     
-    const portada = require('../../public/images/formacionTecnica3.jpg');
+    const portada = require('../../public/images/formacionT.jpg');
     const formacion1 = require('../../public/images/2escaladoras.jpg');
     const formacion2 = require('../../public/images/escuela3.png');
     
