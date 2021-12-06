@@ -19,7 +19,7 @@ const HeroLogo = () => {
                         src={TagorockLogo} 
                         alt="Tagorock - Mundo Vertical - Hero Banner" 
                         layout="fill"
-                        quality={50}
+                        // quality={50}
                         />
                     </div> 
                 </div>
