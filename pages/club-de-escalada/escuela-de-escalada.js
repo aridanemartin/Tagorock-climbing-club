@@ -22,7 +22,7 @@ export default function EscuelaDeEscalada (){
             title={t('meta:escuelaTitle')}
             desc={t('meta:escuelaDesc')}
             canonical={t('meta:escuelaCan')}
-            image={metaImage}
+            image={escuela}
             />
         <Nav/>  
             <HeroTemplate
