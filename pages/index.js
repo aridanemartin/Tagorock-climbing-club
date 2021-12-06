@@ -26,7 +26,7 @@ const Index = () => {
             title={t('meta:indexTitle')}
             desc={t('meta:indexDesc')}
             canonical={t('meta:indexCan')}
-            image={metaImage}
+            image="https://tagorock.netlify.app/nextimg/%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fescuela.45d579250a092064a28a97c9617d7dfa.webp/1920/75?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fescuela.45d579250a092064a28a97c9617d7dfa.webp&w=1920&q=75"
             />
             <Nav/>
             <Hero/>

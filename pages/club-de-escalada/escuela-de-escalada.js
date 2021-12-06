@@ -22,7 +22,7 @@ export default function EscuelaDeEscalada (){
             title={t('meta:escuelaTitle')}
             desc={t('meta:escuelaDesc')}
             canonical={t('meta:escuelaCan')}
-            image={escuela}
+            image="https://tagorock.netlify.app/nextimg/%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fescuela.45d579250a092064a28a97c9617d7dfa.webp/1920/75?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fescuela.45d579250a092064a28a97c9617d7dfa.webp&w=1920&q=75"
             />
         <Nav/>  
             <HeroTemplate
