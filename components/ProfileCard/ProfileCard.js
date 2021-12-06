@@ -15,7 +15,7 @@ const ProfileCard = (props) => {
                 maxHeight: '100%' }}
             >
                 <Image 
-                alt="Traer el alt a partir de props"
+                alt={props.alt}
                 src={props.image}
                 layout="fill" 
                 objectFit="cover"

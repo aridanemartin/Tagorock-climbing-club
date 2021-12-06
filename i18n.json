@@ -9,6 +9,6 @@
         "/club-de-escalada/guia-de-montana":["guia-de-montana"],
         "/servicios-profesionales":["servicios-profesionales"],
         "/contacto":["contacto"],
-        "*": ["common"]
+        "*": ["common","meta"]
     }
 }

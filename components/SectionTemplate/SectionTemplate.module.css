@@ -6,7 +6,7 @@
     grid-template-areas: "foto texto";
 
     padding: 1rem;
-    text-align:justify;
+    text-align:center;
 }
 
 
@@ -31,12 +31,22 @@
 }
 
 .textWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
     grid-area: texto;
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial;
     font-size: 1.2rem;
 
     margin: auto 0;
-    padding: 2rem;
+    padding: 3rem;
+}
+
+.sectionContent {
+    display: flex;
 }
 
 @media (max-width: 768px){

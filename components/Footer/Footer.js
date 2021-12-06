@@ -25,31 +25,31 @@ const Footer = () => {
                 <Link href='/club-de-escalada'>
                     <a className={styles.primaryLink}>CLUB DE ESCALADA</a>
                 </Link>
-                <Link href='/'>
+                <Link href='/club-de-escalada/escuela-de-escalada'>
                     <a className={styles.secondaryLink}>- Escuela Infantil y de Adultos</a>
                 </Link>
-                <Link href='/'>
+                <Link href='/club-de-escalada/formacion-tecnica'>
                     <a className={styles.secondaryLink}>- Formación Técnica y Deportiva</a>
                 </Link>
-                <Link href='/'>
+                <Link href='/club-de-escalada/guia-de-montana'>
                     <a className={styles.secondaryLink}>- Guía de Montaña y Escalada</a>
                 </Link>
                 <Link href='/servicios-profesionales'>
                     <a className={styles.primaryLink}>SERVICIOS PROFESIONALES</a>
                 </Link>
-                <Link href='/'>
+                <Link href='/servicios-profesionales#trabajos-tecnicos-de-montana'>
                     <a className={styles.secondaryLink}>- Trabajos Técnicos de montaña</a>
                 </Link>
-                <Link href='/'>
+                <Link href='/servicios-profesionales'>
                     <a className={styles.secondaryLink}>- Trabajos Locales en Entorno Urbano</a>
                 </Link>
-                <Link href='/'>
+                <Link href='/servicios-profesionales#arqueologia-vertical'>
                     <a className={styles.secondaryLink}>- Arqueología Vertical</a>
                 </Link>
-                <Link href='/'>
+                <Link href='/servicios-profesionales'>
                     <a className={styles.secondaryLink}>- Equipamiento Deportivo de Montaña</a>
                 </Link>
-                <Link href='/'>
+                <Link href='/servicios-profesionales#gestion-de-rocodromos'>
                     <a className={styles.secondaryLink}>- Gestión de Rocódromos</a>
                 </Link>
                 <Link href='/'>

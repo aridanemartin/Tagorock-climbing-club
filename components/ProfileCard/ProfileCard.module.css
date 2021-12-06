@@ -1,6 +1,5 @@
 .profileCardWrap{
     padding: 2rem 2rem 0rem 2rem;
-    display: grid;
     grid-template-areas: "foto"
     "text";
     grid-template-rows: 60% 40%;

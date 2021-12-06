@@ -5,6 +5,7 @@ import HeroTemplate from '@components/HeroTemplate/HeroTemplate';
 import ActivityDescription from '@components/ActivityDescription/ActivityDescription';
 import Footer from '@components/Footer/Footer';
 import Precios from '@components/Precios/Precios';
+import Meta from '@components/Meta/Meta';
 
 export default function EscuelaDeEscalada (){
     let { t } = useTranslation();
@@ -17,6 +18,12 @@ export default function EscuelaDeEscalada (){
 
     return (
         <>
+        <Meta 
+            title={t('meta:escuelaTitle')}
+            desc={t('meta:escuelaDesc')}
+            canonical={t('meta:escuelaCan')}
+            image={metaImage}
+            />
         <Nav/>  
             <HeroTemplate
                 image={escuela}

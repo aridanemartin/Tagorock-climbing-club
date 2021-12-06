@@ -24,56 +24,55 @@ const serviciosProfesionales = () => {
             <Nav/>  
             <HeroTemplate
                 image={portada}
-                alt="Tagorock - Escuela Infantil de Escalada"
+                alt="Tagorock Mundo Vertical - Trabajos Verticales"
                 title1={t('servicios-profesionales:heroTitle1-a')}
                 title2={t('servicios-profesionales:heroTitle1-b')}
             />
             <SocialBanner/>
             <SectionTemplate
-                id="escuela"
+                id="trabajos-tecnicos-de-montana"
                 image={trabajosTecnicos}
+                alt="Trabajos Técnicos de montaña en Las Palmas - Tagorock Mundo Vertical"
                 title1={t('servicios-profesionales:trabajosTecnicosTitle1')}
                 title2={t('servicios-profesionales:trabajosTecnicosTitle2')}
                 text1={t('servicios-profesionales:trabajosTecnicos1')}
                 text2={t('servicios-profesionales:trabajosTecnicos2')}
-                url="http://www.google.es"
-                buttonText="Tarifas"
             />
             <SectionTemplateInverted
+                id="entorno-urbano"
                 image={trabajosLocales}
+                alt="Trabajos Locales en entorno urbano en Las Palmas - Tagorock Mundo Vertical"
                 title1={t('servicios-profesionales:trabajosLocalesTitle1')}
                 title2={t('servicios-profesionales:trabajosLocalesTitle2')}
                 text1={t('servicios-profesionales:trabajosLocales1')}
                 text2={t('servicios-profesionales:trabajosLocales2')}
-                url="http://www.google.es"
-                buttonText="Tarifas"
             />    
             <SectionTemplate
+                id="arqueologia-vertical"
                 image={arq}
+                alt="Arqueología Vertical - Tagorock Mundo Vertical"
                 title1={t('servicios-profesionales:arqueologiaVerticalTitle1')}
                 title2={t('servicios-profesionales:arqueologiaVerticalTitle2')}
                 text1={t('servicios-profesionales:arqueologiaVertical1')}
                 text2={t('servicios-profesionales:arqueologiaVertical2')}
-                url="http://www.google.es"
-                buttonText="Tarifas"
             />
             <SectionTemplateInverted
+                id="equipamiento-deportivo"
                 image={taladro}
+                alt="Equipamiento deportivo de montaña en Las Palmas - Tagorock Mundo Vertical"
                 title1={t('servicios-profesionales:equipamientoDeportivoTitle1')}
                 title2={t('servicios-profesionales:equipamientoDeportivoTitle2')}
                 text1={t('servicios-profesionales:equipamientoDeportivo1')}
                 text2={t('servicios-profesionales:equipamientoDeportivo2')}
-                url="http://www.google.es"
-                buttonText="Tarifas"
             />    
             <SectionTemplate
+                id="gestion-de-rocodromos"
                 image={rocodromos}
+                alt="Gestión de rocógromos en Las Palmas - Tagorock Mundo Vertical"
                 title1={t('servicios-profesionales:gestionDeRocodromosTitle1')}
                 title2={t('servicios-profesionales:gestionDeRocodromosTitle2')}
                 text1={t('servicios-profesionales:gestionDeRocodromos1')}
                 text2={t('servicios-profesionales:gestionDeRocodromos2')}
-                url="http://www.google.es"
-                buttonText="Tarifas"
             />
             <Footer/>
         </>

@@ -27,7 +27,7 @@ const SectionTemplate = (props) => {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, ease: "linear", delay: 0.5}}
-                
+                className={styles.sectionContent}
             >
 
                 <div className={styles.textWrap}>
@@ -39,12 +39,14 @@ const SectionTemplate = (props) => {
                         {props.text2}
                         <br/><br/>
                         </p>    
+                    {props.buttonText ? 
                     <div className={styles.buttonWrap}>
                         <BlueButton
                             title={props.buttonText}
                             url={props.url}
                         />
-                    </div>   
+                    </div>  
+                    : null} 
                 </div>
             </motion.div>   
             

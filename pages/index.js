@@ -1,5 +1,4 @@
 import useTranslation from 'next-translate/useTranslation';
-
 import Hero from '../components/Hero/Hero';
 import Servicios from '../components/Servicios/Servicios';
 import ServiciosP from '../components/ServiciosP/ServiciosP';
@@ -9,11 +8,12 @@ import Equipo from '../components/Equipo/Equipo';
 import Faq from '../components/Faq/Faq';
 import Footer from '../components/Footer/Footer';
 import Nav from '../components/Nav/Nav';
+import Meta from '../components/Meta/Meta';
 import BlueButton from '@components/BlueButton/BlueButton';
 import { motion } from 'framer-motion';
-
 import styles from './index.module.css';
 import ComoLlegar from '@components/ComoLlegar/ComoLlegar';
+import metaImage from '@images/davidPerfil.jpg';
 
 
 const Index = () => {
@@ -22,6 +22,12 @@ const Index = () => {
 
     return (
         <>
+            <Meta 
+            title={t('meta:indexTitle')}
+            desc={t('meta:indexDesc')}
+            canonical={t('meta:indexCan')}
+            image={metaImage}
+            />
             <Nav/>
             <Hero/>
             <SocialBanner />
@@ -80,8 +86,14 @@ const Index = () => {
             <Footer/>      
 
         </>
+
+        
     );
+
+    
 }
+
+
 
 export default Index;
 

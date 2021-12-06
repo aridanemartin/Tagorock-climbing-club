@@ -19,19 +19,22 @@
             "name": "Norberto Cabrera",
             "descripcion": "Como amantes de la escalada, en Tagorock Mundo Vertical estamos certificados como especialistas en instalación de anclajes. Equipamos todo tipo de vías deportivas de escalada en montaña, vías ferratas y líneas de vida entre otra",
             "social": "@norberock",
-            "socialLink": "https://www.instagram.com/tagorockmundovertical/"
+            "socialLink": "https://www.instagram.com/tagorockmundovertical/",
+            "alt": "Norberto Cabrera - Escalador Profesional, miembro de Tagorock Mundo Vertical"
     },
     "janocPerfil": {
         "name": "Janoc Santana",
         "descripcion": "Como amantes de la escalada, en Tagorock Mundo Vertical estamos certificados como especialistas en instalación de anclajes. Equipamos todo tipo de vías deportivas de escalada en montaña, vías ferratas y líneas de vida entre otra",
         "social": "@janocrock",
-        "socialLink": "https://www.instagram.com/tagorockmundovertical/"
+        "socialLink": "https://www.instagram.com/tagorockmundovertical/",
+            "alt": "Janoc Santana - Escalador Profesional, miembro de Tagorock Mundo Vertical"
     },
     "davidPerfil": {
         "name": "David De Llanos",
         "descripcion": "Como amantes de la escalada, en Tagorock Mundo Vertical estamos certificados como especialistas en instalación de anclajes. Equipamos todo tipo de vías deportivas de escalada en montaña, vías ferratas y líneas de vida entre otra",
         "social": "@davidrock",
-        "socialLink": "https://www.instagram.com/tagorockmundovertical/"
+        "socialLink": "https://www.instagram.com/tagorockmundovertical/",
+        "alt": "David de Llanos - Escalador Profesional, miembro de Tagorock Mundo Vertical"
     },
     "faq1":{
         "title": "No tengo nada de experiencia: ¿puedo ir directamente a la roca o primero pruebo en el rocódromo?",

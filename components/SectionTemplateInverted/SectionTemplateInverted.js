@@ -28,6 +28,7 @@ const SectionTemplateInverted = (props) => {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, ease: "linear", delay: 0.5}}
+                className={styles.sectionContent}
                 >
                     <div className={styles.textWrap}>
                         <h2 className={styles.title}>{props.title1}<br/>{props.title2}</h2>
@@ -37,12 +38,14 @@ const SectionTemplateInverted = (props) => {
                         {props.text2}
                         <br/><br/> 
                         </p>
-                        <div className={styles.buttonWrap}>
-                                <BlueButton
-                                    title={props.buttonText}
-                                    url={props.url}
-                                />
-                        </div>
+                        {props.buttonText ? 
+                            <div className={styles.buttonWrap}>
+                                    <BlueButton
+                                        title={props.buttonText}
+                                        url={props.url}
+                                    />
+                            </div>
+                        : null}
                     </div>
                 </motion.div>
             </div>
