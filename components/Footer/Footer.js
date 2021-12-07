@@ -12,9 +12,10 @@ import Gmail from '../../public/images/gmail.webp';
 
 const Footer = () => {
     
-    
+    const year = new Date().getFullYear();
     
     return ( 
+        <>
         <div className={styles.footerWrap}>
             <div className={styles.footerMenu}>
                 <h3 className={styles.footerMenuTitle}>MENU</h3>
@@ -153,9 +154,9 @@ const Footer = () => {
                     </Link>
 
             </div>
-
-
-        </div>     
+        </div>  
+        <span className={styles.createdBy}><p>Website created by <a href="https://www.aridanemartin.dev" target="_blank" rel="noreferrer">Aridane Martín</a> &#169; {year}</p></span>
+    </>   
         
     );
 }
