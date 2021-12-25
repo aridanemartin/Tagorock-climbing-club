@@ -5,6 +5,8 @@ import Locale from '../../components/Locale/Locale';
 import styles from './Nav.module.css';
 import { useState } from 'react';
 import Image from 'next/image';
+import MediaQuery from 'react-responsive';
+import { motion, AnimatePresence } from 'framer-motion';
 
 
 import Logo from '../../public/images/logoHorizontalBlanco.png';
@@ -18,12 +20,21 @@ const Nav = () => {
     const { locale, locales, defaultLocale } = router
 
     const[isOpen, setIsOpen] = useState(false);
+    // Dropdown menu
+    const[open, setOpen] = useState(false);
+    // Dropdown menu (mobile)
+    const[serviciosOpen, setServiciosOpen] = useState(false);
+
+    const toggleServicios = () => {
+        setServiciosOpen(!serviciosOpen);
+    }
+    
 
     let menuText =
     router.locale === 'en'
-    ?   ["Our Team", "Climbing Club", "Professional Services", "Contact"]
+    ?   ["Our Team", "Climbing Club", "Professional Services", "Contact","Sport Services","Professional Services","Back"]
     : router.locale === 'es'
-    ? ["Inicio", "Club de Escalada", "Servicios Profesionales", "Contacto"] : "";
+    ? ["Inicio", "Servicios", "Rocódromo", "Contacto","Servicios Deportivos","Servicios Profesionales","Volver"] : "";
 
     const toggle = () => setIsOpen(!isOpen);
 
@@ -58,28 +69,97 @@ const Nav = () => {
                         <Link 
                         href="/"
                         >
-                            <a className={styles.navLink}>{menuText[0]}</a>
+                            <a className={(serviciosOpen ? styles.hideMenu : '') + ' ' + (styles.navLink)}>{menuText[0]}</a>
                         </Link>
                     </li>
+                    
                     <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap2}>
-                        <Link 
-                        href="/club-de-escalada"
-                        >
-                            <a className={styles.navLink}>{menuText[1]}</a>
-                        </Link>
+                            <MediaQuery maxWidth={768}>
+                                <a 
+                                className={(serviciosOpen ? styles.hideMenu : '') + ' ' + (styles.navLink)}
+                                onClick={() => setServiciosOpen(!open)}
+                                >{menuText[1]}
+                                </a>
+                                <AnimatePresence>
+                                    {serviciosOpen && (
+                                        
+                                            <motion.ul
+                                            className={styles.dropDownMenu}
+                                            key="1"
+                                            initial={{ opacity: 0, x: 40 }}
+                                            animate={{ opacity: 1, x: 0 }}
+                                            exit={{ opacity: 0, x: 40 }}
+                                            >
+                                                
+                                                    <li>
+                                                        <Link 
+                                                        href="/servicios-deportivos"
+                                                        >
+                                                            <a className={styles.dropDownLink}>{menuText[4]}</a>
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link 
+                                                        href="/servicios-profesionales"
+                                                        >
+                                                            <a className={styles.dropDownLink}>{menuText[5]}</a>
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <a className={styles.dropDownLink} onClick={toggleServicios}>{menuText[6]}</a>
+                                                    </li>
+                                            </motion.ul>                            
+                                    )}
+                                </AnimatePresence>
+                            </MediaQuery>
+                            <MediaQuery minWidth={768}>
+                                <a 
+                                className={styles.navLink}
+                                onClick={() => setOpen(!open)}
+                                >{menuText[1]}
+                                </a>
+                                <AnimatePresence>
+                                    {open && (
+                                        
+                                            <motion.ul
+                                            className={styles.dropDownMenu}
+                                            key="1"
+                                            initial={{ opacity: 0, y: -20 }}
+                                            animate={{ opacity: 1, y: 0 }}
+                                            exit={{ opacity: 0, y: -20 }}
+                                            >
+                                                
+                                                    <li>
+                                                        <Link 
+                                                        href="/servicios-deportivos"
+                                                        >
+                                                            <a className={styles.dropDownLink}>{menuText[4]}</a>
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link 
+                                                        href="/servicios-profesionales"
+                                                        >
+                                                            <a className={styles.dropDownLink}>{menuText[5]}</a>
+                                                        </Link>
+                                                    </li>
+                                            </motion.ul>                            
+                                    )}
+                                </AnimatePresence>
+                            </MediaQuery>
                     </li>
                     <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap3}>
                         <Link 
-                        href="/servicios-profesionales"
+                        href="/rocodromo"
                         >
-                            <a className={styles.navLink}>{menuText[2]}</a>
+                            <a className={(serviciosOpen ? styles.hideMenu : '') + ' ' + (styles.navLink)}>{menuText[2]}</a>
                         </Link>  
                     </li>
                     <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap4}>
                         <Link 
                         href="/contacto"
                         >
-                            <a className={styles.navLink}>{menuText[3]}</a>
+                            <a className={(serviciosOpen ? styles.hideMenu : '') + ' ' + (styles.navLink)}>{menuText[3]}</a>
                         </Link>
                     </li>
                 </ul>

@@ -23,16 +23,16 @@ const Footer = () => {
                 <Link href='/'>
                     <a className={styles.primaryLink}>INICIO</a>
                 </Link>
-                <Link href='/club-de-escalada'>
-                    <a className={styles.primaryLink}>CLUB DE ESCALADA</a>
+                <Link href='/servicios-deportivos'>
+                    <a className={styles.primaryLink}>SERVICIOS DEPORTIVOS</a>
                 </Link>
-                <Link href='/club-de-escalada/escuela-de-escalada'>
+                <Link href='/servicios-deportivos/escuela-de-escalada'>
                     <a className={styles.secondaryLink}>- Escuela Infantil y de Adultos</a>
                 </Link>
-                <Link href='/club-de-escalada/formacion-tecnica'>
+                <Link href='/servicios-deportivos/formacion-tecnica'>
                     <a className={styles.secondaryLink}>- Formación Técnica y Deportiva</a>
                 </Link>
-                <Link href='/club-de-escalada/guia-de-montana'>
+                <Link href='/servicios-deportivos/guia-de-montana'>
                     <a className={styles.secondaryLink}>- Guía de Montaña y Escalada</a>
                 </Link>
                 <Link href='/servicios-profesionales'>

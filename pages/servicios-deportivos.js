@@ -8,7 +8,7 @@ import Footer from '@components/Footer/Footer';
 import Meta from '@components/Meta/Meta';
 
 
-const ClubDeEscalada = () => {
+const serviciosDeportivos = () => {
     let { t } = useTranslation();
 
     const formacionTecnica = require('../public/images/formacionTecnica.jpg');
@@ -28,39 +28,39 @@ const ClubDeEscalada = () => {
             <HeroTemplate
                 image={portada}
                 alt="Tagorock - Escuela Infantil de Escalada"
-                title1={t('club-de-escalada:heroTitle1-a')}
-                title2={t('club-de-escalada:heroTitle1-b')}
+                title1={t('servicios-deportivos:heroTitle1-a')}
+                title2={t('servicios-deportivos:heroTitle1-b')}
             />
             <SocialBanner/>
             <SectionTemplate
                 id="escuela"
                 image={escuela}
                 alt="Escuela de escalada infantil y de adultos en Las Palmas - Tagorock Mundo Vertical"
-                title1={t('club-de-escalada:escuelaDeEscaladaTitle1')}
-                title2={t('club-de-escalada:escuelaDeEscaladaTitle2')}
-                text1={t('club-de-escalada:escuelaDeEscalada1')}
-                text2={t('club-de-escalada:escuelaDeEscalada2')}
-                url="club-de-escalada/escuela-de-escalada"
+                title1={t('servicios-deportivos:escuelaDeEscaladaTitle1')}
+                title2={t('servicios-deportivos:escuelaDeEscaladaTitle2')}
+                text1={t('servicios-deportivos:escuelaDeEscalada1')}
+                text2={t('servicios-deportivos:escuelaDeEscalada2')}
+                url="servicios-deportivos/escuela-de-escalada"
                 buttonText="saber más"
             />
             <SectionTemplateInverted
                 image={formacionTecnica}
                 alt="Formación técnica y deportiva en escalada - Tagorock Mundo Vertical"
-                title1={t('club-de-escalada:formacionTecnicaTitle1')}
-                title2={t('club-de-escalada:formacionTecnicaTitle2')}
-                text1={t('club-de-escalada:formacionTecnica1')}
-                text2={t('club-de-escalada:formacionTecnica2')}
-                url="club-de-escalada/formacion-tecnica"
+                title1={t('servicios-deportivos:formacionTecnicaTitle1')}
+                title2={t('servicios-deportivos:formacionTecnicaTitle2')}
+                text1={t('servicios-deportivos:formacionTecnica1')}
+                text2={t('servicios-deportivos:formacionTecnica2')}
+                url="servicios-deportivos/formacion-tecnica"
                 buttonText="Saber Más"
             />    
             <SectionTemplate
                 image={guiaDeMontana}
                 alt="Guía de montaña en Las Palmas - Tagorock Mundo Vertical"
-                title1={t('club-de-escalada:guiaDeMontanaTitle1')}
-                title2={t('club-de-escalada:guiaDeMontanaTitle2')}
-                text1={t('club-de-escalada:guiaDeMontana1')}
-                text2={t('club-de-escalada:guiaDeMontana2')}
-                url="club-de-escalada/guia-de-montana"
+                title1={t('servicios-deportivos:guiaDeMontanaTitle1')}
+                title2={t('servicios-deportivos:guiaDeMontanaTitle2')}
+                text1={t('servicios-deportivos:guiaDeMontana1')}
+                text2={t('servicios-deportivos:guiaDeMontana2')}
+                url="servicios-deportivos/guia-de-montana"
                 buttonText="Saber Más"
             />
             <Footer/>
@@ -69,4 +69,4 @@ const ClubDeEscalada = () => {
 
 }
 
-export default ClubDeEscalada;
+export default serviciosDeportivos;

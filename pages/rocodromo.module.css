@@ -1,0 +1,17 @@
+.tabsWrapper{
+    display: flex;
+    justify-content:center;
+    padding: 1rem;
+    height: 1000px;
+}
+
+.tabsWrapper img{
+    padding: 1rem;
+    width: 50%;
+    height: 25rem;
+}
+
+.tabImageWrapper{
+    height: 30rem;
+    width: 30rem;
+}

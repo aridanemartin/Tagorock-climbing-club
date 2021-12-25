@@ -44,32 +44,32 @@ const Faq = () => {
                         variants={item}
                         >
                                 <Accordion
-                                        title={t('index:faq1.title')}
-                                        text={t('index:faq1.text')}  
+                                        title={t('index:faq2.title')}
+                                        text={t('index:faq2.text')}  
                                 />
                         </motion.li>
                         <motion.li
                         variants={item}
                         >
                                 <Accordion
-                                        title={t('index:faq1.title')}
-                                        text={t('index:faq1.text')}  
+                                        title={t('index:faq3.title')}
+                                        text={t('index:faq3.text')}  
                                 />
                         </motion.li>
                         <motion.li
                         variants={item}
                         >
                                 <Accordion
-                                        title={t('index:faq1.title')}
-                                        text={t('index:faq1.text')}  
+                                        title={t('index:faq4.title')}
+                                        text={t('index:faq4.text')}  
                                 />
                         </motion.li>
                         <motion.li
                         variants={item}
                         >
                                 <Accordion
-                                        title={t('index:faq1.title')}
-                                        text={t('index:faq1.text')}  
+                                        title={t('index:faq5.title')}
+                                        text={t('index:faq5.text')}  
                                 />
                         </motion.li>   
                 </motion.ul>

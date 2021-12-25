@@ -3,12 +3,13 @@
     "defaultLocale": "es",
     "pages": {
         "/":["index"],
-        "/club-de-escalada":["club-de-escalada"],
-        "/club-de-escalada/escuela-de-escalada":["escuela-de-escalada"],
-        "/club-de-escalada/formacion-tecnica":["formacion-tecnica"],
-        "/club-de-escalada/guia-de-montana":["guia-de-montana"],
+        "/servicios-deportivos":["servicios-deportivos"],
+        "/servicios-deportivos/escuela-de-escalada":["escuela-de-escalada"],
+        "/servicios-deportivos/formacion-tecnica":["formacion-tecnica"],
+        "/servicios-deportivos/guia-de-montana":["guia-de-montana"],
         "/servicios-profesionales":["servicios-profesionales"],
         "/contacto":["contacto"],
+        "/rocodromo":["rocodromo"],
         "*": ["common","meta"]
     }
 }

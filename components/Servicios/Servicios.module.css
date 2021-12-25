@@ -23,38 +23,6 @@
     font-size: 2rem;
 }
 
-.serviciosLinks{
-    font-size: 1rem;
-    font-family: Lato;
-}
-
-.serviciosLink{    
-    position: relative;
-    font-size: 1rem;
-    font-family: Lato;
-}
-
-/* UNDERLINE EFFECT */
-
-.serviciosLink:after {    
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: #fff;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-    
-}
-.serviciosLink:hover:after{ 
-    width: 100%; 
-    left: 0; 
-}
-
-
 .serviciosParrafo{
     font-family: Lato, Arial, Hel;
     padding: 0.5rem;

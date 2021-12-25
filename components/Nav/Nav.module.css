@@ -20,14 +20,17 @@
     padding: 3rem;
     color: white;
     margin: 0 3rem;
+    cursor: pointer;
 }
 
 .navLink{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Anton', sans-serif;
     font-weight: 500;
-    
-    font-size: 1.2rem;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 0.1rem;
     text-transform: uppercase;
+    
     padding: 0rem 2rem;
     transition: all 300ms ease-in-out;
 }
@@ -43,11 +46,11 @@
     display: none;
 }
 
-@media screen {
+/* @media screen {
     .navLinkWrap:hover{
         transform: scale(1.2);
     }
-}
+} */
 
 
 
@@ -141,6 +144,22 @@
     left: 50%;
 }
 
+/* Dropdown menu desktop */
+
+.dropDownMenu{
+    position: absolute;
+    top: 80px;
+    padding: 1rem;  
+}
+
+.dropDownMenu li{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+
 
 @media (max-width: 768px) {
     .burger{
@@ -215,7 +234,7 @@
         padding: 0rem;
     }
 
-    /*social*/
+    /*social (mobile)*/
     
     .navSocialWrap{
         display: block;
@@ -254,6 +273,41 @@
         opacity: 1;
         transition-delay: 1s;
     }     
+
+    .hideMenu{
+        opacity: 0;
+        transform: translateX(-50px);
+        pointer-events: none;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .showServicios{
+        opacity: 1;
+
+    }
+
+    /* Dropdown menu mobile */
+
+    .dropDownMenu{
+        position: absolute;
+        top: 30%;
+        padding: 1rem;  
+        text-align: center;
+        /* Centrar menu*/
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+
+    .dropDownMenu li{
+        
+        font-family: 'anton';
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        padding: 0rem;
+        margin-bottom: 1.5rem;
+    }
 }
 
 @media screen {

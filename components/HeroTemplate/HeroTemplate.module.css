@@ -1,8 +1,5 @@
 
 .heroTemplateWrap{
-    height: 40rem;
-    filter: brightness(80%); 
-
     height: 100vh;
     filter: brightness(70%); 
 }

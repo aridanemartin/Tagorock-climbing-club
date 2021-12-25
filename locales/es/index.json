@@ -1,5 +1,4 @@
 {
-    "heroBanner":["Experiencias y guiajes en la isla de Gran Canaria","otro texto"],
     "introTitle1": "UNA EMPRESA DEDICADA A LA ",
     "introTitle2": "ESCALADA ",
     "introTitle3": "Y LA ",
@@ -10,7 +9,7 @@
     "introText4": "Técnicos Deportivos en Escalada y Montaña ",
     "introText5": "que te ofrecerán la máxima cobertura de seguridad tanto en intervenciones deportivas como técnicas. Nuestro objetivo es compartir a través de la escalada unos valores y estilo de vida basados en el respeto por la naturaleza, la salud físico-mental y la convivencia en este terreno.",
     "introButton": "Conoce a nuestro equipo",
-    "serviciosDeportivosTitle": "CLUB DE ESCALADA",
+    "serviciosDeportivosTitle": "SERVICIOS DEPORTIVOS",
     "serviciosDeportivosText": "¿Quieres entrenar o simplemente desarrollar tu técnica como escalador en un entorno seguro y de confianza?  Echa un vistazo a nuestros servicios",
     "serviciosProfesionalesTitle": "SERVICIOS PROFESIONALES",
     "serviciosProfesionalesText": "Como amantes de la escalada, en Tagorock Mundo Vertical estamos certificados como especialistas en instalación de anclajes. Equipamos todo tipo de vías deportivas de escalada en montaña, vías ferratas y líneas de vida entre otras.",
@@ -47,6 +46,14 @@
     "faq3":{
         "title": "Somos una familia: ¿podemos escalar todos juntos?",
         "text": "Claro que sí: la escalada en roca es para todas las edades y es un pasatiempo ideal para una familia. Contáctanos y organizaremos una experiencia exclusiva para vosotros. "
+    },
+    "faq4":{
+        "title": "¿Tengo que llevar algún equipo especial?",
+        "text": "Necesitarás pies de gato y magnesio líquido. Si no tienes, podrás alquilar o comprar todo en nuestra tienda. Recuerda venir con ropa cómoda o deportiva."
+    },
+    "faq5":{
+        "title": "¿A partir de que edad se puede escalar?",
+        "text": "Normalmente, a partir de los 5 años, aunque siempre hay algún escalador innato que quiere empezar a escalar antes. Para saber más visita nuestra escuela de escalada, la encontrarás dentro de la sección 'Servicios Deportivos' de esta misma web."
     },
     "comoLlegar":{
         "title": "COMO LLEGAR",

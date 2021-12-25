@@ -1,0 +1,11 @@
+.tabButtons{
+    display: flex;
+    justify-content: center;
+    
+    padding: 1rem;
+}
+
+.tabButtons button{
+    padding: 1rem;
+
+}
