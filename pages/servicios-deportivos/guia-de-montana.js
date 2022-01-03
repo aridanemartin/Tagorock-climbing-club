@@ -13,7 +13,7 @@ export default function EscuelaDeEscalada (){
     
     const portada = require('../../public/images/exito3.jpg');
     const guia1 = require('../../public/images/guiaDeMontana1.png');
-    const guia2 = require('../../public/images/guiaDeMontana2.png');
+    const guia2 = require('../../public/images/2subiendo.jpg');
     
 
     return (
@@ -52,8 +52,7 @@ export default function EscuelaDeEscalada (){
                 text1={t('guia-de-montana:guiaDeMontana3')}
                 text2={t('guia-de-montana:guiaDeMontana4')}
                 side="left"
-            />    
-            <Precios/>            
+            />             
             <Footer/>
         </>
     )
