@@ -7,14 +7,14 @@ import SectionTemplateInverted from '../components/SectionTemplateInverted/Secti
 import Footer from '@components/Footer/Footer';
 import Meta from '@components/Meta/Meta';
 
+import guiaDeMontana1 from '../public/images/guiaDeMontana1.png';
+import escuela from '../public/images/escuela.webp';
+import portada from '../public/images/portadaClub.jpg';
+import formacionTecnica from '../public/images/formacionTecnica.jpg';
+
 
 const serviciosDeportivos = () => {
     let { t } = useTranslation();
-
-    const formacionTecnica = require('../public/images/formacionTecnica.jpg');
-    const escuela = require('../public/images/escuela.webp');
-    const guiaDeMontana = require('../public/images/guiaDeMontana1.png');
-    const portada = require('../public/images/portadaClub.jpg');
 
     return ( 
         <>
@@ -54,7 +54,7 @@ const serviciosDeportivos = () => {
                 buttonText="Saber Más"
             />    
             <SectionTemplate
-                image={guiaDeMontana}
+                image={guiaDeMontana1}
                 alt="Guía de montaña en Las Palmas - Tagorock Mundo Vertical"
                 title1={t('servicios-deportivos:guiaDeMontanaTitle1')}
                 title2={t('servicios-deportivos:guiaDeMontanaTitle2')}
