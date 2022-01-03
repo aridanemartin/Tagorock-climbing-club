@@ -4,17 +4,14 @@ import SocialBanner from '@components/SocialBanner/SocialBanner';
 import HeroTemplate from '@components/HeroTemplate/HeroTemplate';
 import ActivityDescription from '@components/ActivityDescription/ActivityDescription';
 import Footer from '@components/Footer/Footer';
-import Precios from '@components/Precios/Precios';
 import Meta from '@components/Meta/Meta';
+
+import guia2 from '../../public/images/2subiendo.jpg';
+import guia1 from '../../public/images/guiaDeMontana.webp';
+import portada from '../../public/images/exito3.jpg';
 
 export default function EscuelaDeEscalada (){
     let { t } = useTranslation();
-
-    
-    const portada = require('../../public/images/exito3.jpg');
-    const guia1 = require('../../public/images/guiaDeMontana1.png');
-    const guia2 = require('../../public/images/2subiendo.jpg');
-    
 
     return (
         <>
