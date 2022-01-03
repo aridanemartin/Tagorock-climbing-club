@@ -6,9 +6,9 @@ import ActivityDescription from '@components/ActivityDescription/ActivityDescrip
 import Footer from '@components/Footer/Footer';
 import Meta from '@components/Meta/Meta';
 
-import guia2 from '../../public/images/2subiendo.jpg';
-import guia1 from '../../public/images/guiaDeMontana.webp';
-import portada from '../../public/images/exito3.jpg';
+// import guia2 from '../../public/images/2subiendo.jpg';
+// import guia1 from '../../public/images/guiaDeMontana.webp';
+// import portada from '../../public/images/exito3.jpg';
 
 export default function EscuelaDeEscalada (){
     let { t } = useTranslation();
