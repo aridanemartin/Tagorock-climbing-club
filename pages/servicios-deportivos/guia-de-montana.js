@@ -22,7 +22,7 @@ export default function EscuelaDeEscalada (){
             image="https://tagorock.netlify.app/nextimg/%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fescuela.45d579250a092064a28a97c9617d7dfa.webp/1920/75?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fescuela.45d579250a092064a28a97c9617d7dfa.webp&w=1920&q=75"
             />
         <Nav/>  
-            <HeroTemplate
+            {/* <HeroTemplate
                 image={portada}
                 alt="Tagorock Mundo Vertical - Guía de Montaña en Gran Canaria"
                 title1={t('guia-de-montana:heroTitle1-a')}
@@ -49,7 +49,7 @@ export default function EscuelaDeEscalada (){
                 text1={t('guia-de-montana:guiaDeMontana3')}
                 text2={t('guia-de-montana:guiaDeMontana4')}
                 side="left"
-            />             
+            />              */}
             <Footer/>
         </>
     )
