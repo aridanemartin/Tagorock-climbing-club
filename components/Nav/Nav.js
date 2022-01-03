@@ -74,7 +74,7 @@ const Nav = () => {
                     </li>
                     
                     <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap2}>
-                            <MediaQuery maxWidth={768}>
+                            <MediaQuery maxWidth={1100}>
                                 <a 
                                 className={(serviciosOpen ? styles.hideMenu : '') + ' ' + (styles.navLink)}
                                 onClick={() => setServiciosOpen(!open)}
@@ -112,7 +112,7 @@ const Nav = () => {
                                     )}
                                 </AnimatePresence>
                             </MediaQuery>
-                            <MediaQuery minWidth={768}>
+                            <MediaQuery minWidth={1100}>
                                 <a 
                                 className={styles.navLink}
                                 onClick={() => setOpen(!open)}

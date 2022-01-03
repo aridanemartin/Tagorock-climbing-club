@@ -36,13 +36,14 @@
 
 .cardText{
     margin-top: 1.5rem;
+    font-weight: 400;
 }
 
 .cardSocial{
     font-family: "Anton";
     margin-top: 1.5rem;
     color: #26627F;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     transition: all 0.3s ease-in-out;
 }
 

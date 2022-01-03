@@ -1,18 +1,30 @@
 import Image from 'next/image';
 import styles from './HeroLogo.module.css';
-import TagorockLogo from '../../public/images/Tagorock-logo-blanco.webp';  
+import { AnimatePresence, motion } from 'framer-motion';
 
-const HeroLogo = () => {    
+const HeroLogo = (props) => {    
     return (    
 
-        <div className={styles.heroLogoWrap}>
-                    <div className={styles.heroImageWrap}>
+        <div className={styles.heroLogoWrap}
+            style={{width: props.width + 'rem', height: props.height + 'rem'}}
+        
+        >
+            <AnimatePresence exitBeforeEnter>
+                <motion.div
+                    animate={{ opacity: 1, y: 0 }}
+                    initial={{ opacity: 0, y: 20 }}
+                    exit={{ opacity: 0, y: -20 }}
+                    transition={{ duration: 0.7 }}
+                    className={styles.heroImageWrap}
+                >
                         <Image
-                        src={TagorockLogo} 
+                        src={props.image} 
                         alt="Tagorock - Mundo Vertical - Hero Banner" 
                         layout="responsive"
+                        
                         />
-                    </div> 
+                </motion.div>
+            </AnimatePresence>
         </div>
     );
 }

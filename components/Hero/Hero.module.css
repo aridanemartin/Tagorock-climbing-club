@@ -20,6 +20,12 @@
     filter: brightness(70%);
 }
 
+@media (max-width: 1100px) {
+    .bgWrap {
+        height: 70vh;
+    }
+}
+
 
 
 

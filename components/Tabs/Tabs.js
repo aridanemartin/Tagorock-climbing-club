@@ -6,7 +6,7 @@ import { motion , AnimatePresence} from 'framer-motion';
 
 const Tabs = (props) => {
     
-    const [activeTab, setActiveTab] = useState("Tab 1");
+    const [activeTab, setActiveTab] = useState("Sala Principal");
 
     let content;
     let buttons = [];

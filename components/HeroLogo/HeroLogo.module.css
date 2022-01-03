@@ -8,9 +8,14 @@
     right: 0;
     top: 30vh;
     text-align: center;
-
-    width: 13rem;
-    height: 11rem; 
 }
+
+@media (max-width: 1100px) {
+    .heroLogoWrap{
+        top: 25vh;
+    }
+}
+
+
 
 

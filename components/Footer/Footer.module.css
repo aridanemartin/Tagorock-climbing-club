@@ -31,7 +31,7 @@
     padding: 0.5rem 0rem;
     font-family: Lato, Arial, Hel;
     font-weight: bold;
-
+    transition: all 0.4s ease-out;
 }
 .secondaryLink{
     cursor: pointer;
@@ -39,8 +39,14 @@
     padding: 0.2rem 0rem;
     padding-left: 1rem;
     font-family: Lato, Arial, Hel;
+    transition: all 0.4s ease-out;
+}
 
-
+.primaryLink:hover{
+    padding-left: 0.5rem;
+}
+.secondaryLink:hover{
+    padding-left: 2rem;
 }
 
 /* Social */
@@ -133,6 +139,7 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 
     background: white;
     color: #0A2533;

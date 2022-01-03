@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import { useRef, useEffect } from 'react';
 import HeroLogo from '../HeroLogo/HeroLogo';
+import TagorockLogo from '../../public/images/Tagorock-logo-blanco.webp';  
 
 
 import styles from './Hero.module.css';
@@ -29,9 +29,13 @@ const Hero = () => {
                     objectFit="cover"
                 />
             </div>
-            <div>
-                <HeroLogo/> 
-            </div>
+            
+            <HeroLogo 
+            image={TagorockLogo}
+            width={13}
+            height={11}
+            /> 
+        
         </>
     );
 }

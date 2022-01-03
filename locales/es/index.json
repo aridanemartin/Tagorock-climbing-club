@@ -16,23 +16,23 @@
     "separador1": "NUESTRO EQUIPO",
     "norbePerfil": {
             "name": "Norberto Cabrera",
-            "descripcion": "Como amantes de la escalada, en Tagorock Mundo Vertical estamos certificados como especialistas en instalación de anclajes. Equipamos todo tipo de vías deportivas de escalada en montaña, vías ferratas y líneas de vida entre otra",
-            "social": "@norberock",
-            "socialLink": "https://www.instagram.com/tagorockmundovertical/",
+            "descripcion": "Guía profesional de escalada en roca, lleno de energía e ingrávido. Fundador y encargado de la sala Tagorock.",
+            "social": "@norbe_cv",
+            "socialLink": "https://www.instagram.com/norbe_cv/",
             "alt": "Norberto Cabrera - Escalador Profesional, miembro de Tagorock Mundo Vertical"
     },
     "janocPerfil": {
         "name": "Janoc Santana",
-        "descripcion": "Como amantes de la escalada, en Tagorock Mundo Vertical estamos certificados como especialistas en instalación de anclajes. Equipamos todo tipo de vías deportivas de escalada en montaña, vías ferratas y líneas de vida entre otra",
-        "social": "@janocrock",
-        "socialLink": "https://www.instagram.com/tagorockmundovertical/",
+        "descripcion": "Escalador profesional, amante de la enseñanza y profesor de la escuela de escalada",
+        "social": "@tagorockclimb",
+        "socialLink": "https://www.instagram.com/tagorockclimb/",
             "alt": "Janoc Santana - Escalador Profesional, miembro de Tagorock Mundo Vertical"
     },
     "davidPerfil": {
         "name": "David De Llanos",
-        "descripcion": "Como amantes de la escalada, en Tagorock Mundo Vertical estamos certificados como especialistas en instalación de anclajes. Equipamos todo tipo de vías deportivas de escalada en montaña, vías ferratas y líneas de vida entre otra",
-        "social": "@davidrock",
-        "socialLink": "https://www.instagram.com/tagorockmundovertical/",
+        "descripcion": "Escalador, adicto al deporte y apasionado de la montaña y profesor de la escuela de escalada.",
+        "social": "@davi.dlb",
+        "socialLink": "https://www.instagram.com/davi.dlb/",
         "alt": "David de Llanos - Escalador Profesional, miembro de Tagorock Mundo Vertical"
     },
     "faq1":{
