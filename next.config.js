@@ -1,7 +1,11 @@
 const nextTranslate = require('next-translate')
 
 module.exports = {
-    ...nextTranslate()    
+    ...nextTranslate(),
+    images: {
+        domains: ['assets.vercel.com'],
+        formats: ['image/avif', 'image/webp'],
+    },   
 };
 
 
