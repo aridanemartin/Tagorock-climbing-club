@@ -9,7 +9,7 @@ const HeroTemplate = (props) => {
             <div className={styles.heroTemplateWrap}>
                 <div className={styles.imageWrap}>
                     <Image
-                            alt="Tagorock Mundo Vertical - Escuela de Escalada en Las Palmas de Gran Canaria / Climbing School in Las Palmas de Gran Canaria"
+                            alt={props.alt}
                             src={props.image}
                             layout="fill"
                             objectFit="cover"

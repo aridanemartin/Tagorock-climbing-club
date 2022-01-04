@@ -1,8 +1,8 @@
 {
-    "buttonSaberMas": "Keep Reading",
-    "buttonEquipo": "Meet our team",
+    "buttonSaberMas": "Saber más",
+    "buttonEquipo": "Conoce a nuestro equipo",
     "precios": "Tarifas Tagorock",
-    "preciosDesc": "Haz click en los diferentes tipos de clases para conocer nuestros para conocer nuestros precios.",
+    "preciosDesc": "Haz click en las diferentes categorías para conocer nuestros para conocer nuestros precios.",
     "cuotasLibre": "Sesiones Libres",
     "cuotasDirigida": "Clases Dirigidas",
     "material": "Material",
@@ -14,5 +14,9 @@
     "magnesioPeq": "Magnesio Pequeño",
     "magnesioGrande": "Magnesio Grande",
     "alquilerPies": "Alquiler de Pies de Gato",
-    "clasePruebaObs": "*Si deciden continuar después de haber realizado la clase de prueba el importe de la misma será descontado de la mensualidad."
+    "clasePruebaObs": "*Si deciden continuar después de haber realizado la clase de prueba el importe de la misma será descontado de la mensualidad.",
+    "comoLlegar":{
+        "title": "CÓMO LLEGAR",
+        "text": "C. Covadonga, 20, 35010 Las Palmas de Gran Canaria, Las Palmas"
+    }
 }

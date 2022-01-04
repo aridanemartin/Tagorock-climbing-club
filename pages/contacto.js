@@ -22,6 +22,7 @@ const Contacto = () => {
             <Nav/>
             <HeroTemplate
             image={portadaContacto}
+            alt="Contacto - Tagorock: Sala de escalada en Las Palmas"
             title1={t('contacto:title1')}
             title2={t('contacto:title2')}
             />
