@@ -3,7 +3,7 @@ import useTranslation from 'next-translate/useTranslation';
 import ProfileCard from '../ProfileCard/ProfileCard';
 
 import Norbe from '../../public/images/norbertoCabrera.jpg';
-import Janoc from '../../public/images/escuela3.png';
+import Janoc from '../../public/images/escuela3.webp';
 import David from '../../public/images/davidPerfil.jpg';
 import { motion } from 'framer-motion';
 
