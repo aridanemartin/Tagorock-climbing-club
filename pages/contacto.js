@@ -10,7 +10,7 @@ import SocialBanner from '@components/SocialBanner/SocialBanner';
 import Timetable from '@components/Timetable/Timetable';
 import styles from './contacto.module.css';
 
-import portadaContacto from '../public/images/portadaCompleta.jpg';
+import portada from '../public/images/contacto.jpg';
 
 
 const Contacto = () => {
@@ -25,7 +25,7 @@ const Contacto = () => {
             </Head>
             <Nav/>
             <HeroTemplate
-                image={portadaContacto}
+                image={portada}
                 alt="Contacto - Tagorock: Sala de escalada en Las Palmas"
                 title1={t('contacto:title1')}
                 title2={t('contacto:title2')}
