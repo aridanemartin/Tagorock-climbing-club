@@ -1,0 +1,20 @@
+.timetableWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+    padding: 0 1rem;
+    padding-bottom: 3rem;
+    font-size: 1.2rem;
+}
+
+.timetableWrap strong{
+    text-transform: uppercase;
+    margin-right: 1rem;
+}
+
+.timetableDay{
+    padding: 0.7rem 0;
+}

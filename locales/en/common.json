@@ -18,5 +18,15 @@
     "comoLlegar":{
         "title": "CÓMO LLEGAR",
         "text": "C. Covadonga, 20, 35010 Las Palmas de Gran Canaria, Las Palmas"
+    },
+    "dias":{
+        "lunes": "lunes",
+        "martes": "martes",
+        "miercoles": "miércoles",
+        "jueves": "jueves",
+        "viernes": "viernes",
+        "sabado": "sábado",
+        "domingo": "domingo",
+        "cerrado": "cerrado"
     }
 }

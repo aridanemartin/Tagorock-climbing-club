@@ -2,4 +2,12 @@
     text-align: center;
     font-size: 1.2rem;
     padding: 2rem 1rem;
+    width: 55vw;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .contactIntro{
+        width: 100%;
+    }
 }
