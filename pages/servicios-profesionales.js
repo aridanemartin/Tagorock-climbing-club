@@ -13,10 +13,9 @@ const serviciosProfesionales = () => {
     const portada = require('../public/images/escaleraCentered.jpg');
     const trabajosTecnicos = require('../public/images/cuerda.jpg');
     const trabajosLocales = require('../public/images/trabajosLocales.jpg');
-    const escuela = require('../public/images/escuela.webp');
     const arq = require('../public/images/arqueologia.jpg');
     const taladro = require('../public/images/serviciosProfesionales.webp');
-    const rocodromos = require('../public/images/gestionDeRocodromos.jpg');
+    const rocodromos = require('../public/images/gestionDeRocodromos.png');
     
 
     return ( 

@@ -1,19 +1,61 @@
 {
-    "heroBanner1": "The best climbing guide in Las Palmas de Gran Canaria",
-    "heroBanner2": "Children's and adult climbing school",
-    "heroBanner3": "dsfsdf",
-    "introTitle1": "A COMPANY MADE BY ",
-    "introTitle2": "CLIMBERS",
-    "introTitle3": "AND DEDICATED TO ",
-    "introTitle4": "LIFE IN THE MOUNTAINS",
-    "introText1": "Tagorock Mundo Vertical ",
-    "introText2": "is a company dedicated 100% to the vertical world. We are passionate about outdoor life and we are specialized in the individual and collective accompaniment of people in all kinds of mountain and climbing activities.",
+    "introTitle1": "A COMPANY DEDICATED TO ",
+    "introTitle2": "CLIMBING",
+    "introTitle3": "AND ",
+    "introTitle4": "LIFE IN THE MOUNTAIN",
+    "introText1": "Tagorock Mundo Vertical",
+    "introText2": " is a company dedicated 100% to the vertical world. We are passionate about outdoor life and we are specialized in the individual and collective accompaniment of people in all kinds of mountain and climbing activities.",
     "introText3": "At Tagorock we have a team made up of ",
-    "introText4": "Climbing and Mountain Sports Technicians ",
-    "introText5": "which will offer you the maximum safety coverage in both sports and technical interventions. Our goal is to share values ​​and lifestyle based on respect for nature, physical-mental health and human health through climbing. coexistence in this area. ",
+    "introText4": "Climbing and Mountain Sports Experts",
+    "introText5": " which will offer you maximum safety coverage in both sports and technical interventions. Our goal is to share through climbing values ​​and lifestyle based on respect for nature, physical-mental health and coexistence in this area. ",
     "introButton": "Meet our team",
     "serviciosDeportivosTitle": "SPORT SERVICES",
     "serviciosDeportivosText": "Do you want to train or simply develop your technique as a climber in a safe and trustworthy environment? Take a look at our services",
     "serviciosProfesionalesTitle": "PROFESSIONAL SERVICES",
-    "serviciosProfesionalesText": "As climbing lovers, at Tagorock Mundo Vertical we are certified as specialists in the installation of anchors. We equip all kinds of mountain climbing sports routes, via ferrata and lifelines, among others."
+    "serviciosProfesionalesText": "At Tagorock Mundo Vertical we have certification for vertical works. This, together with our TD2 training in Climbing and Mountain and our experience in this field, makes us the perfect choice at a professional level.",
+    "separador1": "OUR TEAM",
+    "norbePerfil": {
+            "name": "Norberto Cabrera",
+            "descripcion": "Professional rock climbing guide, full of energy and weightless. Founder and manager of the Tagorock room.",
+            "social": "@norbe_cv",
+            "socialLink": "https://www.instagram.com/norbe_cv/",
+            "alt": "Norberto Cabrera - Professional Climber, member of Tagorock Mundo Vertical"
+    },
+    "janocPerfil": {
+        "name": "Janoc Santana",
+        "descripcion": "Professional climber, lover of teaching and adored by the little ones. Teacher of the climbing school.",
+        "social": "@tagorockclimb",
+        "socialLink": "https://www.instagram.com/tagorockclimb/",
+            "alt": "Janoc Santana - Professional Climber, member of Tagorock Mundo Vertical"
+    },
+    "davidPerfil": {
+        "name": "David De Llanos",
+        "descripcion": "Climber, sports addict and mountain lover. Climbing school teacher.",
+        "social": "@ davi.dlb",
+        "socialLink": "https://www.instagram.com/davi.dlb/",
+        "alt": "David de Llanos - Professional Climber, member of Tagorock Mundo Vertical"
+    },
+    "faq1": {
+        "title": "I have no experience at all: can I go directly to the rock or do I try the climbing wall first?",
+        "text": "Everyone can go to the rock! Whether you are an adult or a child, whether you do sports or not: if you want to discover rock climbing, the best way is by going there. Climbing is instinctive for the human being, and more in a natural environment. One caveat: climbing is hooky! "
+    },
+    "faq2": {
+        "title": "Do I have to have a special physical preparation?",
+        "text": "No. Any active person can climb. Both on the rock and in the climbing wall, there are levels of difficulty for everyone."
+    },
+    "faq3": {
+        "title": "We are a family: can we all climb together?",
+        "text": "Yes, of course: rock climbing is for all ages and is an ideal hobby for a family. Contact us and we will organize an exclusive experience for you."
+    },"faq4": {
+        "title": "Do I have to bring any special equipment?",
+        "text": "You will need climbing shoes and liquid magnesium. If you don't have it, you can rent or buy everything in our store. Remember to come with comfortable or sports clothes."
+    },
+    "faq5": {
+        "title": "From what age can someone start climbing?",
+        "text": "Normally, from the age of 5, although there is always some innate climber who wants to start climbing earlier. To find out more visit our climbing school, you will find it in the 'Sports Services' section of this same website . "
+    },
+    "comoLlegar":{
+        "title": "COME TO MEET US",
+        "text": "C. Covadonga, 20, 35010 Las Palmas de Gran Canaria, Las Palmas"
+    }
 }

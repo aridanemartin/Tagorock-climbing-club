@@ -32,7 +32,7 @@ const Nav = () => {
 
     let menuText =
     router.locale === 'en'
-    ?   ["Our Team", "Climbing Club", "Professional Services", "Contact","Sport Services","Professional Services","Back"]
+    ?   ["Home", "Services", "Climbing Club", "Contact","Sport Services","Professional Services","Back"]
     : router.locale === 'es'
     ? ["Inicio", "Servicios", "Rocódromo", "Contacto","Servicios Deportivos","Servicios Profesionales","Volver"] : "";
 

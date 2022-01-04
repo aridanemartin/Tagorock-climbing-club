@@ -3,7 +3,6 @@ import React from 'react';
 import TabButtons from '@components/TabButtons/TabButtons';
 import { motion , AnimatePresence} from 'framer-motion';
 
-
 const Tabs = (props) => {
     
     const [activeTab, setActiveTab] = useState("Sala Principal");
@@ -28,7 +27,6 @@ const Tabs = (props) => {
             
                 <TabButtons buttons={buttons} setActiveTab={setActiveTab} activeTab={activeTab}/>
                 <motion.div 
-                className="tab-content"
                 key={activeTab}
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}

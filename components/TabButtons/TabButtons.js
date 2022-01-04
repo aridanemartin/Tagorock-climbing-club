@@ -7,7 +7,10 @@ const TabButtons = ({buttons, setActiveTab, activeTab}) =>{
         {buttons.map(button =>{
             return (
                 <button 
-                className={button === activeTab ? 'active': ''} onClick={()=>setActiveTab(button)}>{button}</button>
+                className={button === activeTab ? `${styles.tabButton} + ' ' + ${styles.active}` :  `${styles.tabButton}`} 
+                onClick={()=>setActiveTab(button)}
+                >{button}
+                </button>
             )
         })}
         </div>

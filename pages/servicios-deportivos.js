@@ -41,7 +41,7 @@ const serviciosDeportivos = () => {
                 text1={t('servicios-deportivos:escuelaDeEscalada1')}
                 text2={t('servicios-deportivos:escuelaDeEscalada2')}
                 url="servicios-deportivos/escuela-de-escalada"
-                buttonText="saber más"
+                buttonText={t('common:buttonSaberMas')}
             />
             <SectionTemplateInverted
                 image={formacionTecnica}
@@ -51,7 +51,7 @@ const serviciosDeportivos = () => {
                 text1={t('servicios-deportivos:formacionTecnica1')}
                 text2={t('servicios-deportivos:formacionTecnica2')}
                 url="servicios-deportivos/formacion-tecnica"
-                buttonText="Saber Más"
+                buttonText={t('common:buttonSaberMas')}
             />    
             <SectionTemplate
                 image={guiaDeMontana1}
@@ -61,7 +61,7 @@ const serviciosDeportivos = () => {
                 text1={t('servicios-deportivos:guiaDeMontana1')}
                 text2={t('servicios-deportivos:guiaDeMontana2')}
                 url="servicios-deportivos/guia-de-montana"
-                buttonText="Saber Más"
+                buttonText={t('common:buttonSaberMas')}
             />
             <Footer/>
         </>

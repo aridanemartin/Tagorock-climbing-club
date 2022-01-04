@@ -19,8 +19,9 @@ const Rocodromo = () => {
 
     const rocodromo1 = require('../public/images/rocodromo1.jpg');
     const rocodromo2 = require('../public/images/rocodromo2.jpg');
-    // const rocodromo3 = require('../public/images/rocodromo3.jpg');
-    // const rocodromo4 = require('../public/images/rocodromo4.jpg');
+    const rocodromo3 = require('../public/images/rocodromo3.jpg');
+    const rocodromo4 = require('../public/images/rocodromo4.jpg');
+    const ejemplosAgarre = require('../public/images/ejemplosAgarre.jpg');
     
 
     return(
@@ -33,20 +34,19 @@ const Rocodromo = () => {
         />
         <Nav/>
         <HeroTemplate
-                image={rocodromo2}
+                image={rocodromo3}
                 alt="Tagorock - Rocódromo en Las Palmas de Gran Canaria"
-                // title1={t('rocodromo:heroTitle1-a')}
-                // title2={t('rocodromo:heroTitle1-b')}
+                
         />
         <HeroLogo 
         image={ClimbingLogo}
-        width={20}
-        // height={17}
+        minWidth={17}
+        maxWidth={25}
 
         /> 
         <SocialBanner />    
         <SectionTemplate
-            image={rocodromo1}
+            image={ejemplosAgarre}
             alt="boulder en Las Palmas de Gran Canaria"
             title1={t('rocodromo:rocodromoTitle1')}
             title2={t('rocodromo:rocodromoTitle2')}
@@ -54,7 +54,9 @@ const Rocodromo = () => {
             text2={t('rocodromo:rocodromoIntro2')}
         />
         <Separador title={t('rocodromo:rocodromoSeparador1')}/>
-
+        <section className={styles.zonasDesc}>
+            <p>Haz click en cada una de las diferentes zonas del rocódromo para visitar virtualmente nuestra sala.</p>
+        </section>
         <div className={styles.tabsWrapper}>            
             <Tabs>
                 <Tab label="Sala Principal">
@@ -78,7 +80,7 @@ const Rocodromo = () => {
                 <Tab label="Vertical">
                     <div className={styles.tabImageWrapper}>
                     <Image
-                    src={rocodromo2}   
+                    src={rocodromo3}   
                     layout="responsive"
                     />
                     <p>Nuestra pared Vertical nos permite a lo largo de sus 7 metros de altura prácticar vías de diferentes niveles, así como iniciación, técnicas de seguridad...</p>
@@ -87,7 +89,7 @@ const Rocodromo = () => {
                 <Tab label="Zona Aérea">
                     <div className={styles.tabImageWrapper}>
                     <Image
-                    src={rocodromo2}  
+                    src={rocodromo4}  
                     layout="responsive" 
                     />
                     

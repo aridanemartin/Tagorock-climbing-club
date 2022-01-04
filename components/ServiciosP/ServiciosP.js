@@ -22,7 +22,7 @@ const Servicios = (props) => {
                 <h2 className={styles.serviciosTitle}>{props.title}</h2>
                 <p className={styles.serviciosParrafo}>{props.text}</p>
                 <Button 
-                title="Saber más"
+                title={t('common:buttonSaberMas')}
                 url="/servicios-profesionales"
                 />
             </motion.div>

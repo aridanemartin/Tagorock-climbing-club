@@ -12,7 +12,8 @@
 
 @media (max-width: 1100px) {
     .heroLogoWrap{
-        top: 25vh;
+        top: 15vh;
+        padding: 3rem;
     }
 }
 

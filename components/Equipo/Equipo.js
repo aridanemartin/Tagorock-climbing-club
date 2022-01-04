@@ -2,7 +2,7 @@ import styles from './Equipo.module.css';
 import useTranslation from 'next-translate/useTranslation';
 import ProfileCard from '../ProfileCard/ProfileCard';
 
-import Norbe from '../../public/images/norbePerfil.jpg';
+import Norbe from '../../public/images/norbertoCabrera.jpg';
 import Janoc from '../../public/images/escuela3.png';
 import David from '../../public/images/davidPerfil.jpg';
 import { motion } from 'framer-motion';

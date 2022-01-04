@@ -57,7 +57,7 @@ const Index = () => {
                         </p>
                         <div className={styles.buttonDiv}>
                             <BlueButton 
-                            title="Conoce a nuestro equipo"
+                            title={t('common:buttonEquipo')}
                             url="#equipo"
                             />
                         </div>

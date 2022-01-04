@@ -6,7 +6,7 @@ const HeroLogo = (props) => {
     return (    
 
         <div className={styles.heroLogoWrap}
-            style={{width: props.width + 'rem', height: props.height + 'rem'}}
+            style={{maxWidth: props.maxWidth + 'rem', minWidth: props.minWidth + 'rem'}}
         
         >
             <AnimatePresence exitBeforeEnter>

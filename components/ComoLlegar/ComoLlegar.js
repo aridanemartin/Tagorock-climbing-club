@@ -7,10 +7,10 @@ const ComoLlegar = () => {
     return ( 
         <div className={styles.comoLlegarWrap}>
             <h2 className={styles.comoLlegarTitle}>
-            {t('index:comoLlegar.title')}
+            {t('common:comoLlegar.title')}
             </h2>
             <p className={styles.comoLlegarText}>
-            {t('index:comoLlegar.text')}
+            {t('common:comoLlegar.text')}
             </p>
             <div className={styles.comoLlegarMap}>
                 <iframe 
