@@ -13,7 +13,7 @@ import styles from './contacto.module.css';
 const Contacto = () => {
     let { t } = useTranslation();
     
-    const portadaContacto = require('../public/images/portadaCompleta.jpg');
+    // const portadaContacto = require('../public/images/portadaCompleta.jpg');
 
     return (
         <>
@@ -21,12 +21,12 @@ const Contacto = () => {
                 <title>Contacto - Tagorock - club de escalada en Gran Canaria</title>
             </Head>
             <Nav/>
-            <HeroTemplate
+            {/* <HeroTemplate
             image={portadaContacto}
             alt="Contacto - Tagorock: Sala de escalada en Las Palmas"
             title1={t('contacto:title1')}
             title2={t('contacto:title2')}
-            />
+            /> */}
             <Separador
                 id="contacto"
                 title={t('contacto:title')}
