@@ -9,11 +9,12 @@ import Separador from '@components/Separador/Separador';
 import SocialBanner from '@components/SocialBanner/SocialBanner';
 import styles from './contacto.module.css';
 
-import portadaContacto from '../public/images/portadaCompleta.jpg';
 
 const Contacto = () => {
     let { t } = useTranslation();
     
+    const portadaContacto = require('../public/images/portadaCompleta.jpg');
+
     return (
         <>
             <Head>
