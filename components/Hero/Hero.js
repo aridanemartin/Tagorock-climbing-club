@@ -17,6 +17,7 @@ const Hero = () => {
                     src={Completa}
                     layout="fill"
                     objectFit="cover"
+                    priority={true}
                 />
             </div> 
             <div className={styles.heroLogoCentered}>

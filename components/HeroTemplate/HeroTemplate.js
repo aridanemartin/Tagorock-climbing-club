@@ -13,6 +13,7 @@ const HeroTemplate = (props) => {
                             src={props.image}
                             layout="fill"
                             objectFit="cover"
+                            priority={true}
                             // quality={100}
                     />
                 </div>

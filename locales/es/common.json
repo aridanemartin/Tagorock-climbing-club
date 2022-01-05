@@ -28,5 +28,7 @@
         "sabado": "sábado",
         "domingo": "domingo",
         "cerrado": "cerrado"
-    }
+    },
+    "timetableIntro1": "¿Quieres hacernos una consulta? ¿Una recomendación? ¿Decirnos \"¡hola!\"?",
+    "timetableIntro2": "Puedes contactarnos cuando quieras en el siguiente horario. Te invitamos a que pases a vernos y nos conozcas."
 }

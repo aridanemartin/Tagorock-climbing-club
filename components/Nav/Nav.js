@@ -3,9 +3,9 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Locale from '../../components/Locale/Locale';
 import styles from './Nav.module.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import MediaQuery from 'react-responsive';
+// import MediaQuery from 'react-responsive';
 import { motion, AnimatePresence } from 'framer-motion';
 
 
@@ -15,6 +15,8 @@ import Facebook from '../../public/images/facebook.webp';
 import Youtube from '../../public/images/youtube.webp';
 
 const Nav = () => {
+
+    const size = useWindowSize();
 
     const router = useRouter();
     const { locale, locales, defaultLocale } = router
@@ -40,6 +42,13 @@ const Nav = () => {
 
     return ( 
     <>    
+    
+    {/* Testing Size!
+    <div>
+        {size.width}px / {size.height}px
+    </div> */}
+
+
         <nav className={styles.navWrap}>
             <button 
             onClick={toggle} 
@@ -73,8 +82,8 @@ const Nav = () => {
                         </Link>
                     </li>
                     
-                    
-                            <MediaQuery maxWidth={1100}>
+                            {/* Dropdown Menu */}
+                            { size.width > `1100px` ? 
                             <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap2}>
                                 <a 
                                 className={(serviciosOpen ? styles.hideMenu : '') + ' ' + (styles.navLink)}
@@ -113,8 +122,8 @@ const Nav = () => {
                                     )}
                                 </AnimatePresence>
                             </li>
-                            </MediaQuery>
-                            <MediaQuery minWidth={1100}>
+                            : 
+                            
                             <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap2}>
                                 <a 
                                 className={styles.navLink}
@@ -150,7 +159,7 @@ const Nav = () => {
                                     )}
                                 </AnimatePresence>
                             </li>
-                            </MediaQuery>
+                            }
                     
                     <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap3}>
                         <Link 
@@ -224,3 +233,38 @@ const Nav = () => {
 }
 
 export default Nav;
+
+ // Hook
+function useWindowSize() {
+    // Initialize state with undefined width/height so server and client renders match
+    // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
+    const [windowSize, setWindowSize] = useState({
+        width: undefined,
+        height: undefined,
+    });
+
+    useEffect(() => {
+        // only execute all the code below in client side
+        if (typeof window !== 'undefined') {
+        // Handler to call on window resize
+        function handleResize() {
+            // Set window width/height to state
+            setWindowSize({
+            width: window.innerWidth,
+            height: window.innerHeight,
+            });
+        }
+        
+        // Add event listener
+        window.addEventListener("resize", handleResize);
+        
+        // Call handler right away so state gets updated with initial window size
+        handleResize();
+        
+        // Remove event listener on cleanup
+        return () => window.removeEventListener("resize", handleResize);
+        }
+    }, []);
+    // Empty array ensures that effect is only run on mount
+    return windowSize;
+}

@@ -8,7 +8,6 @@ import Nav from '../components/Nav/Nav';
 import Separador from '@components/Separador/Separador';
 import SocialBanner from '@components/SocialBanner/SocialBanner';
 import Timetable from '@components/Timetable/Timetable';
-import styles from './contacto.module.css';
 
 import portada from '../public/images/2escaladoras.jpg';
 
@@ -34,10 +33,6 @@ const Contacto = () => {
                 id="contacto"
                 title={t('contacto:title')}
             />
-            <div className={styles.contactIntro}>
-                <p className={styles.strongP}><strong>{t('contacto:intro1')}</strong></p>
-                <p>{t('contacto:intro2')}</p>
-            </div>
             <Timetable/>
             <SocialBanner/>
             <ComoLlegar/>
