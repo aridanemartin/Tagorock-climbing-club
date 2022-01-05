@@ -18,7 +18,7 @@ const Rocodromo = () => {
     let { t } = useTranslation();
 
     const rocodromo1 = require('../public/images/rocodromo1.jpg');
-    const rocodromo2 = require('../public/images/rocodromo2.jpg');
+    const rocodromo2 = require('../public/images/principal.jpg');
     const rocodromo3 = require('../public/images/rocodromo3.jpg');
     const rocodromo4 = require('../public/images/rocodromo4.jpg');
     const ejemplosAgarre = require('../public/images/ejemplosAgarre.jpg');
@@ -64,6 +64,7 @@ const Rocodromo = () => {
                         <Image
                         src={rocodromo2}   
                         layout="responsive"
+                        priority={true}
                         />
                         <p>Nuestra sala principal consta de dos paredes con diferentes desplomes y vías de diferentes niveles adaptadas a todos los públicos.</p>
                     </div>

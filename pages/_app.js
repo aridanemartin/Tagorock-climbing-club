@@ -1,8 +1,13 @@
 import '../styles/global/globals.css';
+import Head from 'next/head';
 import { motion } from "framer-motion";
 
 function MyApp({ Component, pageProps, router }) {
     return (
+        <>
+    <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+    </Head>
     <motion.div 
     key={router.route}
     initial="pageInitial" 
@@ -17,7 +22,7 @@ function MyApp({ Component, pageProps, router }) {
     }}>
         <Component {...pageProps} />
     </motion.div>
-    
+    </>
     )
 
 }

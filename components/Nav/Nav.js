@@ -73,8 +73,9 @@ const Nav = () => {
                         </Link>
                     </li>
                     
-                    <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap2}>
+                    
                             <MediaQuery maxWidth={1100}>
+                            <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap2}>
                                 <a 
                                 className={(serviciosOpen ? styles.hideMenu : '') + ' ' + (styles.navLink)}
                                 onClick={() => setServiciosOpen(!open)}
@@ -111,8 +112,10 @@ const Nav = () => {
                                             </motion.ul>                            
                                     )}
                                 </AnimatePresence>
+                            </li>
                             </MediaQuery>
                             <MediaQuery minWidth={1100}>
+                            <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap2}>
                                 <a 
                                 className={styles.navLink}
                                 onClick={() => setOpen(!open)}
@@ -146,8 +149,9 @@ const Nav = () => {
                                             </motion.ul>                            
                                     )}
                                 </AnimatePresence>
+                            </li>
                             </MediaQuery>
-                    </li>
+                    
                     <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap3}>
                         <Link 
                         href="/rocodromo"

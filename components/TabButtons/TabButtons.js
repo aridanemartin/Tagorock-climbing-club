@@ -7,6 +7,7 @@ const TabButtons = ({buttons, setActiveTab, activeTab}) =>{
         {buttons.map(button =>{
             return (
                 <button 
+                key={button}
                 className={button === activeTab ? `${styles.tabButton} + ' ' + ${styles.active}` :  `${styles.tabButton}`} 
                 onClick={()=>setActiveTab(button)}
                 >{button}

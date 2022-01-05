@@ -10,7 +10,7 @@ import SocialBanner from '@components/SocialBanner/SocialBanner';
 import Timetable from '@components/Timetable/Timetable';
 import styles from './contacto.module.css';
 
-import portada from '../public/images/contacto.jpg';
+import portada from '../public/images/2escaladoras.jpg';
 
 
 const Contacto = () => {
@@ -35,7 +35,7 @@ const Contacto = () => {
                 title={t('contacto:title')}
             />
             <div className={styles.contactIntro}>
-                <p><strong>{t('contacto:intro1')}</strong></p>
+                <p className={styles.strongP}><strong>{t('contacto:intro1')}</strong></p>
                 <p>{t('contacto:intro2')}</p>
             </div>
             <Timetable/>
