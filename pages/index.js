@@ -13,7 +13,6 @@ import BlueButton from '@components/BlueButton/BlueButton';
 import { motion } from 'framer-motion';
 import styles from './index.module.css';
 import ComoLlegar from '@components/ComoLlegar/ComoLlegar';
-import metaImage from '@images/davidPerfil.jpg';
 
 
 const Index = () => {
@@ -36,7 +35,6 @@ const Index = () => {
                 className={styles.introWrap}
             > 
                     <motion.div
-                    // animate={{ opacity: 1, y: 0 }}
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7 }}

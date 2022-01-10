@@ -40,8 +40,8 @@ const Rocodromo = () => {
         />
         <HeroLogo 
         image={ClimbingLogo}
-        minWidth={17}
-        maxWidth={25}
+        maxWidth={17}
+        minWidth={15}
 
         /> 
         <SocialBanner />    

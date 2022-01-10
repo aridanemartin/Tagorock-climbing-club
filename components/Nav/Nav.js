@@ -43,12 +43,11 @@ const Nav = () => {
     return ( 
     <>    
     
-    {/* Testing Size!
+    {/* Size Debugging!
     <div>
         {size.width}px / {size.height}px
-    </div> */}
-
-
+    </div>
+     */}
         <nav className={styles.navWrap}>
             <button 
             onClick={toggle} 
@@ -81,9 +80,9 @@ const Nav = () => {
                             <a className={(serviciosOpen ? styles.hideMenu : '') + ' ' + (styles.navLink)}>{menuText[0]}</a>
                         </Link>
                     </li>
-                    
+                            
                             {/* Dropdown Menu */}
-                            { size.width > `1100px` ? 
+                            { size.width < 1100 ? 
                             <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap2}>
                                 <a 
                                 className={(serviciosOpen ? styles.hideMenu : '') + ' ' + (styles.navLink)}
@@ -96,9 +95,9 @@ const Nav = () => {
                                             <motion.ul
                                             className={styles.dropDownMenu}
                                             key="1"
-                                            initial={{ opacity: 0, x: 40 }}
-                                            animate={{ opacity: 1, x: 0 }}
-                                            exit={{ opacity: 0, x: 40 }}
+                                            initial={{ opacity: 0, y: -20 }}
+                                            animate={{ opacity: 1, y: 0 }}
+                                            exit={{ opacity: 0, y: -20 }}
                                             >
                                                 
                                                     <li>
@@ -122,6 +121,7 @@ const Nav = () => {
                                     )}
                                 </AnimatePresence>
                             </li>
+
                             : 
                             
                             <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap2}>

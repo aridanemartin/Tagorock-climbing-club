@@ -88,7 +88,8 @@
 /* Contacto */
 
 .footerContactWrap{
-    grid-area: contact;
+    grid-area: contact;  
+    font-size: 1.2rem;
 }
 
 .contactTitle{
@@ -106,6 +107,7 @@
     display: flex;
     justify-content: center;
 }
+
 .contactEmailLogo{
     width: 2rem;
 }
@@ -121,6 +123,8 @@
 .contactWhatsappWrap{
     display: flex;
     justify-content: center;
+
+    padding-top: 1rem;
 }
 .contactWhatsappLogo{
     width: 2rem;
@@ -170,18 +174,34 @@
         grid-template-columns: 100%;
     }
 
+    .footerContactWrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .contactTitle{
         display: none;
     }
 
     .contactEmailWrap{
-        padding-top: 1rem;
         justify-content:center;
         align-items:center;
+        padding: 1rem;
     }
+
+    .contactEmail{
+        display: none;
+    }
+
+    .contactWhatsapp{
+        display: none;
+    }
+
     .contactWhatsappWrap{
         justify-content:center;
         align-items:center;
+        padding: 1rem;
     }
 
     .footerSocialWrap{
