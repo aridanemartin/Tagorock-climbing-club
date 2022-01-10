@@ -6,8 +6,8 @@ import ActivityDescription from '@components/ActivityDescription/ActivityDescrip
 import Footer from '@components/Footer/Footer';
 import Meta from '@components/Meta/Meta';
 
-import guia2 from '../../public/images/2subiendo.jpg';
-import guia1 from '../../public/images/guiaDeMontana.webp';
+// import guia2 from '../../public/images/2subiendo.jpg';
+// import guia1 from '../../public/images/guiaDeMontana.webp';
 import portada from '../../public/images/exito3.jpg';
 
 export default function EscuelaDeEscalada (){
@@ -33,7 +33,7 @@ export default function EscuelaDeEscalada (){
 
             <ActivityDescription
                 id="escuela"
-                image={guia1}
+                image={portada}
                 alt="Tagorock Mundo Vertical - Guía de Montaña en Las Palmas"
                 title1={t('guia-de-montana:guiaDeMontanaTitle1')}
                 title2={t('guia-de-montana:guiaDeMontanaTitle2')}
@@ -42,7 +42,7 @@ export default function EscuelaDeEscalada (){
                 side="right"
             />
             <ActivityDescription
-                image={guia2}
+                image={portada}
                 alt="Tagorock Mundo Vertical - Guía de Montaña en Las Palmas de Gran Canaria"
                 title1={t('guia-de-montana:guiaDeMontanaTitle3')}
                 title2={t('guia-de-montana:guiaDeMontanaTitle4')}
