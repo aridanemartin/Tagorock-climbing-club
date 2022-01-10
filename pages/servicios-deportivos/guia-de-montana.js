@@ -6,9 +6,10 @@ import ActivityDescription from '@components/ActivityDescription/ActivityDescrip
 import Footer from '@components/Footer/Footer';
 import Meta from '@components/Meta/Meta';
 
-// import guia2 from '../../public/images/2subiendo.jpg';
-// import guia1 from '../../public/images/guiaDeMontana.webp';
-import portada from '../../public/images/exito3.jpg';
+
+import guia1 from '../../public/images/guiaDeMontana.jpg';
+import guia2 from '../../public/images/norbePerfil.jpg';
+import guia3 from '../../public/images/exito3.jpg';
 
 export default function EscuelaDeEscalada (){
     let { t } = useTranslation();
@@ -23,7 +24,7 @@ export default function EscuelaDeEscalada (){
             />
         <Nav/>  
             <HeroTemplate
-                image={portada}
+                image={guia1}
                 alt="Tagorock Mundo Vertical - Guía de Montaña en Gran Canaria"
                 title1={t('guia-de-montana:heroTitle1-a')}
                 title2={t('guia-de-montana:heroTitle1-b')}
@@ -33,7 +34,7 @@ export default function EscuelaDeEscalada (){
 
             <ActivityDescription
                 id="escuela"
-                image={portada}
+                image={guia2}
                 alt="Tagorock Mundo Vertical - Guía de Montaña en Las Palmas"
                 title1={t('guia-de-montana:guiaDeMontanaTitle1')}
                 title2={t('guia-de-montana:guiaDeMontanaTitle2')}
@@ -42,7 +43,7 @@ export default function EscuelaDeEscalada (){
                 side="right"
             />
             <ActivityDescription
-                image={portada}
+                image={guia3}
                 alt="Tagorock Mundo Vertical - Guía de Montaña en Las Palmas de Gran Canaria"
                 title1={t('guia-de-montana:guiaDeMontanaTitle3')}
                 title2={t('guia-de-montana:guiaDeMontanaTitle4')}
