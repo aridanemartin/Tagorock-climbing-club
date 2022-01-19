@@ -29,7 +29,7 @@ const Index = () => {
             title={t('meta:indexTitle')}
             desc={t('meta:indexDesc')}
             canonical={t('meta:indexCan')}
-            image="https://www.tagorock.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FformacionTecnica.9abe8ce8.jpg&w=1920&q=75"
+            image="https://www.tagorock.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FTagorock-logo-blanco.9fe29a80.webp&w=1920&q=75"
             />
             <Nav/>
             <Hero/>

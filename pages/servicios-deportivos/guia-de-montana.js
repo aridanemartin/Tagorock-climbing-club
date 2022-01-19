@@ -20,7 +20,7 @@ export default function EscuelaDeEscalada (){
             title={t('meta:guiaTitle')}
             desc={t('meta:guiaDesc')}
             canonical={t('meta:guiaCan')}
-            image="https://tagorock.netlify.app/nextimg/%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fescuela.45d579250a092064a28a97c9617d7dfa.webp/1920/75?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fescuela.45d579250a092064a28a97c9617d7dfa.webp&w=1920&q=75"
+            image="https://www.tagorock.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FnorbePerfil.7430a042.jpg&w=1920&q=75"
             />
         <Nav/>  
             <HeroTemplate

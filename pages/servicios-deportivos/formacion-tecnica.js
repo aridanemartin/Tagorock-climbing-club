@@ -22,7 +22,7 @@ export default function EscuelaDeEscalada (){
             title={t('meta:formacionTitle')}
             desc={t('meta:formacionDesc')}
             canonical={t('meta:formacionCan')}
-            image="https://www.tagorock.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2escaladoras.fa2ac40e.jpg&w=1920&q=75"
+            image="https://www.tagorock.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FformacionT.85094ee9.jpg&w=1920&q=75"
             />
         <Nav/>  
             <HeroTemplate
