@@ -22,9 +22,9 @@ const serviciosProfesionales = () => {
     return ( 
         <>
             <Meta 
-            title={t('meta:indexTitle')}
-            desc={t('meta:indexDesc')}
-            canonical={t('meta:indexCan')}
+            title={t('meta:serviciosProfesionalesTitle')}
+            desc={t('meta:serviciosProfesionalesDesc')}
+            canonical={t('meta:serviciosProfesionalesCan')}
             image="https://www.tagorock.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FescaleraCentered.66565ed2.jpg&w=1920&q=75"
             />
             <Nav/>  

@@ -11,7 +11,6 @@ import useTranslation from 'next-translate/useTranslation';
 import styles from './rocodromo.module.css';
 import Image from 'next/image';
 import ClimbingLogo from '../public/images/climbingSchool.png'
-import Meta from '@components/Meta/Meta';
 
 
 const Rocodromo = () => {
@@ -21,7 +20,6 @@ const Rocodromo = () => {
     const rocodromo1 = require('../public/images/rocodromo1.jpg');
     const rocodromo2 = require('../public/images/principal.jpg');
     const rocodromo3 = require('../public/images/rocodromo3.jpg');
-    const rocodromo4 = require('../public/images/rocodromo4.jpg');
     const zonaAerea = require('../public/images/tagorockZonaAerea.jpg');
     const ejemplosAgarre = require('../public/images/ejemplosAgarre.jpg');
     

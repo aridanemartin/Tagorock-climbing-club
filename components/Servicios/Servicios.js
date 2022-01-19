@@ -1,6 +1,5 @@
 import styles from './Servicios.module.css';
 import useTranslation from 'next-translate/useTranslation';
-import Link from 'next/link';
 import Button from '../Button/Button';
 import { motion } from 'framer-motion';
 
@@ -10,12 +9,6 @@ const Servicios = (props) => {
 
     return ( 
         <>
-            <Meta 
-            title={t('meta:serviciosDeportivosTitle')}
-            desc={t('meta:serviciosDeportivosDesc')}
-            canonical={t('meta:serviciosDeportivosCan')}
-            image="https://www.tagorock.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FportadaClub.6935255b.jpg&w=1920&q=75"
-            />
             <div 
             className={styles.serviciosWrap}
             >
