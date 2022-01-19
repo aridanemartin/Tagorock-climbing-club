@@ -21,16 +21,17 @@ const Rocodromo = () => {
     const rocodromo2 = require('../public/images/principal.jpg');
     const rocodromo3 = require('../public/images/rocodromo3.jpg');
     const rocodromo4 = require('../public/images/rocodromo4.jpg');
+    const zonaAerea = require('../public/images/tagorockZonaAerea.jpg');
     const ejemplosAgarre = require('../public/images/ejemplosAgarre.jpg');
     
 
     return(
     <>
         <Meta 
-        title={t('meta:indexTitle')}
-        desc={t('meta:indexDesc')}
-        canonical={t('meta:indexCan')}
-        image="https://tagorock.netlify.app/nextimg/%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fescuela.45d579250a092064a28a97c9617d7dfa.webp/1920/75?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fescuela.45d579250a092064a28a97c9617d7dfa.webp&w=1920&q=75"
+        title={t('meta:rocodromoTitle')}
+        desc={t('meta:rocodromoDesc')}
+        canonical={t('meta:rocodromoCan')}
+        image="https://www.tagorock.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprincipal.5ae005b8.jpg&w=1920&q=75"
         />
         <Nav/>
         <HeroTemplate
@@ -90,7 +91,7 @@ const Rocodromo = () => {
                 <Tab label="Zona Aérea">
                     <div className={styles.tabImageWrapper}>
                     <Image
-                    src={rocodromo4}  
+                    src={zonaAerea}  
                     layout="responsive" 
                     />
                     

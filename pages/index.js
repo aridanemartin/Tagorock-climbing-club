@@ -1,4 +1,5 @@
 import useTranslation from 'next-translate/useTranslation';
+import Head from 'next/head';
 import Hero from '../components/Hero/Hero';
 import Servicios from '../components/Servicios/Servicios';
 import ServiciosP from '../components/ServiciosP/ServiciosP';
@@ -21,11 +22,14 @@ const Index = () => {
 
     return (
         <>
+            <Head>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <Meta 
             title={t('meta:indexTitle')}
             desc={t('meta:indexDesc')}
             canonical={t('meta:indexCan')}
-            image="https://tagorock.netlify.app/nextimg/%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fescuela.45d579250a092064a28a97c9617d7dfa.webp/1920/75?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fescuela.45d579250a092064a28a97c9617d7dfa.webp&w=1920&q=75"
+            image="https://www.tagorock.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FformacionTecnica.9abe8ce8.jpg&w=1920&q=75"
             />
             <Nav/>
             <Hero/>

@@ -18,11 +18,11 @@ const Timetable = () => {
                     <p>{t('common:timetableIntro2')}</p>
                 </div>
                 <div className={styles.scheduleWrap}>
-                    <div className={styles.timetableDay}>{t('common:dias.lunes')}</div><div className={styles.timetableHour}>9h - 13h     |     16h - 22h</div>
+                    <div className={styles.timetableDay}>{t('common:dias.lunes')}</div><div className={styles.timetableHour}>9h - 13h   |   16h - 22h</div>
                     <div className={styles.timetableDay}>{t('common:dias.martes')}</div><div className={styles.timetableHour}>9h - 13h   |   16h - 22h</div>
                     <div className={styles.timetableDay}>{t('common:dias.miercoles')}</div><div className={styles.timetableHour}>9h - 13h   |   16h - 22h</div>
                     <div className={styles.timetableDay}>{t('common:dias.jueves')}</div><div className={styles.timetableHour}>9h - 13h   |   16h - 22h</div>
-                    <div className={styles.timetableDay}>{t('common:dias.viernes')}</div><div className={styles.timetableHour}> {t('common:dias.cerrado')}</div>
+                    <div className={styles.timetableDay}>{t('common:dias.viernes')}</div><div className={styles.timetableHour}>17h - 20h</div>
                     <div className={styles.timetableDay}>{t('common:dias.sabado')}</div><div className={styles.timetableHour}>{t('common:dias.cerrado')}</div>
                     <div className={styles.timetableDay}>{t('common:dias.domingo')}</div><div className={styles.timetableHour}> {t('common:dias.cerrado')}</div>
                 </div>

@@ -5,6 +5,7 @@ import HeroTemplate from '../components/HeroTemplate/HeroTemplate';
 import SectionTemplate from '@components/SectionTemplate/SectionTemplate';
 import SectionTemplateInverted from '../components/SectionTemplateInverted/SectionTemplateInverted';
 import Footer from '@components/Footer/Footer';
+import Meta from '@components/Meta/Meta';
 
 
 const serviciosProfesionales = () => {
@@ -20,6 +21,12 @@ const serviciosProfesionales = () => {
 
     return ( 
         <>
+            <Meta 
+            title={t('meta:indexTitle')}
+            desc={t('meta:indexDesc')}
+            canonical={t('meta:indexCan')}
+            image="https://www.tagorock.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FescaleraCentered.66565ed2.jpg&w=1920&q=75"
+            />
             <Nav/>  
             <HeroTemplate
                 image={portada}

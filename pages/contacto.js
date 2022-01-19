@@ -8,6 +8,7 @@ import Nav from '../components/Nav/Nav';
 import Separador from '@components/Separador/Separador';
 import SocialBanner from '@components/SocialBanner/SocialBanner';
 import Timetable from '@components/Timetable/Timetable';
+import Meta from '@components/Meta/Meta';
 
 import portada from '../public/images/2escaladoras.jpg';
 
@@ -19,9 +20,12 @@ const Contacto = () => {
 
     return (
         <>
-            <Head>
-                <title>Contacto - Tagorock - club de escalada en Gran Canaria</title>
-            </Head>
+            <Meta 
+            title={t('meta:contactoTitle')}
+            desc={t('meta:contactoDesc')}
+            canonical={t('meta:contactoCan')}
+            image="https://www.tagorock.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2escaladoras.fa2ac40e.jpg&w=1920&q=75"
+            />
             <Nav/>
             <HeroTemplate
                 image={portada}
