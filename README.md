@@ -1,4 +1,4 @@
-# Tagorock Climbing Club
+# ClimbingClub_Nextjs
 
 Tagorock Mundo Vertical is a company dedicated 100% to the vertical world. We are passionate about outdoor life and we are specialized in the individual and collective accompaniment of people in all kinds of mountain and climbing activities.
 
