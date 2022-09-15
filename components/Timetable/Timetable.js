@@ -19,7 +19,7 @@ const Timetable = () => {
           </p>
           <p>{t("common:timetableIntro2")}</p>
         </div>
-        <h3>{t("common:horarioCentro")}</h3>
+        <h3>{t("common:horarioCentro")}:</h3>
         <div className={styles.scheduleWrap}>
           <div className={styles.timetableDay}>
             {t("common:dias.lunes")} & {t("common:dias.miercoles")}
@@ -34,7 +34,7 @@ const Timetable = () => {
           <div className={styles.timetableDay}>{t("common:dias.sabado")}</div>
           <div className={styles.timetableHour}>10h - 13h</div>
         </div>
-        <h3>{t("common:horarioSocios")}</h3>
+        <h3>{t("common:horarioSocios")}:</h3>
         <div className={styles.scheduleWrap}>
           <div className={styles.timetableDay}>
             {`${t("common:de")} ${t("common:dias.lunes")} ${t("common:a")}
