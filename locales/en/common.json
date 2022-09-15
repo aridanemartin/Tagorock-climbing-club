@@ -28,5 +28,12 @@
         "sabado": "Saturday",
         "domingo": "Sunday",
         "cerrado": "Closed"
-    }
+    },
+    "de": "",
+    "a": "to",
+    "y": "and",
+    "horarioCentro": "Centre's opening hours",
+    "horarioSocios": "Opening hours for adult members or common users",
+    "timetableIntro1": "Would you like to ask us a question about our climbing and guiding activities? Would you like to come and see our indoor climbing hall and climbing wall? Would you like to make a recommendation? Would you just like to say \"Hi\"?",
+    "timetableIntro2": "You can contact us at any time during the following hours. We invite you to come and see us and get to know us."
 }

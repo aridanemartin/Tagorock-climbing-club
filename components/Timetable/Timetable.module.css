@@ -1,73 +1,103 @@
-.timetableWrap{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.timetableWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    margin: 0 auto;
-    padding: 0 1rem;
-    padding-bottom: 3rem;
-    font-size: 1.2rem;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  font-size: 1.2rem;
+  width: 40rem;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
 }
 
-.scheduleWrap{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    width: auto;
-    grid-gap: 1.5rem;
-    font-size: 1.2rem;
-    padding: 2rem 0.5rem;
+.scheduleWrap {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 80%;
+
+  font-size: 1.2rem;
+  padding: 2rem 0.5rem;
 }
 
-.timetableWrap strong{
-    text-transform: uppercase;
-    margin-right: 1rem;
+.scheduleWrap div {
+  padding: 1rem 0rem;
 }
 
-.timetableDay{
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    text-transform: uppercase;
+.timetableWrap strong {
+  text-transform: uppercase;
+  margin-right: 1rem;
 }
 
-.timetableHour{
-    min-width: 15rem;
-    display: flex;
-    justify-content: center;
+.timetableWrap h3 {
+  font-family: "Anton";
+  text-transform: uppercase;
+  padding: 1rem;
+  background: #144964;
+  color: white;
+  width: 100%;
+  text-align: center;
 }
 
-.contactIntro{
-    text-align: center;
-    font-size: 1.2rem;
-    padding: 2rem 1rem;
-    width: 55ch;
-    margin: 0 auto;
+.timetableDay {
+  display: flex;
+  justify-content: center;
+  color: #0a2533;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
-.strongP{
-    padding-bottom: 1rem;
+.timetableHour {
+  min-width: 15rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contactIntro {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 2rem 1rem;
+
+  margin: 0 auto;
+}
+
+.strongP {
+  padding-bottom: 1rem;
 }
 
 @media (max-width: 768px) {
-    
-    .contactIntro{
-        width: 100%;
-    }
+  .timetableWrap {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
 
-    .scheduleWrap{
-        width: 100%;
-        padding: 0rem;
-        grid-gap: 1rem;
-        grid-template-columns: 1fr;
-        font-size: 1.2rem;
-    }
+  .timetableWrap h3 {
+    margin: 0 auto;
+    width: 100%;
+    background: #144964;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  }
+  .contactIntro {
+    width: 100%;
+  }
 
-    .timetableDay, .timetableHour{
-        display: flex;
-        justify-content:center;
-    }
-    
+  .scheduleWrap {
+    width: 100%;
+    padding: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    grid-template-columns: 1fr;
+    font-size: 1.2rem;
+  }
 
+  .scheduleWrap div {
+    padding: 0.5rem;
+  }
 
+  .timetableDay,
+  .timetableHour {
+    display: flex;
+    justify-content: center;
+  }
 }

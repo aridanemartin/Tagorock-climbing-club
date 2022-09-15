@@ -14,7 +14,7 @@
     "magnesioPeq": "Magnesio Pequeño",
     "magnesioGrande": "Magnesio Grande",
     "alquilerPies": "Alquiler de Pies de Gato",
-    "clasePruebaObs": "*Si deciden continuar después de haber realizado la clase de prueba el importe de la misma será descontado de la mensualidad.",
+    "clasePruebaObs": "*Si deciden continuar después de haber realizado la clase de prueba el importe de la misma se le descontará del mes en curso.",
     "comoLlegar":{
         "title": "CÓMO LLEGAR",
         "text": "C. Covadonga, 20, 35010 Las Palmas de Gran Canaria, Las Palmas"
@@ -29,6 +29,11 @@
         "domingo": "domingo",
         "cerrado": "cerrado"
     },
+    "de": "De",
+    "a": "a",
+    "y": "y",
+    "horarioCentro": "Horario del Centro",
+    "horarioSocios": "Horario para socios adultos o usuarios libres",
     "timetableIntro1": "¿Quieres hacernos una consulta sobre nuestras actividades de escalada y guiajes? ¿Te gustaría venir a ver nuestra sala y rocódromo indoor? ¿hacernos una recomendación? ¿Simplemente decirnos \"¡hola!\"?",
     "timetableIntro2": "Puedes contactarnos cuando quieras en el siguiente horario. Te invitamos a que pases a vernos y nos conozcas."
 }

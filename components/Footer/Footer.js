@@ -12,7 +12,7 @@ import Gmail from '../../public/images/gmail.webp';
 
 const Footer = () => {
     
-    const year = new Date().getFullYear();
+    // const year = new Date().getFullYear();
     
     return ( 
         <>
@@ -155,7 +155,7 @@ const Footer = () => {
 
             </div>
         </div>  
-        <span className={styles.createdBy}><p>Website created by <a href="https://www.aridanemartin.dev" target="_blank" rel="noreferrer">Aridane Martín</a> &#169; {year}</p></span>
+        <span className={styles.createdBy}><p>Website created by <a href="https://www.aridanemartin.dev" target="_blank" rel="noreferrer">Aridane Martín</a> &#169; 2022</p></span>
     </>   
         
     );
