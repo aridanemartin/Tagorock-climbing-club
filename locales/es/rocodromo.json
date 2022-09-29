@@ -28,6 +28,18 @@
     "rocodromoMedioExp2": "nivel4: verde",
     "rocodromoExperto": "EXPERTO",
     "rocodromoExpertoExp1": "nivel5: rojo",
-    "rocodromoExpertoExp2": "nivel6: azul"
+    "rocodromoExpertoExp2": "nivel6: azul",
+    "ZONAS":{
+        "salaPrincipal": "SALA PRINCIPAL",
+        "salaPrincipalDesc": "Nuestra sala principal consta de dos paredes con diferentes desplomes y vías de diferentes niveles adaptadas a todos los públicos.",
+        "paredDeCalentamiento": "PARED DE CALENTAMIENTO",
+        "paredDeCalentamientoDesc": "Comienza tu entrenamiento en nuestra pared de entrenamiento. En sus 10 metros de longitud posee diferentes tipos de agarres y nos permite comenzar el entrenamiento con buen pie.",
+        "vertical": "VERTICAL",
+        "verticalDesc": "Nuestra pared Vertical nos permite a lo largo de sus 7 metros de altura prácticar vías de diferentes niveles, así como iniciación, técnicas de seguridad...",
+        "zonaAerea": "ZONA AÉREA",
+        "zonaAereaDesc": "Mediante el uso de anclajes de seguridad disponemos de una zona para la práctica de la Danza Aérea, Ballet Aéreo, Tissue, Tela y otros...",
+        "vestuarios": "VESTUARIOS, BAÑOS Y EQUIPOS DE ALQUILER",
+        "vestuariosDesc": "Disponemos de diferentes servicios para que vengas de donde vengas no te falte nada para comenzar a escalar."
+    }
 
 }

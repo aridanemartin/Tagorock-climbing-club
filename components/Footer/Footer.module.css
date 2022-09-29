@@ -1,214 +1,203 @@
-.footerWrap{
-    margin-top: -5px;
-    display: grid;
-    grid-template-areas: "menu social contact";
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #0A2533;
-    padding: 4rem 2rem;
+.footerWrap {
+  margin-top: -5px;
+  display: grid;
+  grid-template-areas: "menu social contact";
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #0a2533;
+  padding: 4rem 2rem;
 }
 
-.footerMenu{
+.footerMenu {
+  margin-left: 5rem;
+  grid-area: menu;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    margin-left: 5rem;
-    grid-area: menu;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    color: white;
+  color: white;
 }
 
-.footerMenuTitle{
-    font-family: Lato, Arial, Hel;
-    font-size: 2rem;
-    color: white;
-    padding-bottom: 2rem;
+.footerMenuTitle {
+  font-family: Lato, Arial, Hel;
+  font-size: 2rem;
+  color: white;
+  padding-bottom: 2rem;
 }
 
-.primaryLink{
-    cursor: pointer;
-    font-size: 1.2rem;
-    padding: 0.5rem 0rem;
-    font-family: Lato, Arial, Hel;
-    font-weight: bold;
-    transition: all 0.4s ease-out;
+.primaryLink {
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0.5rem 0rem;
+  font-family: Lato, Arial, Hel;
+  font-weight: bold;
+  transition: all 0.4s ease-out;
 }
-.secondaryLink{
-    cursor: pointer;
+.secondaryLink {
+  cursor: pointer;
 
-    padding: 0.2rem 0rem;
-    padding-left: 1rem;
-    font-family: Lato, Arial, Hel;
-    transition: all 0.4s ease-out;
+  padding: 0.2rem 0rem;
+  padding-left: 1rem;
+  font-family: Lato, Arial, Hel;
+  transition: all 0.4s ease-out;
 }
 
-.primaryLink:hover{
-    padding-left: 0.5rem;
+.primaryLink:hover {
+  padding-left: 0.5rem;
 }
-.secondaryLink:hover{
-    padding-left: 2rem;
+.secondaryLink:hover {
+  padding-left: 2rem;
 }
 
 /* Social */
 
+.footerSocialWrap {
+  margin: 0 auto;
+  grid-area: social;
 
-.footerSocialWrap{
-    margin: 0 auto;
-    grid-area: social;
-    
-    min-width: 250px;
-    max-width: 500px;
+  min-width: 250px;
+  max-width: 500px;
 }
 
-.footerLogoWrap{
-    padding: 1rem;
+.footerLogoWrap {
+  padding: 1rem;
 }
 
-.socialBanner{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.socialBanner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 @media screen {
+  .socialBannerLinkWrap {
+    transition: all 0.3s ease-in-out;
+  }
 
-    .socialBannerLinkWrap{
-        transition: all 0.3s ease-in-out;
-    }
-
-    .socialBannerLinkWrap:hover{
-        transform: scale(1.1);
-        filter: drop-shadow(3px 3px 2px #000000);
-    }
-
+  .socialBannerLinkWrap:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(3px 3px 2px #000000);
+  }
 }
-
-
 
 /* Contacto */
 
-.footerContactWrap{
-    grid-area: contact;  
-    font-size: 1.2rem;
+.footerContactWrap {
+  grid-area: contact;
+  font-size: 1.2rem;
 }
 
-.contactTitle{
-    grid-area: titulo;
+.contactTitle {
+  grid-area: titulo;
+  display: flex;
+  justify-content: center;
+
+  font-family: Lato, Arial, Hel;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.contactEmailWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.contactEmailLogo {
+  width: 2rem;
+}
+
+.contactEmail {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  font-family: Lato, Arial, Hel;
+  color: white;
+}
+
+.contactWhatsappWrap {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 1rem;
+}
+.contactWhatsappLogo {
+  width: 2rem;
+}
+
+.contactWhatsapp {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  font-family: Lato, Arial, Hel;
+  color: white;
+}
+
+.createdBy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background: white;
+  color: #0a2533;
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.createdBy p {
+  font-weight: 500;
+}
+
+.createdBy a {
+  color: #061820;
+  font-weight: 700;
+}
+
+@media (max-width: 1000px) {
+  .footerMenu {
+    display: none;
+  }
+
+  .footerWrap {
+    grid-template-areas:
+      "social social social"
+      "contact contact contact";
+    grid-template-columns: 100%;
+  }
+
+  .footerContactWrap {
     display: flex;
     justify-content: center;
-
-    font-family: Lato, Arial, Hel;
-    font-size: 2rem;
-    color: white;
-    padding-bottom: 2rem;
-}
-
-.contactEmailWrap{
-    display: flex;
-    justify-content: center;
-}
-
-.contactEmailLogo{
-    width: 2rem;
-}
-
-.contactEmail{
-    display: flex;
     align-items: center;
-    padding-left: 1rem;
-    font-family: Lato, Arial, Hel;
-    color: white;
-}
+  }
 
-.contactWhatsappWrap{
-    display: flex;
+  .contactTitle {
+    display: none;
+  }
+
+  .contactEmailWrap {
     justify-content: center;
-
-    padding-top: 1rem;
-}
-.contactWhatsappLogo{
-    width: 2rem;
-}
-
-.contactWhatsapp{
-    display: flex;
     align-items: center;
-    padding-left: 1rem;
-    font-family: Lato, Arial, Hel;
-    color: white;
-}
-
-
-.createdBy{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-    background: white;
-    color: #0A2533;
     padding: 1rem;
-    font-weight: 500;
-    
-} 
+  }
 
-.createdBy p{
-    font-weight: 500;
-}
+  .contactEmail {
+    display: none;
+  }
 
-.createdBy a{
-    color: #061820;
-    font-weight: 700;
-}
+  .contactWhatsapp {
+    display: none;
+  }
 
+  .contactWhatsappWrap {
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
 
-@media (max-width: 1000px){
-    .footerMenu{
-        display: none;
-    }
-
-    .footerWrap{
-        grid-template-areas: 
-        "social social social"
-        "contact contact contact";
-        grid-template-columns: 100%;
-    }
-
-    .footerContactWrap{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .contactTitle{
-        display: none;
-    }
-
-    .contactEmailWrap{
-        justify-content:center;
-        align-items:center;
-        padding: 1rem;
-    }
-
-    .contactEmail{
-        display: none;
-    }
-
-    .contactWhatsapp{
-        display: none;
-    }
-
-    .contactWhatsappWrap{
-        justify-content:center;
-        align-items:center;
-        padding: 1rem;
-    }
-
-    .footerSocialWrap{
-        min-width: 180px;
-        max-width: 500px;
-    }
-    
-    
-
+  .footerSocialWrap {
+    min-width: 180px;
+    max-width: 500px;
+  }
 }
