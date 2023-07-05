@@ -85,8 +85,8 @@ const Precios = () => {
                 transition={{ duration: 0.15 }}
               >
                 <section className={styles.priceList}>
-                  <p>{t("common:mensual")} 40€</p>
-                  <p>{t("common:medioMes")} 30€</p>
+                  <p>{t("common:mensual")} 45€</p>
+                  <p>{t("common:medioMes")} 35€</p>
                   <p>{t("common:clasePrueba")} 15€</p>
                   <h4>{t("common:clasePruebaObs")}</h4>
                 </section>
