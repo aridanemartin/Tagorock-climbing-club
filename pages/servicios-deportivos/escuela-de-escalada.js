@@ -50,7 +50,7 @@ export default function EscuelaDeEscalada() {
         text2={t("escuela-de-escalada:escuelaDeEscalada4")}
         side="left"
       />
-      <Precios />
+      {/* <Precios /> */}
       <Footer />
     </>
   );

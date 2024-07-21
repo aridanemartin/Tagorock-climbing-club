@@ -63,12 +63,12 @@ const Footer = () => {
           <Link href="/servicios-profesionales#gestion-de-rocodromos">
             <a className={styles.secondaryLink}>- Gestión de Rocódromos</a>
           </Link>
-          <Link href="/">
+          {/* <Link href="/">
             <a className={styles.primaryLink}>TARIFAS</a>
           </Link>
           <Link href="/">
             <a className={styles.primaryLink}>CONTACTO</a>
-          </Link>
+          </Link> */}
         </div>
 
         <div className={styles.footerSocialWrap}>
